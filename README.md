@@ -100,7 +100,6 @@ While we do stock top quality, new office furniture, we also stock, "as new" off
 
 
 ### WIREFRAMES
-
 #### Mobile
 * [home](assets/wireframes/home.pdf)
 * [category-name](assets/wireframes/catname.pdf)
@@ -111,6 +110,9 @@ While we do stock top quality, new office furniture, we also stock, "as new" off
 * [profile](assets/wireframes/profile.pdf)
 * [sign-in](assets/wireframes/signin.pdf)
 * [Thank-you](assets/wireframes/thanku.pdf)
+
+#### Desktop
+* [home](assets/wireframes/home-page.pdf)
 
 
 
