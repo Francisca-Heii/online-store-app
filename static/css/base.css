@@ -1,0 +1,88 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/media/banner.jpg')no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh-164px);
+    color: #555;
+    font-family: 'Lato';
+}
+
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.logo-font {
+
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.shop-now-button {
+    background: #665050;
+    color: white;
+    min-width: 260px;
+}
+
+.btn-black {
+    background: #665050;
+    color: white;
+}
+
+.bg-black {
+    background: #665050 !important;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #665050;
+    color: white;
+}
+
+.header-container {
+    padding-top: 300px;
+}
+
+.text-black {
+    color: #665050 !important;
+
+}
+
+.border-black {
+    border: 1px solid #665050 !important;
+}
+
+@media(min-width:1200px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media(min-width:992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 300px;
+    }
+
+
+}
