@@ -15,9 +15,9 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="" id="Living-room"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">living Room</a>
             <div class="dropdown-menu border-0" aria-labelledby="Living-room">
-                <a href="" class="dropdown-item">Sofa </a>
-                <a href="" class="dropdown-item">Tv Unit</a>
-                <a href="" class="dropdown-item">Coffee Table</a>
+                <a href="{% url 'products' %}?category=sofa" class="dropdown-item">Sofa </a>
+                <a href="{% url 'products' %}?category=tv_unit" class="dropdown-item">Tv Unit</a>
+                <a href="{% url 'products' %}?category=coffee_table" class="dropdown-item">Coffee Table</a>
 
 
             </div>
@@ -26,9 +26,9 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="" id="bedroom" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">Bedroom</a>
             <div class="dropdown-menu border-0" aria-labelledby="bedroom">
-                <a href="" class="dropdown-item">Beds </a>
-                <a href="" class="dropdown-item">Matresses</a>
-                <a href="" class="dropdown-item">Wardrobes</a>
+                <a href="{% url 'products' %}?category=beds" class="dropdown-item">Beds </a>
+                <a href="{% url 'products' %}?category=matressess" class="dropdown-item">Matresses</a>
+                <a href="{% url 'products' %}?category=wardrobes" class="dropdown-item">Wardrobes</a>
 
 
             </div>
@@ -37,9 +37,9 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="" id="Dinning-room"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dinning Room</a>
             <div class="dropdown-menu border-0" aria-labelledby="Dinning-room">
-                <a href="" class="dropdown-item">Dinning Table </a>
-                <a href="" class="dropdown-item">Dinning Chair</a>
-                <a href="" class="dropdown-item">Dinning Set</a>
+                <a href="{% url 'products' %}?category=Dinning_Tables" class="dropdown-item">Dinning Table </a>
+                <a href="{% url 'products' %}?category=Dinning_Chair" class="dropdown-item">Dinning Chair</a>
+                <a href="{% url 'products' %}?category=Dinning_Set" class="dropdown-item">Dinning Set</a>
 
 
             </div>
@@ -48,17 +48,19 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="" id="Study" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">Study</a>
             <div class="dropdown-menu border-0" aria-labelledby="Study">
-                <a href="" class="dropdown-item">Desk </a>
-                <a href="" class="dropdown-item">Office Chair</a>
+                <a href="{% url 'products' %}?category=Desk" class="dropdown-item">Desk </a>
+                <a href="{% url 'products' %}?category=office_chair" class="dropdown-item">Office Chair</a>
             </div>
         </li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="" id="Lighting" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">Lighting</a>
             <div class="dropdown-menu border-0" aria-labelledby="Lighting">
-                <a href="" class="dropdown-item">Candles and Holders</a>
-                <a href="" class="dropdown-item">Throws and blankets</a>
-                <a href="" class="dropdown-item">Ornamental items</a>
+                <a href="{% url 'products' %}?category=Candles and Holders" class="dropdown-item">Candles and
+                    Holders</a>
+                <a href="{% url 'products' %}?category=Throws and Blankets" class="dropdown-item">Throws and
+                    blankets</a>
+                <a href="{% url 'products' %}?category=Ornamental items" class="dropdown-item">Ornamental items</a>
 
 
             </div>
@@ -67,9 +69,9 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="" id="Accessories"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accessories</a>
             <div class="dropdown-menu border-0" aria-labelledby="Accessories">
-                <a href="" class="dropdown-item">Ceiling Lamp</a>
-                <a href="" class="dropdown-item">Table Lamp</a>
-                <a href="" class="dropdown-item">Floor Lamp</a>
+                <a href="{% url 'products' %}?category=Ceiling Lamp" class="dropdown-item">Ceiling Lamp</a>
+                <a href="{% url 'products' %}?category=Table Lamp" class="dropdown-item">Table Lamp</a>
+                <a href="{% url 'products' %}?category=Floor Lamp" class="dropdown-item">Floor Lamp</a>
 
 
             </div>
