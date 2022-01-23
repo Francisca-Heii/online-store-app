@@ -98,6 +98,24 @@ While we do stock top quality, new office furniture, we also stock, "as new" off
 
 4. Add a discount to a particular furniture so that the users can be aware of such furniture.
 
+### DESIGN
+
+* Colour Scheme
+The colours colours that are used for the website are:
+
+* Typography
+
+The Poppins font is used throughout the entire site. The sans serif font serves as a fallback in case the main font is not being imported to the site correctly.  Poppins is one of the geometric sans serif typefaces that have been a popular design tool for building websites. The geometric shape of the letterform is near equal in terms of height and the spacing between characters is perfect. It is easy to read on any device and looks great as a heading font and as a body text.
+
+* icons
+
+The icons used are taken from Font Awesome. All icons that are used have functional purposes such as the hamburger menu for the mobile device and social media icons. 
+
+* Images
+
+The images that are used for the project are taken from pixels and Shutterstock. The images are used for products image and banner images.
+
+
 
 ### WIREFRAMES
 #### Mobile
@@ -112,7 +130,13 @@ While we do stock top quality, new office furniture, we also stock, "as new" off
 * [Thank-you](assets/wireframes/thanku.pdf)
 
 #### Desktop
-* [home](assets/wireframes/home-page.pdf)
+* [home](assets/wireframes/homepgD.pdf)
+* [home](assets/wireframes/catnameD.pdf)
+* [home](assets/wireframes/shoppingcart&subcat.pdf)
+* [home](assets/wireframes/addcartD.pdf)
+* [home](assets/wireframes/view-moreD.pdf)
+* [home](assets/wireframes/register.pdf)
+* [home](assets/wireframes/sign-inD.pdf)
 
 
 
