@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
-    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="/static/css/base.css?{% now U %}" />
 
     {% endblock%}
 
@@ -41,7 +41,7 @@
     {% block extra_js %}
     {% endblock %}
 
-    <title>Furniture Store {% block extra_title %}{% endblock %}</title>
+    <title>Boutique Ado {% block extra_title %}{% endblock %}</title>
 </head>
 
 <body>
@@ -116,8 +116,6 @@
                 </button>
                 {% include 'includes/mobile-top-header.html' %}
                 {% include 'includes/main-nav.html' %}
-
-
 
 
             </nav>
