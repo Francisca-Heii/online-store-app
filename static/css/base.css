@@ -42,6 +42,13 @@ body {
     background: #665050 !important;
 }
 
+.btn-outline-black {
+    background: #fff;
+    color: #665050 !important;
+    border: 1px solid #665050;
+
+}
+
 .overlay {
     height: 100%;
     width: 100%;

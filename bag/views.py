@@ -15,3 +15,4 @@ def add_to_bag(request, item_id):
         bag[item_id] = quantity
     request.session['bag'] = bag
     return redirect(redirect_url)         
+       
