@@ -1,6 +1,5 @@
 {% extends "base.html" %}
 {% load static %}
-{% load bag_tools %}
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
@@ -72,12 +71,12 @@
                                 </div>
                             </form>
                             <a class="update-link text-info "><small>Update</small></a>
-                            <a class="remove-item text-danger float-right" id="remove_{{item.item_id}}"
-                                data-product_size="{{item.size}}"><small>Remove</small></a>
+                            <a class="remove-item text-danger float-right"
+                                id="remove_{{item.item_id}}"><small>Remove</small></a>
 
                         </td>
                         <td class="p-3">
-                            <p class="my-0">${{item.product.price | calc_subtotal:item.quantity}}</p>
+                            <p class="my-0">${{item.product.price}}</p>
                         </td>
 
                     </tr>
