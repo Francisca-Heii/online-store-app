@@ -1,3 +1,16 @@
+.fieldset-label {
+    position: relative;
+    right: 0.5rem;
+}
+
+#payment-form .form-control,
+#card-element {
+    color: #000;
+    border: 1px solid black;
+
+
+}
+
 .StripeElement,
 .stripe-style-input {
     box-sizing: border-box;
