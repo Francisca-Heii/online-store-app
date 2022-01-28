@@ -3,9 +3,9 @@ html {
 }
 
 body {
-    background: url('/media/banner.jpg')no-repeat center center fixed;
+    /* background: url('/media/banner.jpg')no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh-164px);
+    height: calc(100vh-164px); */
     color: #555;
     font-family: 'Lato';
 }
@@ -21,6 +21,7 @@ body {
 .logo-font {
 
     text-transform: uppercase;
+
 }
 
 .main-logo-link {
@@ -28,24 +29,24 @@ body {
 }
 
 .shop-now-button {
-    background: #665050;
+    background: #244922;
     color: white;
     min-width: 260px;
 }
 
 .btn-black {
-    background: #665050;
+    background: #244922;
     color: white;
 }
 
 .bg-black {
-    background: #665050 !important;
+    background: #244922 !important;
 }
 
 .btn-outline-black {
     background: #fff;
-    color: #665050 !important;
-    border: 1px solid #665050;
+    color: #244922 !important;
+    border: 1px solid #244922;
 
 }
 
@@ -83,8 +84,8 @@ input[name='q']::placeholder {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #665050;
-    border: 1px solid #665050;
+    background-color: #244922;
+    border: 1px solid #244922;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -212,21 +213,40 @@ input[name='q']::placeholder {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #665050;
+    background: #244922;
     color: white;
 }
 
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    text-align: left;
+}
+
+.carousel-caption h2 {
+    font-size: 4vw !important;
+    width: 50%;
+    color: #0a8003 !important;
+    font-weight: 700;
+    font-family: montserrat;
+    background-color: rgba(255, 255, 255, 0.541);
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .header-container {
-    padding-top: 300px;
+    padding: 0px;
+    margin-bottom: 0% !important;
 }
 
 .text-black {
-    color: #665050 !important;
+    color: #244922 !important;
 
 }
 
 .border-black {
-    border: 1px solid #665050 !important;
+    border: 1px solid #244922 !important;
 }
 
 @media(min-width:1200px) {
@@ -249,4 +269,27 @@ input[name='q']::placeholder {
     }
 
 
+}
+
+.dropdown {
+    text-align: center !important;
+}
+
+.navbar-nav .dropdown:hover {
+    background-color: #244922;
+
+}
+
+.dropdown:hover .logo-font {
+    color: white !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block !important;
+    margin-top: 0 !important;
+}
+
+a.dropdown-item:hover {
+    color: brown;
+    background-color: transparent !important;
 }
