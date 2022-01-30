@@ -264,7 +264,7 @@ input[name='q']::placeholder {
     }
 
     .header-container {
-        padding-top: 300px;
+        padding-top: 200px;
     }
 
 
@@ -316,6 +316,45 @@ input:hover {
     color: #244922 !important;
 }
 
+
+
 .card {
     background: lineargradient(white, rgba(255, 255, 255, 0.185), rgba(255, 255, 255, 0.082)) !important;
+}
+
+.rotate {
+    --webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    writing-mode: sideways-lr !important;
+    --webkit-writing-mode: sideways-lr;
+    --ms-writing-mode: sideways-lr;
+    width: 100px;
+    height: inherit;
+    top: 300px !important;
+    right: 0px !important;
+    padding: 5px !important;
+    position: fixed !important;
+    margin: 0% !important;
+    background-color: #244922 !important;
+    z-index: 9999;
+}
+
+.rotate:hover {
+    animation-name: pulp !important;
+    animation-duration: 1s !important;
+    animation-fill-mode: forwards !important;
+}
+
+@keyframes pulp {
+    from {
+        right: -15%;
+        top: 50%;
+    }
+
+    to {
+        right: 10%;
+        top: 50%;
+        border: 1px dotted white;
+        transform: scale(1.2);
+    }
 }
