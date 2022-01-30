@@ -170,6 +170,9 @@
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
+        $('#living_room').click(function () {
+            window.location.href = "{% url 'products' %}?category=sofa,tv_unit,coffee_table"
+        });
     </script>
     {% endblock %}
 

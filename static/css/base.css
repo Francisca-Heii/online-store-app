@@ -19,7 +19,6 @@ body {
 }
 
 .logo-font {
-
     text-transform: uppercase;
 
 }
@@ -292,4 +291,31 @@ input[name='q']::placeholder {
 a.dropdown-item:hover {
     color: brown;
     background-color: transparent !important;
+}
+
+h3 .card-txt {
+    color: #28a745 !important;
+}
+
+textarea:focus,
+textarea:active input:focus,
+input:active,
+input:hover {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+.card p,
+.card h3 {
+    color: #244922 !important;
+    font-weight: 600;
+}
+
+.card a:hover {
+    color: #244922 !important;
+}
+
+.card {
+    background: lineargradient(white, rgba(255, 255, 255, 0.185), rgba(255, 255, 255, 0.082)) !important;
 }

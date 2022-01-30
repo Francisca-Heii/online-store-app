@@ -30,8 +30,9 @@ def all_products(request):
 
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
+            print("Total received",categories)
             products = products.filter(category__name__in=categories)
-            categories = Category.objects.filter(name__in=categories)
+            categories =Category.objects.filter(name__in=categories)
 
         
         if 'q' in request.GET:
@@ -56,6 +57,7 @@ def all_products(request):
     return render (request,'products/products.html',context)
 
 def product_detail(request, product_id):
+    print("product_id",product_id)
     productss = get_object_or_404(product, pk=product_id)
 
     context = {
