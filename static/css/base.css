@@ -10,6 +10,11 @@ body {
     font-family: 'Lato';
 }
 
+.page-footer {
+    background-color: #244922 !;
+    color: white;
+}
+
 .icon {
     align-items: center;
     display: inline-flex;
@@ -357,4 +362,21 @@ input:hover {
         border: 1px dotted white;
         transform: scale(1.2);
     }
+}
+
+.contact-btn {
+    --webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    writing-mode: sideways-lr !important;
+    --webkit-writing-mode: sideways-lr;
+    --ms-writing-mode: sideways-lr;
+    width: 100px;
+    height: inherit;
+    top: 550px !important;
+    right: 0px !important;
+    padding: 5px !important;
+    position: fixed !important;
+    margin: 0% !important;
+    background-color: rgba(30, 4, 92, 0.925) !important;
+    z-index: 9999;
 }
