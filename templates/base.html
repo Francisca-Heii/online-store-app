@@ -17,6 +17,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
     <link rel="stylesheet" href="/static/css/base.css?{% now U %}" />
 
@@ -173,61 +174,72 @@
     {% block content %}
 
     {% endblock %}
-    <!-- Footer -->
-    <footer class="page-footer font-small darken-3">
+    <div class="container-flex mt-5 p-3 bg-success text-center" style="background-color: ;">
+        <div class="row bg-success m-auto">
+            <div class="col-lg-6 p-3 text-center m-auto">
+                <div class="card m-auto bg-success shadow-none" ">
+                  <div class=" card-body border border-warning rounded ">
+                      <h5 class=" card-title text-left my-2 text-warning"> <strong> <u>About Us</u> </strong></h5>
+                    <h6 class="card-subtitle text-left ">&nbsp;</h6>
+                    <p class="card-text text-justify text-warning" style="line-height: 2.6; text-indent:10%">At <span
+                            class="text-warning"> <strong> Supreme Furnitures</strong> </span>, we take great pride in
+                        design and hand-craftsmanship of our products. Our in-house designers create
+                        time honed designs. The expert craftsmen, some of them even from the fourth generations of
+                        furniture and sofa karigars,
+                        who have been working for the Royalty in Rajasthan, transform these designs into timeless
+                        products. Our designs blend
+                        contemporary sensibilities with traditions of excellence in craftsmanship and quality. Our
+                        products whether a Sofa, a
+                        Chair, a Coffee table or Soft furnishings are made in Ireland to the most exacting standards and
+                        designed in styles, so
+                        that they bring exceptional beauty to your home.</p>
+                </div>
+                <div class="card-footer bg-warning">
+                    <a href="#" class=" btn btn-success m-auto float-left d-block text-light"> <strong>REVIEW US
+                            >>></strong> </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 p-3  text-center">
+            <div class="card m-auto border border-warning rounded">
+                <div class="card ">
+                    <img src="/media/bedroomy.jpg" alt="" class="card-img">
+                    <div class="card-img-overlay">
+                        <h3 class="card-title float-left text-warning d-block">SUPREME FURNITURES</h3>
+                        <h6 class="card-subtitle float-left d-block ">One stop shop for all your furniture Requirements
+                        </h6>
 
-        <!-- Footer Elements -->
-        <div class="container">
-
-            <!-- Grid row-->
-            <div class="row">
-
-                <!-- Grid column -->
-                <div class="col-md-12 py-5">
-                    <div class="mb-5 text-center">
-
-                        <!-- Facebook -->
-                        <a class="fb-ic">
-                            <i class="fab fa-facebook-f fa-lg text-light mr-md-5 mr-3 fa-2x"> </i>
-                        </a>
-                        <!-- Twitter -->
-                        <a class="tw-ic">
-                            <i class="fab fa-twitter fa-lg text-white mr-md-5 mr-3 fa-2x"> </i>
-                        </a>
-                        <!-- Google +-->
-                        <a class="gplus-ic">
-                            <i class="fab fa-google-plus-g fa-lg text-white mr-md-5 mr-3 fa-2x"> </i>
-                        </a>
-                        <!--Linkedin -->
-                        <a class="li-ic">
-                            <i class="fab fa-linkedin-in fa-lg text-white mr-md-5 mr-3 fa-2x"> </i>
-                        </a>
-                        <!--Instagram-->
-                        <a class="ins-ic">
-                            <i class="fab fa-instagram fa-lg text-white mr-md-5 mr-3 fa-2x"> </i>
-                        </a>
-                        <!--Pinterest-->
-                        <a class="pin-ic">
-                            <i class="fab fa-pinterest fa-lg text-white fa-2x"> </i>
-                        </a>
                     </div>
                 </div>
-                <!-- Grid column -->
+                <div class="card-footer bg-secondary">
+                    <a href="#" class="btn btn-success m-auto float-left d-block text-light"> <strong> <u>REGISTER
+                                NOW</u> >>> </strong>
+                    </a>
+                    <a href="#" class="btn btn-warning float-right text-dark m-auto"> <strong> <u>DISCOUNT UPTO 60%
+                                OFF</u></strong>
+                    </a>
+                </div>
 
             </div>
-            <!-- Grid row-->
-
         </div>
-        <!-- Footer Elements -->
+    </div>
 
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="#">www.supremefurnitures.com</a>
+    </div>
+    <div class="row m-0 border-top bg-dark text-light">
+        <div class="col-md-6 col-lg-8 p-5 m-0">
+            <p class="copyright">
+                Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> All rights reserved.
+            </p>
         </div>
-        <!-- Copyright -->
-
-    </footer>
-    <!-- Footer -->
+        <div class="col-md-6 col-lg-4 p-5">
+            <p class="copyright">Owned by<i class="bi bi-hearts text-light"></i> <a href="https://supremefurniture.com"
+                    target="_blank">Supremefurnitures.com</a>
+            </p>
+        </div>
+    </div>
 
     {% block postloadjs %}
     <script type="text/javascript">

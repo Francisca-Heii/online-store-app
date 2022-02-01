@@ -19,7 +19,7 @@ def feedback(request):
         feedback=request.POST.get('feedback')
         obj=Person(first_name=fname, last_name=lname, email=email, feedback=feedback)
         obj.save()
-        r="Thanks for your Valuable Feedback!"
+        a="Thanks for your Valuable Feedback!"
     
     return render(request, "feedback.html", locals())
 
@@ -34,6 +34,6 @@ def contactus(request):
         obj=Enquiry(cname=cname, etype=etype,email=email, econcern=econcern)
         obj.save()
 
-        a="Your message was sent, thank you!"
+        a="We got your message, we will be in touch, thank you!"
 
     return render(request, 'contact.html', locals())
