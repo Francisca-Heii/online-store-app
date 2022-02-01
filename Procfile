@@ -1,1 +1,1 @@
-web: gunicorn supremefurnitures.wsgi:application
+web: gunicorn furniturestore.wsgi:application
