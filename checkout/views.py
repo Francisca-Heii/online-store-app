@@ -2,12 +2,14 @@ from django.shortcuts import (
     render, redirect, reverse, get_object_or_404, HttpResponse
 )
 from django.views.decorators.http import require_POST
+from django.views.decorators.http import require_http_methods
 from django.contrib import messages
 from django.conf import settings
 
 from .forms import OrderForm
 from .models import Order, OrderLineItem
 
+from profiles.models import UserProfile
 from products.models import product
 
 from bag.contexts import bag_contents
@@ -16,9 +18,12 @@ import stripe
 import json
 
 
-@require_POST
+@require_http_methods(["GET", "POST"])
 def cache_checkout_data(request):
+    print("Checkout_data_entry_requested##################################")
+
     try:
+        print("Checkout_data_entry_requested##################################")
         pid = request.POST.get('client_secret').split('_secret')[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
         stripe.PaymentIntent.modify(pid, metadata={
@@ -40,6 +45,7 @@ def checkout(request):
 
     if request.method == 'POST':
         bag = request.session.get('bag', {})
+        print("Bag is requested------------------")
 
         form_data = {
             'full_name': request.POST['full_name'],

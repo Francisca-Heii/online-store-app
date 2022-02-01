@@ -3,51 +3,70 @@
 {% load crispy_forms_tags %}
 
 {% block extra_css %}
-<link rel="stylesheet" href="/static/css/review.css?{% now U %}" />
+<link rel="stylesheet" href="/static/css/contact.css?{% now U %}" />
 {% endblock %}
 
 
 {% block content %}
-<div class="container m-auto">
-    <div class="mgb-40 padb-10 auto-invert line-b-4 align-center">
+<div class="content m-5">
 
-        <h4 class="font-cond-l fg-accent lts-md mgb-10" contenteditable="false">Happy to hear from you..</h4>
-        <h1 class="font-cond-b fg-text-d lts-md fs-300 fs-300-xs no-mg" contenteditable="false">Share your Views
-        </h1>
-    </div>
-    <form method="post">
-        {% csrf_token %}
-        <div class="form-group w-50 m-auto p-3 rounded" style="border: 1px solid #244922 ;">
-            <label for="" class="feedback-form mt-2 ">Full Name</label>
+    <div class="container p-5">
+        <div class="row align-items-stretch no-gutters contact-wrap">
+            <div class="col-md-12">
+                <div class="form h-100">
+                    <h3>SHARE UR FEEDBACK</h3>
+                    <h5>{{a}}</h5>
+                    <form class="mb-5 " method="post" id="contactForm" name="contactForm">
+                        {% csrf_token %}
 
-            <div class="d-flex">
-                <input class="form-control mt-2 mx-1 w-50 feedback-form" type="text" name="firstname"
-                    placeholder="Enter your First Name" required>
-                <input class="form-control mt-2 mx-1 w-50 feedback-form" type="text" name="lastname"
-                    placeholder="Enter your Last Name" required>
+                        <div class="row">
+                            <div class="col-md-6 form-group mb-3">
+                                <label for="" class="col-form-label">First Name *</label>
+                                <input type="text" class="form-control" name="firstname" id="cname"
+                                    placeholder="First name" required>
+                            </div>
+                            <div class="col-md-6 form-group mb-3">
+                                <label for="" class="col-form-label">Last Name *</label>
+                                <input type="text" class="form-control" name="lastname" id="email"
+                                    placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 form-group mb-3">
+                                <label for="" class="col-form-label">Occupation *</label>
+                                <input type="text" class="form-control" name="occupation" id="email"
+                                    placeholder="Occupation">
+                            </div>
+                            <div class="col-md-6 form-group mb-3">
+                                <label for="" class="col-form-label">Email *</label>
+                                <input type="text" class="form-control" name="email" id="email" placeholder="Your email"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 form-group mb-3">
+                                <label for="message" class="col-form-label">Feedback *</label>
+                                <textarea class="form-control" name="feedback" id="message" cols="30" rows="4"
+                                    placeholder="Write your message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="submit" value="Send Feedback"
+                                    class="btn-1 btn-success rounded-0 py-2 px-4">
+                                <span class="submitting"></span>
+                            </div>
+                        </div>
+                    </form>
+
+
+
+                </div>
             </div>
-            <label for="" class="feedback-form mt-2">Occupation</label>
-            <input class="form-control mt-2 feedback-form" type="text" name="occupation"
-                placeholder="Enter your Occupation">
-            <label for="" class="feedback-form mt-2">Email Address</label>
-
-            <input type="email" class='form-control mt-2 feedback-form' name='email' id='email'
-                placeholder="Enter your Email Address" required>
-            <label for="" class="feedback-form mt-2">Leave your Feedback</label>
-            <textarea class="form-control my-2 border-succces" name="feedback" id="feedback" cols="20" rows="2"
-                required></textarea>
-            <button type="submit" class="btn text-light btn-success form-control">Save
-                Feedback</button>
         </div>
-        <div class="form-group w-50 m-auto">
-            <h5 class="text-center text-primary">{{r}}</h5>
-        </div>
-    </form>
-
-
+    </div>
 </div>
-
-
 
 {% endblock %}
 {% block postloadjs %}

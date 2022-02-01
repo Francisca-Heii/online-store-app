@@ -23,3 +23,17 @@ def feedback(request):
     
     return render(request, "feedback.html", locals())
 
+
+def contactus(request):
+    if(request.POST):
+        cname=request.POST.get('cname')
+        etype=request.POST.get('enquiry_type')
+        email=request.POST.get('email')
+        econcern=request.POST.get('message')
+
+        obj=Enquiry(cname=cname, etype=etype,email=email, econcern=econcern)
+        obj.save()
+
+        a="Your message was sent, thank you!"
+
+    return render(request, 'contact.html', locals())

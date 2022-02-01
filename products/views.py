@@ -57,7 +57,7 @@ def all_products(request):
     return render (request,'products/products.html',context)
 
 def product_detail(request, product_id):
-    print("product_id",product_id)
+    print("product_id", product_id)
     productss = get_object_or_404(product, pk=product_id)
 
     context = {

@@ -10,9 +10,9 @@ def view_bag(request):
 
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
-
+    print("Item id====",item_id)
     Product = get_object_or_404(product, pk=item_id)
-    print(Product)
+    print("Added product:===",Product)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
     size = None
@@ -27,17 +27,17 @@ def add_to_bag(request, item_id):
                 messages.success(request, f'Updated size {size.upper()} {Product.name} quantity to {bag[item_id]["items_by_size"][size]}')
             else:
                 bag[item_id]['items_by_size'][size] = quantity
-                messages.success(request, f'Added size {size.upper()} {Product.name} to your bag')
+                messages.success(request, f'Supreme Furniture size {size.upper()} {Product.name} to your bag')
         else:
             bag[item_id] = {'items_by_size': {size: quantity}}
-            messages.success(request, f'Added size {size.upper()} {Product.name} to your bag')
+            messages.success(request, f'Supreme Furniture size {size.upper()} {Product.name} to your bag')
     else:
         if item_id in list(bag.keys()):
             bag[item_id] += quantity
             messages.success(request, f'Updated {Product.name} quantity to {bag[item_id]}')
         else:
             bag[item_id] = quantity
-            messages.success(request, f'Added {Product.name} to your bag')
+            messages.success(request, f'Supreme Furniture {Product.name} to your bag')
 
     request.session['bag'] = bag
     return redirect(redirect_url)
