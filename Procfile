@@ -1,1 +1,1 @@
-web: gunicorn furniturestore.wsgi:application
+web: gunicorn furniture_store.wsgi:application
