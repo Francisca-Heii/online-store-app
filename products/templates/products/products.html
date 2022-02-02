@@ -12,7 +12,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col text-center mt-2">
-            <h2 class="logo-font">{{head}}&nbsp;Products</h2>
+            <h2 class="logo-font" id="logo-font">Products</h2>
 
             <hr class="w-50 mb-1">
         </div>
@@ -175,5 +175,47 @@
             window.location.replace(currentUrl);
         }
     })
+</script>
+<script type="text/javascript">
+    if ("onhashchange" in window) {
+        //alert("Hash changed");
+        aaa = ""
+        url_1 = window.location.href;
+        if (url_1.split("=")[1]) {
+            head_line = url_1.split("=")[1];
+        }
+
+        function e(n) {
+            switch (n) {
+                case 'beds,matresses,wardrobes':
+                    return "BEDROOM"
+                case 'Dinning_Tables,Dinning_Chair,Dinning_Set':
+                    return "DINNING ROOM"
+                case 'Desk,office_chair':
+                    return "STUDY"
+                case 'Candles%20and%20Holders,Throws%20and%20Blankets,Ornamental%20items':
+                    return "LIGHTING"
+                case 'sofa,tv_unit,coffee_table':
+                    return "LIVING ROOM"
+                case "Ceiling%20Lamp,Table%20Lamp,Floor%20Lamp":
+                    return "ACCESSORIES"
+            }
+        }
+        console.log("head_line1", head_line.indexOf(","));
+        console.log("head_line2", head_line.indexOf("%20"));
+
+        if (head_line.indexOf(",") > 0) {
+            aaa = e(head_line);
+        } else if (head_line.indexOf("%20") > 0) {
+            head_line = head_line.replace("%20", " ");
+            aaa = head_line;
+        } else if (head_line.indexOf("_") > 0) {
+            head_line = head_line.replace("_", " ");
+            aaa = head_line;
+        } else {
+            aaa = head_line;
+        }
+        document.getElementById('logo-font').innerHTML = aaa;
+    }
 </script>
 {% endblock %}

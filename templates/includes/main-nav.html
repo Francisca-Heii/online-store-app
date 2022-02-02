@@ -14,10 +14,11 @@
         </li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link mx-4"
-                href="{% url 'products' %}?category=sofa,tv_unit,coffee_table" id="Living-room" aria-haspopup="true"
-                aria-expanded="false">living Room</a>
+                href="{% url 'products' %}?category=sofa,tv_unit,coffee_table" onclick="hashy(Living-room.value)"
+                value="LIVING ROOM" id="Living-room" aria-haspopup="true" aria-expanded="false">living Room</a>
             <div class="dropdown-menu border-0" aria-labelledby="Living-room">
-                <a href="{% url 'products' %}?category=sofa" class="dropdown-item">Sofa </a>
+                <a href="{% url 'products' %}?category=sofa" onclick="hashy(Sofa.innerHTML)" id="Sofa"
+                    class="dropdown-item">Sofa </a>
                 <a href="{% url 'products' %}?category=tv_unit" class="dropdown-item">Tv Unit</a>
                 <a href="{% url 'products' %}?category=coffee_table" class="dropdown-item">Coffee Table</a>
 
