@@ -10,7 +10,8 @@
 {% block content %}
 <div class="content mx-5">
 
-    <div class="container p-5">
+    <div class="card " style="max-width:500px; margin:auto">
+
         {% if a %}
         <div class="alert alert-success alert-dismissible fade show" role="alert">
             <strong>Thank you </strong>for your Valuable Feedback!
@@ -19,59 +20,61 @@
             </button>
         </div>
         {% endif %}
-
-        <div class="row align-items-stretch no-gutters contact-wrap">
-            <div class="col-md-12">
-                <div class="form h-100">
+        <div class="col-lg-12 mt-3">
+            <a href="{% url 'products' %}review/edit" class="btn btn-outline-success float-right d-inline">Edit</a>
+            <a href="{% url 'products' %}review/review_page" class="btn btn-outline-success float-right d-inline">View
+            </a>
+            <a href="{% url 'products' %}review/delete" class="btn btn-outline-success float-right d-inline">
+                Delete </a>
+            <div class="form h-100">
+                <div class="d-flex m-3 justify-content-around">
                     <h3>SHARE YOUR FEEDBACK</h3>
-                    <h5></h5>
-                    <form class="mb-5 " method="post" id="contactForm" name="contactForm">
-                        {% csrf_token %}
 
-                        <div class="row">
-                            <div class="col-md-6 form-group mb-3">
-                                <label for="" class="col-form-label">First Name *</label>
-                                <input type="text" class="form-control" name="firstname" id="cname"
-                                    placeholder="First name" required>
-                            </div>
-                            <div class="col-md-6 form-group mb-3">
-                                <label for="" class="col-form-label">Last Name *</label>
-                                <input type="text" class="form-control" name="lastname" id="email"
-                                    placeholder="Last Name" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 form-group mb-3">
-                                <label for="" class="col-form-label">Occupation *</label>
-                                <input type="text" class="form-control" name="occupation" id="email"
-                                    placeholder="Occupation">
-                            </div>
-                            <div class="col-md-6 form-group mb-3">
-                                <label for="" class="col-form-label">Email *</label>
-                                <input type="text" class="form-control" name="email" id="email" placeholder="Your email"
-                                    required>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12 form-group mb-3">
-                                <label for="message" class="col-form-label">Feedback *</label>
-                                <textarea class="form-control" name="feedback" id="message" cols="30" rows="4"
-                                    placeholder="Write your message" required></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 form-group">
-                                <input type="submit" value="Send Feedback"
-                                    class="btn-1 btn-success rounded-0 py-2 px-4">
-                                <span class="submitting"></span>
-                            </div>
-                        </div>
-                    </form>
 
 
 
                 </div>
+                <form class="mb-5 form-group" method="post" id="contactForm" name="contactForm">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="" class="col-form-label">First Name *</label>
+                        <input type="text" {%if obj %} value="{{obj.firstname}}" {%endif%} class="form-control"
+                            name="firstname" id="cname" placeholder="First name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="" class="col-form-label">Last Name *</label>
+                        <input type="text" class="form-control" {%if obj %} value="{{obj.lastname}}" {%endif%}
+                            name="lastname" id="lastname" placeholder="Last Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="" class="col-form-label">Occupation *</label>
+                        <input type="text" {%if obj %} value="{{obj.occupation}}" {%endif%} class="form-control"
+                            name="occupation" id="occupation" placeholder="Occupation">
+                    </div>
+                    <div class="mb-3">
+                        <label for="" class="col-form-label">Email *</label>
+                        <input type="email" {%if obj %} value="{{request.user.email}}" {%endif%} class=" form-control"
+                            name="email" id="email" placeholder="Your email" required readonly>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 " mb-3">
+                            <label for="message" class="col-form-label">Feedback *</label>
+                            <input {%if obj %} value="{{obj.feedback}}" {%endif%} class="form-control" name="feedback"
+                                id="message" cols="30" rows="4" placeholder="Write your message" required></textarea>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <input type="submit" value="Send Feedback"
+                                class="btn-1 btn-success form-control rounded-0 py-2 px-4">
+                            <span class="submitting"></span>
+                        </div>
+                    </div>
+                </form>
+
+
+
             </div>
         </div>
     </div>
@@ -82,6 +85,7 @@
 {{ block.super }}
 {% include 'products/includes/quantity_input_script.html' %}
 <script>
+
 
 </script>
 {% endblock %}

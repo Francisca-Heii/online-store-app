@@ -124,6 +124,8 @@
                 </button>
                 {% include 'includes/mobile-top-header.html' %}
                 {% include 'includes/main-nav.html' %}
+                <a
+                    style="font-size: smaller; text-decoration: none; color:#244922; padding-right:10px">{{request.user.email}}</a>
 
 
             </nav>
@@ -163,6 +165,8 @@
     </div>
     {% endif %}
 
+    {% block boldy %}
+    {% endblock %}
     {% block page_header %}
     <div class="container header-container m-0">
         <div class="row">

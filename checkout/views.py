@@ -10,6 +10,8 @@ from .forms import OrderForm
 from .models import Order, OrderLineItem
 
 from profiles.models import UserProfile
+
+from profiles.forms import UserProfileForm
 from products.models import product
 
 from bag.contexts import bag_contents
@@ -18,12 +20,10 @@ import stripe
 import json
 
 
-@require_http_methods(["GET", "POST"])
+@require_POST
 def cache_checkout_data(request):
-    print("Checkout_data_entry_requested##################################")
-
     try:
-        print("Checkout_data_entry_requested##################################")
+
         pid = request.POST.get('client_secret').split('_secret')[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
         stripe.PaymentIntent.modify(pid, metadata={

@@ -1,27 +1,61 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
-from . models import *
+from review.models import Person
 
 
 # Create your views here.
 
-def review_page(request):
-    return render(request, "review.html", locals())
-
-
 def feedback(request):
     if(request.POST):
         print(request.POST)
-        fname=request.POST.get('firstname')
-        lname=request.POST.get('lastname')
+        firstname=request.POST.get('firstname')
+        lastname=request.POST.get('lastname')
         email=request.POST.get('email')
         occupation=request.POST.get("occupation")
         feedback=request.POST.get('feedback')
-        obj=Person(first_name=fname, last_name=lname, email=email, feedback=feedback)
+        obj=Person(firstname=firstname, lastname=lastname, occupation=occupation, email=email, feedback=feedback)
         obj.save()
         a="Thanks for your Valuable Feedback!"
     
     return render(request, "feedback.html", locals())
+
+def review_page(request):
+    objs = Person.objects.all()
+    total_entry = len(objs)
+    print('total_admission', total_entry)
+    return render(request, 'review.html', locals())
+
+
+def edit_feedback(request):
+    
+    try:
+        obj = Person.objects.get(email=request.user.email)
+        if request.POST and obj:
+            obj.firstname = request.POST.get('firstname')
+            obj.lastname = request.POST.get('lastname')
+            obj.email = request.POST.get('email')
+            obj.occupation = request.POST.get('occupation')
+            obj.feedback = request.POST.get('feedback')
+            obj.save()
+            print("Edit obj", obj)
+            a="Feedback successfully modified."
+        else:
+            a="Please Login to edit feedback comments"
+            return render(request, "feedback.html", locals())
+    except:   
+        return render(request, "feedback.html", locals())
+
+
+def deleteDB(request):
+    em=request.user.email
+    try:
+        obj=Person.objects.get(email=em)
+        obj.delete()
+        return redirect(review_page)
+    except:
+        return redirect(feedback)
+    
+#------------------------------------------------------------------
 
 
 def contactus(request):
@@ -30,7 +64,6 @@ def contactus(request):
         etype=request.POST.get('enquiry_type')
         email=request.POST.get('email')
         econcern=request.POST.get('message')
-
         obj=Enquiry(cname=cname, etype=etype,email=email, econcern=econcern)
         obj.save()
 
