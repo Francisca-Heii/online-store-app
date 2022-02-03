@@ -156,28 +156,34 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 # Internationalization
-# https://docs.djangoproject.com/en/3.2/topics/i18n/
+# https://docs.djangoproject.com/en/3.2/topics/ipremefurnitures'
 
-LANGUAGE_CODE = 'en-us'
+if 'USE_AWS' in os.environ:
+    # Cache control
+    AWS_S3_OBJECT_PARAMETERS={
+        'Expires':'Thu, 31 Dec 2099 20:00:00 GMT',
+        'CacheControl': 'max-age=94608000'
+    }
 
-TIME_ZONE = 'UTC'
+    #Bucket config
+    AWS_STORAGE_BUCKET_NAME='supremefurnitures'
+    AWS_S3_REGION_NAME='us-east-1'
+    AWS_ACCESS_KEY=os.environ.get('AWS_ACCESS_KEY')
+    AWS_SECRET_ACCESS_KEY=os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_S3_CUSTOM_DOMAIN=f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
 
-USE_I18N = True
+    #STATIC AND MEDIA FILES
+    STATICFILES_STORAGE='custom_storages.StaticStorage'
+    STATICFILES_LOCATION='static'
+    MEDIAFILES_STORAGE='custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION='media'
 
-USE_L10N = True
 
-USE_TZ = True
+    #override static and media URLS in production
 
+    STATIC_URL=f'https://(AWS_S3_CUSTOM_DOMAIN)/(STATICFILES_LOCATION)/'
+    MEDIA_URL=f'https://(AWS_S3_CUSTOM_DOMAIN)/(MEDIAFILES_LOCATION)/'
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.2/howto/static-files/
-
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
-MEDIA_ROOT = os.path.join(BASE_DIR,"media")
-MEDIA_URL = "/media/"
 # stripe
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
