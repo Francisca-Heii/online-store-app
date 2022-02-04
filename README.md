@@ -17,6 +17,8 @@ This website is only for educational purposes and the stripe functionality is se
 
 The ideal clients for this business:
 * We sell to companies and private individuals.
+* Users who are looking to purchase furniture.
+* Users who can use a device connected to the internet.
 
 While we do stock top quality, new office furniture, we also stock, "as new" office furniture which we have bought from office closures and trade ins. Whether you want cool lightings, reception desk or office furniture in premium colors or if you just want a plain shivel chair, we can look after your every need when it comes to furniture.
 
@@ -99,9 +101,9 @@ While we do stock top quality, new office furniture, we also stock, "as new" off
 4. Add a discount to a particular furniture so that the users can be aware of such furniture.
 
 ### DESIGN
-
+<a href="https://getbootstrap.com/">The bootstrap</a>
 * Colour Scheme
-The colours colours that are used for the website are:
+The 
 
 * Typography
 
