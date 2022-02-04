@@ -19,7 +19,7 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
-    <link rel="stylesheet" href="/static/css/base.css?{% now U %}" />
+    <link rel="stylesheet" href="{% static % '/css/base.css'}" />
 
     {% endblock%}
 
@@ -27,7 +27,8 @@
     {% endblock %}
 
     {% block corejs %}
-    <script src="https://kit.fontawesome.com/392ae530c6.js" crossorigin="anonymous"></script>
+    <script src=" https://kit.fontawesome.com/392ae530c6.js" crossorigin="anonymous">
+    </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
@@ -211,7 +212,7 @@
             <div class="col-lg-6 p-3  text-center">
                 <div class="card m-auto border rounded">
                     <div class="card ">
-                        <img src="/media/bedroomy.jpg" alt="" class="card-img">
+                        <img src="{% static 'media/bedroomy.jpg' %}" alt="" class="card-img">
                         <div class="card-img-overlay">
                             <h3 class="card-title float-left text-warning">SUPREME FURNITURES</h3>
 
@@ -224,8 +225,7 @@
                     </div>
                     <div class="card-footer">
                         <a href="{% url 'account_signup' %}" class=" btn btn-success m-auto float-left d-block
-                            text-light"> <strong> <u>REGISTER
-                                    NOW</u> >>> </strong>
+                            text-light"> <strong> <u>REGISTER NOW</u> >>> </strong>
                         </a>
                         <a href="{% url 'account_signup' %}" class=" btn btn-warning float-right text-dark m-auto">
                             <strong> <u>DISCOUNT CODE UPTO
@@ -248,6 +248,9 @@
                 </script> All rights reserved.
             </p>
         </div>
+        <div class="d-flex  justify-content-center"><a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i
+                    class="bi bi-twitter"></i></a><a href="#"><i class="bi bi-youtube"></i></a><a href="#"><i
+                    class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-google"></i></a></div>
         <div class="col-md-6 col-lg-4 p-5">
             <p class="copyright text-secondary">Owned by<i class="bi bi-hearts text-success"
                     style="color: #244922;"></i> <a href="https://supremefurniture.com" target="_blank"
