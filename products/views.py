@@ -7,7 +7,7 @@ from django.db.models.functions import Lower
 
 # Create your views here.
 def all_products(request):
-    products =product.objects.all()
+    products = product.objects.all()
     query = None
     categories=None
     sort=None

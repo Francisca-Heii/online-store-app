@@ -3,13 +3,13 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5001340155",
-        "name": "Green sofa set ",
+        "name": "Blue sofa",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
         "price": 53.99,
         "category": 6,
         "rating": 4.6,
-        "image_url": "https://supremefurnitures.s3.amazonaws.com/media/bluesofa.jpg",
-        "image": "green_sofa_rs.jpg"
+        "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/bluesofa.jpg",
+        "image": "bluesofa.jpg"
     }
 }, {
     "pk": 2,
@@ -21,7 +21,7 @@
         "price": 58.99,
         "category": 4,
         "rating": 4.6,
-        "image_url": "https://5.imimg.com/data5/EO/CX/RE/SELLER-85457126/lcd-tv-unit-500x500.jpg",
+        "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/bluesofa.jpg",
         "image": "2tv-unit.jpg"
     }
 }, {
@@ -34,7 +34,7 @@
         "price": 205.99,
         "category": 2,
         "rating": 4.7,
-        "image_url": "https://static-01.daraz.pk/p/4334f3af469e773274a52f12dd35122c.jpg",
+        "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/bluesofa.jpg",
         "image": "2coffee-table.jpg"
     }
 }, {
