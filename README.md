@@ -112,21 +112,25 @@ While we do stock top quality, new office furniture, we also stock, "as new" off
 4. Add a discount to a particular furniture so that the users can be aware of such furniture.
 
 ### DESIGN
-<a href="https://getbootstrap.com/">The bootstrap</a>
-* Colour Scheme
-The 
 
-* Typography
+##### Colour Scheme
+The color scheme chosen looks cool, calm, and engaging. Since the site mainly consists of bright images,
+ I thought sticking to various shades of green and additional yellow, and violet-cool would look nice together.
+<p align="center"><img width="150" height="220" src="assets/readme-images/#104a25.png"></p>
+<p align="center"><img width="150" height="220" src="/assets/readme-images/#00954d.png"></p>
+<p align="center"><img width="150" height="220" src="assets/readme-images/#250d63.png"></p>
+<p align="center"><img width="150" height="220" src="assets/readme-images/#104a25.png"></p>
+<p align="center"><img width="150" height="220" src="assets/readme-images/#ffbe00.png"></p>
+<p align="center"><img width="150" height="220" src="assets/readme-images/#ffffff.png"></p>
 
-The Poppins font is used throughout the entire site. The sans serif font serves as a fallback in case the main font is not being imported to the site correctly.  Poppins is one of the geometric sans serif typefaces that have been a popular design tool for building websites. The geometric shape of the letterform is near equal in terms of height and the spacing between characters is perfect. It is easy to read on any device and looks great as a heading font and as a body text.
+#### Typography
+The site uses a variation of two different fonts that is Bitter, Lato, and Sans serif as a fallback font. It is important to always have a fallback back font when building applications. The reason is that, in a situation where the Bitter and Lato fonts fail to load for unknown reasons that is where the Sans serif backs up and render.
 
-* icons
-
+##### icons
 The icons used are taken from Font Awesome. All icons that are used have functional purposes such as the hamburger menu for the mobile device and social media icons. 
 
-* Images
-
-The images that are used for the project are taken from pixels and Shutterstock. The images are used for products image and banner images.
+#### Images
+The images used for the project are taken from [Pexels](https://www.pexels.com/) and [Home store](https://mandauefoam.ph/). The images are used for products, banners and, cart images.
 
 
 
@@ -151,6 +155,14 @@ The images that are used for the project are taken from pixels and Shutterstock.
 * [home](assets/wireframes/register.pdf)
 * [home](assets/wireframes/sign-inD.pdf)
 
+### FEATURES:
+--------------------------------------------------------------------------------------------------
+#### Common Features Across All Pages
+---------------------------------------------------------------------------------------------------
+#### Header
+* The header is positioned to be fixed at the top of the screen and to always be visible to the user, no matter what screen size or device is being used. This allows easy and seamless navigation across all pages, meaning that users can find it quickly.
+
+* The name Supreme Furnitures which acts as a logo, is positioned at the top of the page within the header and when clicked on redirects you to the home page. The logo is visible in the header when viewed on all screen sizes.
 
 
 
