@@ -118,10 +118,12 @@ The color scheme chosen looks cool, calm, and engaging. Since the site mainly co
  I thought sticking to various shades of green and additional yellow, and violet-cool would look nice together.
 <p align="center"><img width="150" height="220" src="assets/readme-images/a104a25.png" alt="white.jpg"></p>
 <p align="center"><img width="150" height="220" src="assets/readme-images/00954d.png"></p>
+<p align="center"><img width="150" height="220" src="assets/readme-images/00954d.png"></p>
 <p align="center"><img width="150" height="220" src="assets/readme-images/250d63.png"></p>
 <p align="center"><img width="150" height="220" src="assets/readme-images/104a25.png"></p>
 <p align="center"><img width="150" height="220" src="assets/readme-images/ffbe00.png"></p>
 <p align="center"><img width="150" height="220" src="assets/readme-images/ffffff.png"></p>
+[home](assets/wireframes/home.pdf)
 
 #### Typography
 The site uses a variation of two different fonts that is Bitter, Lato, and Sans serif as a fallback font. It is important to always have a fallback back font when building applications. The reason is that, in a situation where the Bitter and Lato fonts fail to load for unknown reasons that is where the Sans serif backs up and render.
@@ -160,9 +162,18 @@ The images used for the project are taken from [Pexels](https://www.pexels.com/)
 #### Common Features Across All Pages
 ---------------------------------------------------------------------------------------------------
 #### Header
-* The header is positioned to be fixed at the top of the screen and to always be visible to the user, no matter what screen size or device is being used. This allows easy and seamless navigation across all pages, meaning that users can find it quickly.
+* The header is positioned to be fixed at the top, left side of the screen and to always be visible to  the user, no matter what screen size or device is being used. This allows easy and seamless navigation across all pages, meaning that users can find it quickly.
 
-* The name Supreme Furnitures which acts as a logo, is positioned at the top of the page within the header and when clicked on redirects you to the home page. The logo is visible in the header when viewed on all screen sizes.
+* The name "Supreme Furnitures" which acts as a logo, is positioned at the top of the page within the header and when clicked on redirects you to the home page. The logo is visible in the header when viewed on all screen sizes.
+
+* Features a responsive main navigation bar with a sub-menu both inside the header. This can be found easily at the top of the page. The page is consists ofthe following menu items:  All products,Living Room, Bedroom, Dining Room, Study, Lighting, and Accessories.  On hoover of each menu item(main navigationbar), a sub-menu is displayed showing more links to the site. On click of each submenu, it takes the user to the related section/page.
+
+* The navbar contains a search functionality where the usercan search for products. This functionality allows the users to enter keywords associated with the name or productdescription and the results aredisplayed on the product page. 
+
+* The ‘Account’ link reveals ‘Login, Register’ for site visitors, ‘Profile’ for account holders, and ‘ProductManagement’ for the admin profiles. On smaller screens, the navigation collapses into a hamburger menu. Thisallows the site navigation to be easy touse on all devices. 
+
+* Contains the shopping bag, where users can see the items they have put in the bag before procedding to checkout.
+
 
 
 
