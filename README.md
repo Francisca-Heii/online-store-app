@@ -28,6 +28,17 @@ While we do stock top quality, new office furniture, we also stock, "as new" off
 * To set up an authentication mechanism and provide paid access to the site's data and/or other activities based on the dataset, such as the purchase of a product/service" using HTML, CSS, JavaScript, Python+Django, a relational database (recommending MySQL or Postgres), 
 * Stripe payments and possible additional libraries and API's.
 
+### Users Goals:
+* Find suitable furniture for their homes or businesses.
+* Find quality and affordable furnitures.
+
+
+### Business Goals:
+* Creating a secure and professional e-commerce website.
+* Make profit from selling furnitures.
+* Provide quality and affordable furnitures for everyone.
+* Offer fast, free delivery and excellent customer service to our customers. 
+
 ### ClIENT STORIES
 
 #### As a casual/new visitor to the website, I want to:
