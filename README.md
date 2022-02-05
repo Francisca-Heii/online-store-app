@@ -116,12 +116,12 @@ While we do stock top quality, new office furniture, we also stock, "as new" off
 ##### Colour Scheme
 The color scheme chosen looks cool, calm, and engaging. Since the site mainly consists of bright images,
  I thought sticking to various shades of green and additional yellow, and violet-cool would look nice together.
-<p align="center"><img width="150" height="220" src="assets/readme-images/#104a25.png"></p>
-<p align="center"><img width="150" height="220" src="/assets/readme-images/#00954d.png"></p>
-<p align="center"><img width="150" height="220" src="assets/readme-images/#250d63.png"></p>
-<p align="center"><img width="150" height="220" src="assets/readme-images/#104a25.png"></p>
-<p align="center"><img width="150" height="220" src="assets/readme-images/#ffbe00.png"></p>
-<p align="center"><img width="150" height="220" src="assets/readme-images/#ffffff.png"></p>
+<p align="center"><img width="150" height="220" src="assets/readme-images/a104a25.png" alt="white.jpg"></p>
+<p align="center"><img width="150" height="220" src="assets/readme-images/00954d.png"></p>
+<p align="center"><img width="150" height="220" src="assets/readme-images/250d63.png"></p>
+<p align="center"><img width="150" height="220" src="assets/readme-images/104a25.png"></p>
+<p align="center"><img width="150" height="220" src="assets/readme-images/ffbe00.png"></p>
+<p align="center"><img width="150" height="220" src="assets/readme-images/ffffff.png"></p>
 
 #### Typography
 The site uses a variation of two different fonts that is Bitter, Lato, and Sans serif as a fallback font. It is important to always have a fallback back font when building applications. The reason is that, in a situation where the Bitter and Lato fonts fail to load for unknown reasons that is where the Sans serif backs up and render.
