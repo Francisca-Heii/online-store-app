@@ -6,9 +6,9 @@
          "name": "1bed.jpg",
          "description": "Lorem"
       },
-      "price": 80.75,
-      "category": "Table Lamp",
-      "rating": 4.45,
+      "price": 41.07,
+      "category": 4,
+      "rating": 3.84,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1bed.jpg",
       "image": "1bed.jpg"
    },
@@ -20,9 +20,9 @@
          "name": "bed3.jpg",
          "description": "Lorem"
       },
-      "price": 27.52,
-      "category": "Beds",
-      "rating": 4.08,
+      "price": 61.11,
+      "category": 5,
+      "rating": 3.88,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/bed3.jpg",
       "image": "bed3.jpg"
    },
@@ -34,9 +34,9 @@
          "name": "bed7.jpeg",
          "description": "Lorem"
       },
-      "price": 55.06,
-      "category": "Table Lamp",
-      "rating": 3.89,
+      "price": 37.81,
+      "category": 15,
+      "rating": 3.06,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/bed7.jpeg",
       "image": "bed7.jpeg"
    },
@@ -48,9 +48,9 @@
          "name": "3bed.png",
          "description": "Lorem"
       },
-      "price": 64.06,
-      "category": "Sofa",
-      "rating": 3.95,
+      "price": 59.66,
+      "category": 13,
+      "rating": 4.04,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3bed.png",
       "image": "3bed.png"
    },
@@ -62,9 +62,9 @@
          "name": "2bed.jpg",
          "description": "Lorem"
       },
-      "price": 89.59,
-      "category": "Beds",
-      "rating": 4.41,
+      "price": 36.26,
+      "category": 16,
+      "rating": 4.18,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2bed.jpg",
       "image": "2bed.jpg"
    },
@@ -76,9 +76,9 @@
          "name": "2Bed.png",
          "description": "Lorem"
       },
-      "price": 34.51,
-      "category": "Wardrobes",
-      "rating": 3.87,
+      "price": 69.7,
+      "category": 2,
+      "rating": 3.65,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2Bed.png",
       "image": "2Bed.png"
    },
@@ -90,9 +90,9 @@
          "name": "1Coffee_Table.jpg",
          "description": "Lorem"
       },
-      "price": 76.12,
-      "category": "Ceiling Lamp",
-      "rating": 3.6,
+      "price": 92.6,
+      "category": 12,
+      "rating": 3.84,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1Coffee_Table.jpg",
       "image": "1Coffee_Table.jpg"
    },
@@ -104,9 +104,9 @@
          "name": "2coffee-table.jpg",
          "description": "Lorem"
       },
-      "price": 83.06,
-      "category": "Dinning Chair",
-      "rating": 4.68,
+      "price": 57.69,
+      "category": 3,
+      "rating": 4.07,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2coffee-table.jpg",
       "image": "2coffee-table.jpg"
    },
@@ -118,9 +118,9 @@
          "name": "3coffee_table.jpg",
          "description": "Lorem"
       },
-      "price": 72.52,
-      "category": "Throws and Blankets",
-      "rating": 4.09,
+      "price": 74.38,
+      "category": 4,
+      "rating": 3.1,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3coffee_table.jpg",
       "image": "3coffee_table.jpg"
    },
@@ -132,9 +132,9 @@
          "name": "1floor_lamp.png",
          "description": "Lorem"
       },
-      "price": 47.32,
-      "category": "Ornamental items",
-      "rating": 4.48,
+      "price": 69.49,
+      "category": 15,
+      "rating": 3.71,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1floor_lamp.png",
       "image": "1floor_lamp.png"
    },
@@ -146,9 +146,9 @@
          "name": "2Floor_Lamp.png",
          "description": "Lorem"
       },
-      "price": 72.71,
-      "category": "Ceiling Lamp",
-      "rating": 4.12,
+      "price": 65.76,
+      "category": 10,
+      "rating": 4.01,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2Floor_Lamp.png",
       "image": "2Floor_Lamp.png"
    },
@@ -160,9 +160,9 @@
          "name": "1table_lamp.png",
          "description": "Lorem"
       },
-      "price": 40.59,
-      "category": "Office Chair",
-      "rating": 3.19,
+      "price": 70.1,
+      "category": 14,
+      "rating": 4.76,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1table_lamp.png",
       "image": "1table_lamp.png"
    },
@@ -174,9 +174,9 @@
          "name": "3table_lamp.png",
          "description": "Lorem"
       },
-      "price": 98,
-      "category": "Dinning Chair",
-      "rating": 4.16,
+      "price": 79.1,
+      "category": 15,
+      "rating": 3.46,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3table_lamp.png",
       "image": "3table_lamp.png"
    },
@@ -188,9 +188,9 @@
          "name": "2table_lamp.png",
          "description": "Lorem"
       },
-      "price": 83.73,
-      "category": "Desk",
-      "rating": 4.75,
+      "price": 43.06,
+      "category": 2,
+      "rating": 4.11,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2table_lamp.png",
       "image": "2table_lamp.png"
    },
@@ -202,9 +202,9 @@
          "name": "1tv-unit.jpg",
          "description": "Lorem"
       },
-      "price": 72.06,
-      "category": "Throws and Blankets",
-      "rating": 4.59,
+      "price": 67.78,
+      "category": 15,
+      "rating": 4.8,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1tv-unit.jpg",
       "image": "1tv-unit.jpg"
    },
@@ -216,9 +216,9 @@
          "name": "2tv-unit.jpg",
          "description": "Lorem"
       },
-      "price": 86.74,
-      "category": "Dinning Tables",
-      "rating": 3.5,
+      "price": 74.69,
+      "category": 10,
+      "rating": 4.94,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2tv-unit.jpg",
       "image": "2tv-unit.jpg"
    },
@@ -230,9 +230,9 @@
          "name": "2candles.jpg",
          "description": "Lorem"
       },
-      "price": 75.79,
-      "category": "Desk",
-      "rating": 3.74,
+      "price": 22.61,
+      "category": 11,
+      "rating": 3.75,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2candles.jpg",
       "image": "2candles.jpg"
    },
@@ -244,9 +244,9 @@
          "name": "2Candle_Holder.png",
          "description": "Lorem"
       },
-      "price": 83.35,
-      "category": "Table Lamp",
-      "rating": 3.69,
+      "price": 92.27,
+      "category": 3,
+      "rating": 3.9,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2Candle_Holder.png",
       "image": "2Candle_Holder.png"
    },
@@ -258,8 +258,8 @@
          "name": "2candes.jpg",
          "description": "Lorem"
       },
-      "price": 62.62,
-      "category": "Dinning Tables",
+      "price": 26.03,
+      "category": 3,
       "rating": 3.75,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2candes.jpg",
       "image": "2candes.jpg"
@@ -272,9 +272,9 @@
          "name": "3blanket.jpg",
          "description": "Lorem"
       },
-      "price": 80.14,
-      "category": "Sofa",
-      "rating": 4.92,
+      "price": 59.85,
+      "category": 17,
+      "rating": 4.05,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3blanket.jpg",
       "image": "3blanket.jpg"
    },
@@ -286,9 +286,9 @@
          "name": "3Desk.png",
          "description": "Lorem"
       },
-      "price": 85.25,
-      "category": "Dinning Chair",
-      "rating": 4.69,
+      "price": 45.88,
+      "category": 18,
+      "rating": 4.41,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3Desk.png",
       "image": "3Desk.png"
    },
@@ -300,9 +300,9 @@
          "name": "2Desk.png",
          "description": "Lorem"
       },
-      "price": 57.59,
-      "category": "Office Chair",
-      "rating": 3.12,
+      "price": 71.26,
+      "category": 8,
+      "rating": 4.29,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2Desk.png",
       "image": "2Desk.png"
    },
@@ -314,9 +314,9 @@
          "name": "1desk.png",
          "description": "Lorem"
       },
-      "price": 63.78,
-      "category": "Dinning Chair",
-      "rating": 4.62,
+      "price": 59.77,
+      "category": 18,
+      "rating": 3.18,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1desk.png",
       "image": "1desk.png"
    },
@@ -328,8 +328,8 @@
          "name": "3office_chair.png",
          "description": "Lorem"
       },
-      "price": 23.8,
-      "category": "Ceiling Lamp",
+      "price": 72.38,
+      "category": 11,
       "rating": 4.91,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3office_chair.png",
       "image": "3office_chair.png"
@@ -342,9 +342,9 @@
          "name": "2officechair.jpg",
          "description": "Lorem"
       },
-      "price": 66.83,
-      "category": "Beds",
-      "rating": 4.31,
+      "price": 42.05,
+      "category": 1,
+      "rating": 4,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2officechair.jpg",
       "image": "2officechair.jpg"
    },
@@ -356,9 +356,9 @@
          "name": "1Office_Chair.png",
          "description": "Lorem"
       },
-      "price": 35.85,
-      "category": "Coffee Table",
-      "rating": 4.97,
+      "price": 60.2,
+      "category": 14,
+      "rating": 3.29,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1Office_Chair.png",
       "image": "1Office_Chair.png"
    },
@@ -370,9 +370,9 @@
          "name": "3Throws.png",
          "description": "Lorem"
       },
-      "price": 51.76,
-      "category": "Ceiling Lamp",
-      "rating": 3.22,
+      "price": 81.97,
+      "category": 12,
+      "rating": 3.42,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3Throws.png",
       "image": "3Throws.png"
    },
@@ -384,9 +384,9 @@
          "name": "2Throws.png",
          "description": "Lorem"
       },
-      "price": 70.85,
-      "category": "TV Unit",
-      "rating": 4.75,
+      "price": 53.85,
+      "category": 9,
+      "rating": 4.58,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2Throws.png",
       "image": "2Throws.png"
    },
@@ -398,9 +398,9 @@
          "name": "1Throws.png",
          "description": "Lorem"
       },
-      "price": 34,
-      "category": "Office Chair",
-      "rating": 3.15,
+      "price": 84.74,
+      "category": 3,
+      "rating": 4.17,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1Throws.png",
       "image": "1Throws.png"
    },
@@ -412,9 +412,9 @@
          "name": "candleholder1.jpg",
          "description": "Lorem"
       },
-      "price": 68.7,
-      "category": "Candles and Holders",
-      "rating": 3.93,
+      "price": 26.78,
+      "category": 11,
+      "rating": 3.29,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/candleholder1.jpg",
       "image": "candleholder1.jpg"
    },
@@ -426,9 +426,9 @@
          "name": "3PlasticCandleLed.png",
          "description": "Lorem"
       },
-      "price": 24.57,
-      "category": "Sofa",
-      "rating": 4.59,
+      "price": 75.84,
+      "category": 1,
+      "rating": 4.21,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3PlasticCandleLed.png",
       "image": "3PlasticCandleLed.png"
    },
@@ -440,9 +440,9 @@
          "name": "candles.jpg",
          "description": "Lorem"
       },
-      "price": 59.59,
-      "category": "Table Lamp",
-      "rating": 3.45,
+      "price": 89.17,
+      "category": 16,
+      "rating": 4.4,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/candles.jpg",
       "image": "candles.jpg"
    },
@@ -454,9 +454,9 @@
          "name": "canholder.jpg",
          "description": "Lorem"
       },
-      "price": 65.97,
-      "category": "Ceiling Lamp",
-      "rating": 3.35,
+      "price": 38.04,
+      "category": 7,
+      "rating": 4.56,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/canholder.jpg",
       "image": "canholder.jpg"
    },
@@ -468,9 +468,9 @@
          "name": "1candle_holder.jpg",
          "description": "Lorem"
       },
-      "price": 86.39,
-      "category": "Ceiling Lamp",
-      "rating": 3.18,
+      "price": 86.25,
+      "category": 3,
+      "rating": 4.86,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1candle_holder.jpg",
       "image": "1candle_holder.jpg"
    },
@@ -482,9 +482,9 @@
          "name": "3Ceiling_Light.png",
          "description": "Lorem"
       },
-      "price": 59.26,
-      "category": "Office Chair",
-      "rating": 4.27,
+      "price": 26,
+      "category": 7,
+      "rating": 3.64,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3Ceiling_Light.png",
       "image": "3Ceiling_Light.png"
    },
@@ -496,9 +496,9 @@
          "name": "1ceiling_light.png",
          "description": "Lorem"
       },
-      "price": 49.52,
-      "category": "Ornamental items",
-      "rating": 3.83,
+      "price": 74.43,
+      "category": 14,
+      "rating": 4.52,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1ceiling_light.png",
       "image": "1ceiling_light.png"
    },
@@ -510,9 +510,9 @@
          "name": "2ceiling_light.png",
          "description": "Lorem"
       },
-      "price": 69.72,
-      "category": "Dinning Set",
-      "rating": 3.27,
+      "price": 74.2,
+      "category": 2,
+      "rating": 4.73,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2ceiling_light.png",
       "image": "2ceiling_light.png"
    },
@@ -524,9 +524,9 @@
          "name": "ceiling.jpg",
          "description": "Lorem"
       },
-      "price": 56.15,
-      "category": "Sofa",
-      "rating": 3.24,
+      "price": 53.32,
+      "category": 1,
+      "rating": 3.65,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceiling.jpg",
       "image": "ceiling.jpg"
    },
@@ -538,9 +538,9 @@
          "name": "ceiling3.jpg",
          "description": "Lorem"
       },
-      "price": 77.39,
-      "category": "Office Chair",
-      "rating": 4.32,
+      "price": 58.11,
+      "category": 2,
+      "rating": 4.38,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceiling3.jpg",
       "image": "ceiling3.jpg"
    },
@@ -552,9 +552,9 @@
          "name": "ceilingk.jpg",
          "description": "Lorem"
       },
-      "price": 85.93,
-      "category": "Throws and Blankets",
-      "rating": 4.56,
+      "price": 68.79,
+      "category": 1,
+      "rating": 3.17,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceilingk.jpg",
       "image": "ceilingk.jpg"
    },
@@ -566,9 +566,9 @@
          "name": "ceilingm.jpg",
          "description": "Lorem"
       },
-      "price": 69.45,
-      "category": "Dinning Chair",
-      "rating": 4.26,
+      "price": 33.67,
+      "category": 3,
+      "rating": 3.97,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceilingm.jpg",
       "image": "ceilingm.jpg"
    },
@@ -580,9 +580,9 @@
          "name": "ceilingv.jpg",
          "description": "Lorem"
       },
-      "price": 78.94,
-      "category": "Coffee Table",
-      "rating": 3.74,
+      "price": 97.26,
+      "category": 7,
+      "rating": 4.4,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceilingv.jpg",
       "image": "ceilingv.jpg"
    },
@@ -594,9 +594,9 @@
          "name": "ceilingx.jpg",
          "description": "Lorem"
       },
-      "price": 28.52,
-      "category": "Candles and Holders",
-      "rating": 4.13,
+      "price": 48.36,
+      "category": 17,
+      "rating": 3.52,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceilingx.jpg",
       "image": "ceilingx.jpg"
    },
@@ -608,9 +608,9 @@
          "name": "coffeetble.jpg",
          "description": "Lorem"
       },
-      "price": 38.2,
-      "category": "Dinning Set",
-      "rating": 3.34,
+      "price": 45.65,
+      "category": 3,
+      "rating": 3.08,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/coffeetble.jpg",
       "image": "coffeetble.jpg"
    },
@@ -622,9 +622,9 @@
          "name": "dinchair3.jpg",
          "description": "Lorem"
       },
-      "price": 57.09,
-      "category": "Throws and Blankets",
-      "rating": 4.22,
+      "price": 58.84,
+      "category": 16,
+      "rating": 3.48,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinchair3.jpg",
       "image": "dinchair3.jpg"
    },
@@ -636,9 +636,9 @@
          "name": "dinchair4.jpg",
          "description": "Lorem"
       },
-      "price": 26.36,
-      "category": "Floor Lamp",
-      "rating": 3.69,
+      "price": 45.68,
+      "category": 5,
+      "rating": 3.71,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinchair4.jpg",
       "image": "dinchair4.jpg"
    },
@@ -650,9 +650,9 @@
          "name": "dining2.jpg",
          "description": "Lorem"
       },
-      "price": 28.83,
-      "category": "Floor Lamp",
-      "rating": 3.85,
+      "price": 93.72,
+      "category": 14,
+      "rating": 3.28,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dining2.jpg",
       "image": "dining2.jpg"
    },
@@ -664,9 +664,9 @@
          "name": "dining3.jpg",
          "description": "Lorem"
       },
-      "price": 71.37,
-      "category": "Dinning Set",
-      "rating": 3.34,
+      "price": 50.54,
+      "category": 9,
+      "rating": 3.29,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dining3.jpg",
       "image": "dining3.jpg"
    },
@@ -678,9 +678,9 @@
          "name": "diningchair1.jpg",
          "description": "Lorem"
       },
-      "price": 29.35,
-      "category": "TV Unit",
-      "rating": 4.07,
+      "price": 45.77,
+      "category": 11,
+      "rating": 3.14,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/diningchair1.jpg",
       "image": "diningchair1.jpg"
    },
@@ -692,9 +692,9 @@
          "name": "diningset1.jpg",
          "description": "Lorem"
       },
-      "price": 27.33,
-      "category": "Office Chair",
-      "rating": 3.89,
+      "price": 77.28,
+      "category": 14,
+      "rating": 4.68,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/diningset1.jpg",
       "image": "diningset1.jpg"
    },
@@ -706,9 +706,9 @@
          "name": "dininset2.jpg",
          "description": "Lorem"
       },
-      "price": 49.39,
-      "category": "Dinning Set",
-      "rating": 3.92,
+      "price": 51.53,
+      "category": 5,
+      "rating": 3.95,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dininset2.jpg",
       "image": "dininset2.jpg"
    },
@@ -720,9 +720,9 @@
          "name": "dinninset1.jpg",
          "description": "Lorem"
       },
-      "price": 22.99,
-      "category": "Sofa",
-      "rating": 4.18,
+      "price": 80.78,
+      "category": 9,
+      "rating": 4,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinninset1.jpg",
       "image": "dinninset1.jpg"
    },
@@ -734,9 +734,9 @@
          "name": "matress1.jpg",
          "description": "Lorem"
       },
-      "price": 53.58,
-      "category": "TV Unit",
-      "rating": 3.42,
+      "price": 61.5,
+      "category": 11,
+      "rating": 3.8,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/matress1.jpg",
       "image": "matress1.jpg"
    },
@@ -748,9 +748,9 @@
          "name": "3Mattress.png",
          "description": "Lorem"
       },
-      "price": 23.28,
-      "category": "Desk",
-      "rating": 4.21,
+      "price": 32.15,
+      "category": 1,
+      "rating": 3.02,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3Mattress.png",
       "image": "3Mattress.png"
    },
@@ -762,9 +762,9 @@
          "name": "matress2.jpg",
          "description": "Lorem"
       },
-      "price": 72.69,
-      "category": "Matressess",
-      "rating": 3.36,
+      "price": 87.46,
+      "category": 14,
+      "rating": 4.12,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/matress2.jpg",
       "image": "matress2.jpg"
    },
@@ -776,9 +776,9 @@
          "name": "mattress9.jpg",
          "description": "Lorem"
       },
-      "price": 24.16,
-      "category": "Table Lamp",
-      "rating": 3.59,
+      "price": 86.71,
+      "category": 3,
+      "rating": 3.92,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/mattress9.jpg",
       "image": "mattress9.jpg"
    },
@@ -790,9 +790,9 @@
          "name": "2Mattress.png",
          "description": "Lorem"
       },
-      "price": 34.79,
-      "category": "Coffee Table",
-      "rating": 3.73,
+      "price": 80.51,
+      "category": 12,
+      "rating": 4.49,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2Mattress.png",
       "image": "2Mattress.png"
    },
@@ -804,9 +804,9 @@
          "name": "1Mattress.png",
          "description": "Lorem"
       },
-      "price": 27.71,
-      "category": "Dinning Tables",
-      "rating": 4.53,
+      "price": 73.55,
+      "category": 11,
+      "rating": 3.66,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1Mattress.png",
       "image": "1Mattress.png"
    },
@@ -818,9 +818,9 @@
          "name": "ornaments.jpg",
          "description": "Lorem"
       },
-      "price": 92.89,
-      "category": "Office Chair",
-      "rating": 4.25,
+      "price": 37.4,
+      "category": 8,
+      "rating": 4.01,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ornaments.jpg",
       "image": "ornaments.jpg"
    },
@@ -832,9 +832,9 @@
          "name": "3ormants.jpg",
          "description": "Lorem"
       },
-      "price": 29.44,
-      "category": "Beds",
-      "rating": 3.52,
+      "price": 67.81,
+      "category": 4,
+      "rating": 4.97,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3ormants.jpg",
       "image": "3ormants.jpg"
    },
@@ -846,9 +846,9 @@
          "name": "1ornaments.jpg",
          "description": "Lorem"
       },
-      "price": 38.01,
-      "category": "Ceiling Lamp",
-      "rating": 4.51,
+      "price": 22.78,
+      "category": 8,
+      "rating": 4.91,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1ornaments.jpg",
       "image": "1ornaments.jpg"
    },
@@ -860,9 +860,9 @@
          "name": "wardrobe2.jpg",
          "description": "Lorem"
       },
-      "price": 39.94,
-      "category": "Dinning Chair",
-      "rating": 4.11,
+      "price": 87.27,
+      "category": 8,
+      "rating": 4.51,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/wardrobe2.jpg",
       "image": "wardrobe2.jpg"
    },
@@ -874,9 +874,9 @@
          "name": "wardrobe3.jpg",
          "description": "Lorem"
       },
-      "price": 61.23,
-      "category": "Dinning Set",
-      "rating": 4.54,
+      "price": 48.48,
+      "category": 3,
+      "rating": 4.92,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/wardrobe3.jpg",
       "image": "wardrobe3.jpg"
    },
@@ -888,9 +888,9 @@
          "name": "3WARDROBE.png",
          "description": "Lorem"
       },
-      "price": 70.72,
-      "category": "Floor Lamp",
-      "rating": 3.42,
+      "price": 67.59,
+      "category": 3,
+      "rating": 4.69,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3WARDROBE.png",
       "image": "3WARDROBE.png"
    },
@@ -902,9 +902,9 @@
          "name": "2Wardrobe.png",
          "description": "Lorem"
       },
-      "price": 86.06,
-      "category": "Sofa",
-      "rating": 4.06,
+      "price": 46.2,
+      "category": 14,
+      "rating": 3.79,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2Wardrobe.png",
       "image": "2Wardrobe.png"
    },
@@ -916,9 +916,9 @@
          "name": "1Wardrob.png",
          "description": "Lorem"
       },
-      "price": 23.63,
-      "category": "Ceiling Lamp",
-      "rating": 4.62,
+      "price": 44.95,
+      "category": 10,
+      "rating": 4.84,
       "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1Wardrob.png",
       "image": "1Wardrob.png"
    }
