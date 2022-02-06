@@ -116,14 +116,13 @@ While we do stock top quality, new office furniture, we also stock, "as new" off
 ##### Colour Scheme
 The color scheme chosen looks cool, calm, and engaging. Since the site mainly consists of bright images,
  I thought sticking to various shades of green and additional yellow, and violet-cool would look nice together.
-<p align="center"><img width="150" height="220" src="assets/readme-images/a104a25.png" alt="white.jpg"></p>
-<p align="center"><img width="150" height="220" src="assets/readme-images/00954d.png"></p>
-<p align="center"><img width="150" height="220" src="assets/readme-images/00954d.png"></p>
-<p align="center"><img width="150" height="220" src="assets/readme-images/250d63.png"></p>
-<p align="center"><img width="150" height="220" src="assets/readme-images/104a25.png"></p>
-<p align="center"><img width="150" height="220" src="assets/readme-images/ffbe00.png"></p>
-<p align="center"><img width="150" height="220" src="assets/readme-images/ffffff.png"></p>
-[home](assets/wireframes/home.pdf)
+<p align="center"><img width="150" height="220" src="documentation/readme-images/250d63.png"></p>
+<p align="center"><img width="150" height="220" src="documentation/readme-images/00954d.png"></p>
+<p align="center"><img width="150" height="220" src="documentation/readme-images/250d63.png"></p>
+<p align="center"><img width="150" height="220" src="documentation/readme-images/a104a25.png"></p>
+<p align="center"><img width="150" height="220" src="documentation/readme-images/ffbe00.png"></p>
+<p align="center"><img width="150" height="220" src="documentation/readme-images/ffffff.png"></p>
+
 
 #### Typography
 The site uses a variation of two different fonts that is Bitter, Lato, and Sans serif as a fallback font. It is important to always have a fallback back font when building applications. The reason is that, in a situation where the Bitter and Lato fonts fail to load for unknown reasons that is where the Sans serif backs up and render.
@@ -159,20 +158,44 @@ The images used for the project are taken from [Pexels](https://www.pexels.com/)
 
 ### FEATURES:
 --------------------------------------------------------------------------------------------------
-#### Common Features Across All Pages
+The basic structure of the webpage is as follows -
+#### Common Features Across All Pages:
 ---------------------------------------------------------------------------------------------------
 #### Header
 * The header is positioned to be fixed at the top, left side of the screen and to always be visible to  the user, no matter what screen size or device is being used. This allows easy and seamless navigation across all pages, meaning that users can find it quickly.
 
 * The name "Supreme Furnitures" which acts as a logo, is positioned at the top of the page within the header and when clicked on redirects you to the home page. The logo is visible in the header when viewed on all screen sizes.
 
-* Features a responsive main navigation bar with a sub-menu both inside the header. This can be found easily at the top of the page. The page is consists ofthe following menu items:  All products,Living Room, Bedroom, Dining Room, Study, Lighting, and Accessories.  On hoover of each menu item(main navigationbar), a sub-menu is displayed showing more links to the site. On click of each submenu, it takes the user to the related section/page.
+* Features a responsive main navigation bar with a sub-menu both inside the header.This is fixed to the top of each page, This makes navigation easier and quicker across the site. The page is consists of the following: All products,Living Room, Bedroom, Dining Room, Study, Lighting, and Accessories.  On hoover of the main navbar, a sub-menu is displayed showing more links to the site. On click of each submenu, it takes the user to the related section/page.
 
 * The navbar contains a search functionality where the usercan search for products. This functionality allows the users to enter keywords associated with the name or productdescription and the results aredisplayed on the product page. 
 
 * The ‘Account’ link reveals ‘Login, Register’ for site visitors, ‘Profile’ for account holders, and ‘ProductManagement’ for the admin profiles. On smaller screens, the navigation collapses into a hamburger menu. Thisallows the site navigation to be easy touse on all devices. 
 
-* Contains the shopping bag, where users can see the items they have put in the bag before procedding to checkout.
+* Contains the shopping bag, where users can see the items they have put in their bag before procedding to checkout. The shopping bag icon is always visible on large screens, on the other hand, collapsed into a hamburger menu when on smaller screens. It can be found just beneath the hamburger icon.
+
+#### Buttons:
+The buttons used in the webpage are of different styles and colors. For example, the shop now, shop living, shop dining, shop bedroom, shop accessories, and feedback buttons are in white text (#fffff) and a background color of dark green (#a104a25).
+
+Review and registration buttons are in white text (#fff) with a light green(#00954d) background color.
+
+Discount code 60% off button is in yellow(#ffbe00), violet color text, and dark yellow background color.
+
+Contact button is in white text (#fff) and  a violet(#250d63) background color.
+
+#### Headings & Body Text:
+The main fonts used in the site are bitter and Lato fonts along with sans serif as a fallback font. The bitter font is used in the headings,  about us section. Lato is used everywhere else. Both the fonts create a nice sleek touch to the overall look of the site.
+
+The bitter font is a slab serif typeface, it is balanced and manually spaced, and specially designed for comfortably reading on any computer or device.
+
+ On the other hand, Lato is a popular typeface font that can be used in the entire website. It is commonly used in the body text as it has an elegant look and is easy on the eye.
+
+ #### Footer:
+ The footer is displayed at the bottom of the page and appears simplistic, corresponding to the color scheme. It includes a hover effect for every individual social link on, when hoovered over, an icon appears over the social link and the color changed to the social media logo color. For example for the Facebook icon, it will turn blue, with an icon above saying 'Facebook'
+
+ ### Features Specidfic To Pages:
+ #### Home page
+
 
 
 

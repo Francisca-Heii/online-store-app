@@ -8,6 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+        rel="stylesheet">
     {% endblock %}
 
     {% block extra_meta%}
@@ -57,7 +61,9 @@
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'store' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0"><strong>SUPREME</strong> &nbsp;FURNITURES</h2>
+                    <h2 class="logo-font text-black my-0" style="font-family: 'bitter', lato, sans-serif">
+                        <strong>SUPREME</strong>
+                        &nbsp;FURNITURES</h2>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -180,6 +186,7 @@
     {% block content %}
 
     {% endblock %}
+    <!-- Footer side -->
     <div class="container-flex mt-5 p-3 text-center" style="background-color: ;">
         <div class="row  m-auto">
             <div class="col-lg-6 p-3 text-center m-auto">
@@ -209,6 +216,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Footer side -->
             <div class="col-lg-6 p-3  text-center">
                 <div class="card m-auto border rounded">
                     <div class="card ">
@@ -268,6 +277,12 @@
         });
     </script>
     {% endblock %}
+
+    <script>
+        function navigateto(a) {
+            window.location.href = a;
+        }
+    </script>
 
 </body>
 
