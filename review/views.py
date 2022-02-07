@@ -27,7 +27,6 @@ def review_page(request):
 
 
 def edit_feedback(request):
-    
     try:
         obj = Person.objects.get(email=request.user.email)
         if request.POST and obj:
@@ -48,6 +47,7 @@ def edit_feedback(request):
 
 def deleteDB(request):
     em=request.user.email
+    print('username',em)
     try:
         obj=Person.objects.get(email=em)
         obj.delete()

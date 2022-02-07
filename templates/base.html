@@ -210,7 +210,7 @@
                             that they bring exceptional beauty to your home.</p>
                     </div>
                     <div class="card-footer">
-                        <a href="{% url 'products' %}review/feedback"
+                        <a href="{% url 'review' %}feedback"
                             class=" btn btn-success m-auto float-left d-block text-light"> <strong>REVIEW US
                                 >>></strong> </a>
                     </div>
@@ -241,7 +241,7 @@
                         <a href="{% url 'account_signup' %}" class=" btn btn-success m-auto float-left d-block
                             text-light"> <strong> <u>REGISTER NOW</u> >>> </strong>
                         </a>
-                        <a href="{% url 'account_signup' %}" class=" btn btn-warning float-right text-dark m-auto">
+                        <a href="{% url 'account_login' %}" class=" btn btn-warning float-right text-dark m-auto">
                             <strong> <u>DISCOUNT CODE UPTO
                                     60%
                                     OFF</u></strong>
@@ -253,6 +253,9 @@
         </div>
 
     </div>
+
+    <button id="back-to-top" class="btn float-right" onclick="goup()">Back To Top</button>
+
     <!-- FOOTER--------------------------------- -->
     <div class="container-flex my-5">
         <!-- Footer -->
@@ -352,17 +355,34 @@
     </div>
 
     {% block postloadjs %}
+    <!-- Card Navigations -->
     <script type="text/javascript">
         $('.toast').toast('show');
         $('#living_room').click(function () {
             window.location.href = "{% url 'products' %}?category=sofa,tv_unit,coffee_table"
         });
+        $('#dinning_room').click(function () {
+            window.location.href = "{% url 'products' %}?category=dinning_tables,dinning_chair,dinning_set"
+        });
+        $('#bed_room').click(function () {
+            window.location.href = "{% url 'products' %}?category=beds,matressess,wardrobes"
+        });
+        $('#accessories').click(function () {
+            window.location.href =
+                "{% url 'products' %}?category=candles_and_holders,throws_and_blankets,ornamental_items"
+        });
     </script>
+    <!-- Card Navigations -----X----X->
     {% endblock %}
 
     <script>
         function navigateto(a) {
             window.location.href = a;
+        }
+
+        function goup() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
     </script>
 
