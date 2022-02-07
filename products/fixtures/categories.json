@@ -2,126 +2,136 @@
     "pk": 1,
     "model": "products.category",
     "fields": {
-        "name": "sofa",
-        "friendly_name": "Sofa"
+      "name": "sofa",
+      "friendly_name": "Sofa"
     }
-}, {
+  },
+  {
     "pk": 2,
     "model": "products.category",
     "fields": {
-        "name": "tv_unit",
-        "friendly_name": "Tv Unit"
+      "name": "tv_unit",
+      "friendly_name": "TV Unit"
     }
-}, {
+  },
+  {
     "pk": 3,
     "model": "products.category",
     "fields": {
-        "name": "coffee_table",
-        "friendly_name": "Coffee Table"
+      "name": "coffee_table",
+      "friendly_name": "Coffee Table"
     }
-}, {
+  },
+  {
     "pk": 4,
     "model": "products.category",
     "fields": {
-        "name": "beds",
-        "friendly_name": "Beds"
+      "name": "beds",
+      "friendly_name": "Beds"
     }
-}, {
+  },
+  {
     "pk": 5,
     "model": "products.category",
     "fields": {
-        "name": "matressess",
-        "friendly_name": "Matressess"
+      "name": "matressess",
+      "friendly_name": "Matressess"
     }
-}, {
+  },
+  {
     "pk": 6,
     "model": "products.category",
     "fields": {
-        "name": "wardrobes",
-        "friendly_name": "Wardrobes"
+      "name": "wardrobes",
+      "friendly_name": "Wardrobes"
     }
-}, {
+  },
+  {
     "pk": 7,
     "model": "products.category",
     "fields": {
-        "name": "Dinning_Tables",
-        "friendly_name": "Dinning Tables"
+      "name": "dinning_tables",
+      "friendly_name": "Dinning Tables"
     }
-}, {
+  },
+  {
     "pk": 8,
     "model": "products.category",
     "fields": {
-        "name": "Dinning_Chair",
-        "friendly_name": "Dinning Chair"
+      "name": "dinning_chair",
+      "friendly_name": "Dinning Chair"
     }
-}, {
+  },
+  {
     "pk": 9,
     "model": "products.category",
     "fields": {
-        "name": "Dinning_Set",
-        "friendly_name": "Dinning Set"
+      "name": "dinning_set",
+      "friendly_name": "Dinning Set"
     }
-}, {
+  },
+  {
     "pk": 10,
     "model": "products.category",
     "fields": {
-        "name": "Desk",
-        "friendly_name": "desk"
+      "name": "desk",
+      "friendly_name": "Desk"
     }
-}, {
+  },
+  {
     "pk": 11,
     "model": "products.category",
     "fields": {
-        "name": "office_chair",
-        "friendly_name": "Office_Chair"
+      "name": "office_chair",
+      "friendly_name": "Office Chair"
     }
-}, {
+  },
+  {
     "pk": 12,
     "model": "products.category",
     "fields": {
-        "name": "Candles and Holders",
-        "friendly_name": "Candles and Holders"
+      "name": "candles_and_holders",
+      "friendly_name": "candles_and_holders"
     }
-}, {
+  },
+  {
     "pk": 13,
     "model": "products.category",
     "fields": {
-        "name": "Throw and Blankets",
-        "friendly_name": "Throws and Blankets"
+      "name": "throws_and_blankets",
+      "friendly_name": "Throws and Blankets"
     }
-}, {
+  },
+  {
     "pk": 14,
     "model": "products.category",
     "fields": {
-        "name": "Throws and Blankets",
-        "friendly_name": "Throws and Blankets"
+      "name": "table_lamp",
+      "friendly_name": "Table Lamp"
     }
-}, {
+  },
+  {
     "pk": 15,
     "model": "products.category",
     "fields": {
-        "name": "Ornamental items",
-        "friendly_name": "Ornamental items"
+      "name": "ornamental_items",
+      "friendly_name": "Ornamental Items"
     }
-}, {
+  },
+  {
     "pk": 16,
     "model": "products.category",
     "fields": {
-        "name": "Ceiling Lamp",
-        "friendly_name": "Ceiling_Lamp"
+      "name": "ceiling_lamp",
+      "friendly_name": "Ceiling Lamp"
     }
-}, {
+  },
+  {
     "pk": 17,
     "model": "products.category",
     "fields": {
-        "name": "Floor Lamp",
-        "friendly_name": "Floor_Lamp"
+      "name": "floor_lamp",
+      "friendly_name": "Floor Lamp"
     }
-}, {
-    "pk": 1,
-    "model": "products.category",
-    "fields": {
-        "name": "Table Lamp",
-        "friendly_name": "Table_Lamp"
-    }
-}]
+  }
+]

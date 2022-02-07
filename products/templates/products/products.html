@@ -187,17 +187,17 @@
 
         function e(n) {
             switch (n) {
-                case 'beds,matresses,wardrobes':
+                case 'beds,matressess,wardrobes':
                     return "BEDROOM"
-                case 'Dinning_Tables,Dinning_Chair,Dinning_Set':
+                case 'dinning_tables,dinning_chair,dinning_set':
                     return "DINNING ROOM"
-                case 'Desk,office_chair':
+                case 'desk,office_chair':
                     return "STUDY"
-                case 'Candles%20and%20Holders,Throws%20and%20Blankets,Ornamental%20items':
+                case 'ceiling_lamp,table_lamp,floor_lamp':
                     return "LIGHTING"
                 case 'sofa,tv_unit,coffee_table':
                     return "LIVING ROOM"
-                case "Ceiling%20Lamp,Table%20Lamp,Floor%20Lamp":
+                case "candles_and_holders,throws_and_blankets,ornamental_items":
                     return "ACCESSORIES"
             }
         }
@@ -210,6 +210,7 @@
             head_line = head_line.replace("%20", " ");
             aaa = head_line;
         } else if (head_line.indexOf("_") > 0) {
+            head_line = head_line.replace("_", " ");
             head_line = head_line.replace("_", " ");
             aaa = head_line;
         } else {

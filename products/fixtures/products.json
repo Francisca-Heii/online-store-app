@@ -1,925 +1,1065 @@
 [{
-      "pk": 1,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER101",
-         "name": "1bed.jpg",
-         "description": "Lorem"
-      },
-      "price": 41.07,
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER101",
+      "name": "Beds Divan Base",
+      "description": "",
+      "price": 94.18,
       "category": 4,
-      "rating": 3.84,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1bed.jpg",
-      "image": "1bed.jpg"
-   },
-   {
-      "pk": 2,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER102",
-         "name": "bed3.jpg",
-         "description": "Lorem"
-      },
-      "price": 61.11,
-      "category": 5,
-      "rating": 3.88,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/bed3.jpg",
-      "image": "bed3.jpg"
-   },
-   {
-      "pk": 3,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER103",
-         "name": "bed7.jpeg",
-         "description": "Lorem"
-      },
-      "price": 37.81,
-      "category": 15,
-      "rating": 3.06,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/bed7.jpeg",
-      "image": "bed7.jpeg"
-   },
-   {
-      "pk": 4,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER104",
-         "name": "3bed.png",
-         "description": "Lorem"
-      },
-      "price": 59.66,
-      "category": 13,
-      "rating": 4.04,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3bed.png",
-      "image": "3bed.png"
-   },
-   {
-      "pk": 5,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER105",
-         "name": "2bed.jpg",
-         "description": "Lorem"
-      },
-      "price": 36.26,
-      "category": 16,
-      "rating": 4.18,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2bed.jpg",
-      "image": "2bed.jpg"
-   },
-   {
-      "pk": 6,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER106",
-         "name": "2Bed.png",
-         "description": "Lorem"
-      },
-      "price": 69.7,
-      "category": 2,
-      "rating": 3.65,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2Bed.png",
-      "image": "2Bed.png"
-   },
-   {
-      "pk": 7,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER107",
-         "name": "1Coffee_Table.jpg",
-         "description": "Lorem"
-      },
-      "price": 92.6,
-      "category": 12,
-      "rating": 3.84,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1Coffee_Table.jpg",
-      "image": "1Coffee_Table.jpg"
-   },
-   {
-      "pk": 8,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER108",
-         "name": "2coffee-table.jpg",
-         "description": "Lorem"
-      },
-      "price": 57.69,
-      "category": 3,
-      "rating": 4.07,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2coffee-table.jpg",
-      "image": "2coffee-table.jpg"
-   },
-   {
-      "pk": 9,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER109",
-         "name": "3coffee_table.jpg",
-         "description": "Lorem"
-      },
-      "price": 74.38,
+      "rating": 3.41,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/beds_divan_base.jpg",
+      "image": "beds_divan_base.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER102",
+      "name": "Beds Ottoman Divan",
+      "description": "",
+      "price": 76.9,
       "category": 4,
-      "rating": 3.1,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3coffee_table.jpg",
-      "image": "3coffee_table.jpg"
-   },
-   {
-      "pk": 10,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1010",
-         "name": "1floor_lamp.png",
-         "description": "Lorem"
-      },
-      "price": 69.49,
-      "category": 15,
-      "rating": 3.71,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1floor_lamp.png",
-      "image": "1floor_lamp.png"
-   },
-   {
-      "pk": 11,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1011",
-         "name": "2Floor_Lamp.png",
-         "description": "Lorem"
-      },
-      "price": 65.76,
-      "category": 10,
-      "rating": 4.01,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2Floor_Lamp.png",
-      "image": "2Floor_Lamp.png"
-   },
-   {
-      "pk": 12,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1012",
-         "name": "1table_lamp.png",
-         "description": "Lorem"
-      },
-      "price": 70.1,
-      "category": 14,
-      "rating": 4.76,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1table_lamp.png",
-      "image": "1table_lamp.png"
-   },
-   {
-      "pk": 13,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1013",
-         "name": "3table_lamp.png",
-         "description": "Lorem"
-      },
-      "price": 79.1,
-      "category": 15,
-      "rating": 3.46,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3table_lamp.png",
-      "image": "3table_lamp.png"
-   },
-   {
-      "pk": 14,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1014",
-         "name": "2table_lamp.png",
-         "description": "Lorem"
-      },
-      "price": 43.06,
-      "category": 2,
-      "rating": 4.11,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2table_lamp.png",
-      "image": "2table_lamp.png"
-   },
-   {
-      "pk": 15,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1015",
-         "name": "1tv-unit.jpg",
-         "description": "Lorem"
-      },
-      "price": 67.78,
-      "category": 15,
-      "rating": 4.8,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1tv-unit.jpg",
-      "image": "1tv-unit.jpg"
-   },
-   {
-      "pk": 16,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1016",
-         "name": "2tv-unit.jpg",
-         "description": "Lorem"
-      },
-      "price": 74.69,
-      "category": 10,
-      "rating": 4.94,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2tv-unit.jpg",
-      "image": "2tv-unit.jpg"
-   },
-   {
-      "pk": 17,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1017",
-         "name": "2candles.jpg",
-         "description": "Lorem"
-      },
-      "price": 22.61,
-      "category": 11,
-      "rating": 3.75,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2candles.jpg",
-      "image": "2candles.jpg"
-   },
-   {
-      "pk": 18,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1018",
-         "name": "2Candle_Holder.png",
-         "description": "Lorem"
-      },
-      "price": 92.27,
-      "category": 3,
-      "rating": 3.9,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2Candle_Holder.png",
-      "image": "2Candle_Holder.png"
-   },
-   {
-      "pk": 19,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1019",
-         "name": "2candes.jpg",
-         "description": "Lorem"
-      },
-      "price": 26.03,
-      "category": 3,
-      "rating": 3.75,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2candes.jpg",
-      "image": "2candes.jpg"
-   },
-   {
-      "pk": 20,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1020",
-         "name": "3blanket.jpg",
-         "description": "Lorem"
-      },
-      "price": 59.85,
-      "category": 17,
-      "rating": 4.05,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3blanket.jpg",
-      "image": "3blanket.jpg"
-   },
-   {
-      "pk": 21,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1021",
-         "name": "3Desk.png",
-         "description": "Lorem"
-      },
-      "price": 45.88,
-      "category": 18,
-      "rating": 4.41,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3Desk.png",
-      "image": "3Desk.png"
-   },
-   {
-      "pk": 22,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1022",
-         "name": "2Desk.png",
-         "description": "Lorem"
-      },
-      "price": 71.26,
-      "category": 8,
-      "rating": 4.29,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2Desk.png",
-      "image": "2Desk.png"
-   },
-   {
-      "pk": 23,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1023",
-         "name": "1desk.png",
-         "description": "Lorem"
-      },
-      "price": 59.77,
-      "category": 18,
-      "rating": 3.18,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1desk.png",
-      "image": "1desk.png"
-   },
-   {
-      "pk": 24,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1024",
-         "name": "3office_chair.png",
-         "description": "Lorem"
-      },
-      "price": 72.38,
-      "category": 11,
-      "rating": 4.91,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3office_chair.png",
-      "image": "3office_chair.png"
-   },
-   {
-      "pk": 25,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1025",
-         "name": "2officechair.jpg",
-         "description": "Lorem"
-      },
-      "price": 42.05,
-      "category": 1,
-      "rating": 4,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2officechair.jpg",
-      "image": "2officechair.jpg"
-   },
-   {
-      "pk": 26,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1026",
-         "name": "1Office_Chair.png",
-         "description": "Lorem"
-      },
-      "price": 60.2,
-      "category": 14,
-      "rating": 3.29,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1Office_Chair.png",
-      "image": "1Office_Chair.png"
-   },
-   {
-      "pk": 27,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1027",
-         "name": "3Throws.png",
-         "description": "Lorem"
-      },
-      "price": 81.97,
-      "category": 12,
-      "rating": 3.42,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3Throws.png",
-      "image": "3Throws.png"
-   },
-   {
-      "pk": 28,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1028",
-         "name": "2Throws.png",
-         "description": "Lorem"
-      },
-      "price": 53.85,
-      "category": 9,
-      "rating": 4.58,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2Throws.png",
-      "image": "2Throws.png"
-   },
-   {
-      "pk": 29,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1029",
-         "name": "1Throws.png",
-         "description": "Lorem"
-      },
-      "price": 84.74,
-      "category": 3,
-      "rating": 4.17,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1Throws.png",
-      "image": "1Throws.png"
-   },
-   {
-      "pk": 30,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1030",
-         "name": "candleholder1.jpg",
-         "description": "Lorem"
-      },
-      "price": 26.78,
-      "category": 11,
-      "rating": 3.29,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/candleholder1.jpg",
-      "image": "candleholder1.jpg"
-   },
-   {
-      "pk": 31,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1031",
-         "name": "3PlasticCandleLed.png",
-         "description": "Lorem"
-      },
-      "price": 75.84,
-      "category": 1,
-      "rating": 4.21,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3PlasticCandleLed.png",
-      "image": "3PlasticCandleLed.png"
-   },
-   {
-      "pk": 32,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1032",
-         "name": "candles.jpg",
-         "description": "Lorem"
-      },
-      "price": 89.17,
-      "category": 16,
-      "rating": 4.4,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/candles.jpg",
-      "image": "candles.jpg"
-   },
-   {
-      "pk": 33,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1033",
-         "name": "canholder.jpg",
-         "description": "Lorem"
-      },
-      "price": 38.04,
-      "category": 7,
-      "rating": 4.56,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/canholder.jpg",
-      "image": "canholder.jpg"
-   },
-   {
-      "pk": 34,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1034",
-         "name": "1candle_holder.jpg",
-         "description": "Lorem"
-      },
-      "price": 86.25,
-      "category": 3,
-      "rating": 4.86,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1candle_holder.jpg",
-      "image": "1candle_holder.jpg"
-   },
-   {
-      "pk": 35,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1035",
-         "name": "3Ceiling_Light.png",
-         "description": "Lorem"
-      },
-      "price": 26,
-      "category": 7,
-      "rating": 3.64,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3Ceiling_Light.png",
-      "image": "3Ceiling_Light.png"
-   },
-   {
-      "pk": 36,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1036",
-         "name": "1ceiling_light.png",
-         "description": "Lorem"
-      },
-      "price": 74.43,
-      "category": 14,
-      "rating": 4.52,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1ceiling_light.png",
-      "image": "1ceiling_light.png"
-   },
-   {
-      "pk": 37,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1037",
-         "name": "2ceiling_light.png",
-         "description": "Lorem"
-      },
-      "price": 74.2,
-      "category": 2,
-      "rating": 4.73,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2ceiling_light.png",
-      "image": "2ceiling_light.png"
-   },
-   {
-      "pk": 38,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1038",
-         "name": "ceiling.jpg",
-         "description": "Lorem"
-      },
-      "price": 53.32,
-      "category": 1,
-      "rating": 3.65,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceiling.jpg",
-      "image": "ceiling.jpg"
-   },
-   {
-      "pk": 39,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1039",
-         "name": "ceiling3.jpg",
-         "description": "Lorem"
-      },
-      "price": 58.11,
-      "category": 2,
-      "rating": 4.38,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceiling3.jpg",
-      "image": "ceiling3.jpg"
-   },
-   {
-      "pk": 40,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1040",
-         "name": "ceilingk.jpg",
-         "description": "Lorem"
-      },
-      "price": 68.79,
-      "category": 1,
-      "rating": 3.17,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceilingk.jpg",
-      "image": "ceilingk.jpg"
-   },
-   {
-      "pk": 41,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1041",
-         "name": "ceilingm.jpg",
-         "description": "Lorem"
-      },
-      "price": 33.67,
-      "category": 3,
-      "rating": 3.97,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceilingm.jpg",
-      "image": "ceilingm.jpg"
-   },
-   {
-      "pk": 42,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1042",
-         "name": "ceilingv.jpg",
-         "description": "Lorem"
-      },
-      "price": 97.26,
-      "category": 7,
-      "rating": 4.4,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceilingv.jpg",
-      "image": "ceilingv.jpg"
-   },
-   {
-      "pk": 43,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1043",
-         "name": "ceilingx.jpg",
-         "description": "Lorem"
-      },
-      "price": 48.36,
-      "category": 17,
-      "rating": 3.52,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceilingx.jpg",
-      "image": "ceilingx.jpg"
-   },
-   {
-      "pk": 44,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1044",
-         "name": "coffeetble.jpg",
-         "description": "Lorem"
-      },
-      "price": 45.65,
-      "category": 3,
-      "rating": 3.08,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/coffeetble.jpg",
-      "image": "coffeetble.jpg"
-   },
-   {
-      "pk": 45,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1045",
-         "name": "dinchair3.jpg",
-         "description": "Lorem"
-      },
-      "price": 58.84,
-      "category": 16,
-      "rating": 3.48,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinchair3.jpg",
-      "image": "dinchair3.jpg"
-   },
-   {
-      "pk": 46,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1046",
-         "name": "dinchair4.jpg",
-         "description": "Lorem"
-      },
-      "price": 45.68,
-      "category": 5,
-      "rating": 3.71,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinchair4.jpg",
-      "image": "dinchair4.jpg"
-   },
-   {
-      "pk": 47,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1047",
-         "name": "dining2.jpg",
-         "description": "Lorem"
-      },
-      "price": 93.72,
-      "category": 14,
-      "rating": 3.28,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dining2.jpg",
-      "image": "dining2.jpg"
-   },
-   {
-      "pk": 48,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1048",
-         "name": "dining3.jpg",
-         "description": "Lorem"
-      },
-      "price": 50.54,
-      "category": 9,
-      "rating": 3.29,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dining3.jpg",
-      "image": "dining3.jpg"
-   },
-   {
-      "pk": 49,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1049",
-         "name": "diningchair1.jpg",
-         "description": "Lorem"
-      },
-      "price": 45.77,
-      "category": 11,
-      "rating": 3.14,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/diningchair1.jpg",
-      "image": "diningchair1.jpg"
-   },
-   {
-      "pk": 50,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1050",
-         "name": "diningset1.jpg",
-         "description": "Lorem"
-      },
-      "price": 77.28,
-      "category": 14,
-      "rating": 4.68,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/diningset1.jpg",
-      "image": "diningset1.jpg"
-   },
-   {
-      "pk": 51,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1051",
-         "name": "dininset2.jpg",
-         "description": "Lorem"
-      },
-      "price": 51.53,
-      "category": 5,
-      "rating": 3.95,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dininset2.jpg",
-      "image": "dininset2.jpg"
-   },
-   {
-      "pk": 52,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1052",
-         "name": "dinninset1.jpg",
-         "description": "Lorem"
-      },
-      "price": 80.78,
-      "category": 9,
-      "rating": 4,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinninset1.jpg",
-      "image": "dinninset1.jpg"
-   },
-   {
-      "pk": 53,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1053",
-         "name": "matress1.jpg",
-         "description": "Lorem"
-      },
-      "price": 61.5,
-      "category": 11,
-      "rating": 3.8,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/matress1.jpg",
-      "image": "matress1.jpg"
-   },
-   {
-      "pk": 54,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1054",
-         "name": "3Mattress.png",
-         "description": "Lorem"
-      },
-      "price": 32.15,
-      "category": 1,
-      "rating": 3.02,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3Mattress.png",
-      "image": "3Mattress.png"
-   },
-   {
-      "pk": 55,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1055",
-         "name": "matress2.jpg",
-         "description": "Lorem"
-      },
-      "price": 87.46,
-      "category": 14,
-      "rating": 4.12,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/matress2.jpg",
-      "image": "matress2.jpg"
-   },
-   {
-      "pk": 56,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1056",
-         "name": "mattress9.jpg",
-         "description": "Lorem"
-      },
-      "price": 86.71,
-      "category": 3,
-      "rating": 3.92,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/mattress9.jpg",
-      "image": "mattress9.jpg"
-   },
-   {
-      "pk": 57,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1057",
-         "name": "2Mattress.png",
-         "description": "Lorem"
-      },
-      "price": 80.51,
-      "category": 12,
-      "rating": 4.49,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2Mattress.png",
-      "image": "2Mattress.png"
-   },
-   {
-      "pk": 58,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1058",
-         "name": "1Mattress.png",
-         "description": "Lorem"
-      },
-      "price": 73.55,
-      "category": 11,
-      "rating": 3.66,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1Mattress.png",
-      "image": "1Mattress.png"
-   },
-   {
-      "pk": 59,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1059",
-         "name": "ornaments.jpg",
-         "description": "Lorem"
-      },
-      "price": 37.4,
-      "category": 8,
-      "rating": 4.01,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ornaments.jpg",
-      "image": "ornaments.jpg"
-   },
-   {
-      "pk": 60,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1060",
-         "name": "3ormants.jpg",
-         "description": "Lorem"
-      },
-      "price": 67.81,
+      "rating": 4.99,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/beds_Ottoman_Divan.jpg",
+      "image": "beds_Ottoman_Divan.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER103",
+      "name": "Rose Beds",
+      "description": "",
+      "price": 87.43,
+      "category": 4,
+      "rating": 4.93,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/rose_beds.jpg",
+      "image": "rose_beds.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER104",
+      "name": "Duval Double Beds",
+      "description": "",
+      "price": 43.13,
       "category": 4,
       "rating": 4.97,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3ormants.jpg",
-      "image": "3ormants.jpg"
-   },
-   {
-      "pk": 61,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1061",
-         "name": "1ornaments.jpg",
-         "description": "Lorem"
-      },
-      "price": 22.78,
-      "category": 8,
-      "rating": 4.91,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1ornaments.jpg",
-      "image": "1ornaments.jpg"
-   },
-   {
-      "pk": 62,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1062",
-         "name": "wardrobe2.jpg",
-         "description": "Lorem"
-      },
-      "price": 87.27,
-      "category": 8,
-      "rating": 4.51,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/wardrobe2.jpg",
-      "image": "wardrobe2.jpg"
-   },
-   {
-      "pk": 63,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1063",
-         "name": "wardrobe3.jpg",
-         "description": "Lorem"
-      },
-      "price": 48.48,
-      "category": 3,
-      "rating": 4.92,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/wardrobe3.jpg",
-      "image": "wardrobe3.jpg"
-   },
-   {
-      "pk": 64,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1064",
-         "name": "3WARDROBE.png",
-         "description": "Lorem"
-      },
-      "price": 67.59,
-      "category": 3,
-      "rating": 4.69,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/3WARDROBE.png",
-      "image": "3WARDROBE.png"
-   },
-   {
-      "pk": 65,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1065",
-         "name": "2Wardrobe.png",
-         "description": "Lorem"
-      },
-      "price": 46.2,
-      "category": 14,
-      "rating": 3.79,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/2Wardrobe.png",
-      "image": "2Wardrobe.png"
-   },
-   {
-      "pk": 66,
-      "model": "products.product",
-      "fields": {
-         "sku": "SUPER1066",
-         "name": "1Wardrob.png",
-         "description": "Lorem"
-      },
-      "price": 44.95,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Duval_Double_beds.jpg",
+      "image": "Duval_Double_beds.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER105",
+      "name": "Gazi Sofa",
+      "description": "",
+      "price": 61.85,
+      "category": 1,
+      "rating": 4.22,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/gazi_sofa.png",
+      "image": "gazi_sofa.png"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER106",
+      "name": "Malta Sofa",
+      "description": "",
+      "price": 26.88,
+      "category": 1,
+      "rating": 3.61,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/malta_sofa.png",
+      "image": "malta_sofa.png"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER107",
+      "name": "Stacey Sofa",
+      "description": "",
+      "price": 29.53,
+      "category": 1,
+      "rating": 4.29,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/stacey_sofa.jpg",
+      "image": "stacey_sofa.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER108",
+      "name": "Eva Sofa",
+      "description": "",
+      "price": 31.79,
+      "category": 1,
+      "rating": 3.82,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/eva_sofa.png",
+      "image": "eva_sofa.png"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER109",
+      "name": "Bliss Back Throws",
+      "description": "",
+      "price": 52.75,
+      "category": 13,
+      "rating": 3.63,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/bliss_back_throws.png",
+      "image": "bliss_back_throws.png"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1010",
+      "name": "Bliss Brown Throws",
+      "description": "",
+      "price": 56.98,
+      "category": 13,
+      "rating": 4.07,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/bliss_brown_throws.png",
+      "image": "bliss_brown_throws.png"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1011",
+      "name": "Zera Chen Throws",
+      "description": "",
+      "price": 45.61,
+      "category": 13,
+      "rating": 4.56,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/zera_chen_throws.png",
+      "image": "zera_chen_throws.png"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1012",
+      "name": "Dana Fannel Throws",
+      "description": "",
+      "price": 40.27,
+      "category": 13,
+      "rating": 3.45,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dana_fannel_throws.jpg",
+      "image": "dana_fannel_throws.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1013",
+      "name": "Adam Visitors Chair",
+      "description": "",
+      "price": 46.08,
+      "category": 11,
+      "rating": 4.43,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Adam_Visitors_Chair.png",
+      "image": "Adam_Visitors_Chair.png"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1014",
+      "name": "Low Back Chair",
+      "description": "",
+      "price": 44.79,
+      "category": 11,
+      "rating": 4.76,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Low_Back_Chair.png",
+      "image": "Low_Back_Chair.png"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1015",
+      "name": "Low Back Office Chair",
+      "description": "",
+      "price": 59.55,
+      "category": 11,
+      "rating": 4.38,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Low_Back_Office_Chair.png",
+      "image": "Low_Back_Office_Chair.png"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1016",
+      "name": "Office Visitor Chair",
+      "description": "",
+      "price": 75.09,
+      "category": 11,
+      "rating": 4.87,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Office_Visitor_Chair.png",
+      "image": "Office_Visitor_Chair.png"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1017",
+      "name": "Oddie Office Desk",
+      "description": "",
+      "price": 68.26,
       "category": 10,
+      "rating": 3.3,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Oddie_Office_desk.png",
+      "image": "Oddie_Office_desk.png"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1018",
+      "name": "Blake Office Desk",
+      "description": "",
+      "price": 36.99,
+      "category": 10,
+      "rating": 4.55,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Blake_Office_Desk.png",
+      "image": "Blake_Office_Desk.png"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1019",
+      "name": "Jeff Office Desk",
+      "description": "",
+      "price": 36.05,
+      "category": 10,
+      "rating": 4.36,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Jeff_Office_Desk.png",
+      "image": "Jeff_Office_Desk.png"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1020",
+      "name": "Lexi Partition Office Desks",
+      "description": "",
+      "price": 58.99,
+      "category": 10,
+      "rating": 4.3,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Lexi_Partition_Office_desks.png",
+      "image": "Lexi_Partition_Office_desks.png"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1021",
+      "name": "Flex Foam Matressess",
+      "description": "",
+      "price": 56.89,
+      "category": 5,
+      "rating": 3.62,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Flex_Foam_Matressess.png",
+      "image": "Flex_Foam_Matressess.png"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1022",
+      "name": "Flex Form Matressess",
+      "description": "",
+      "price": 41.3,
+      "category": 5,
+      "rating": 3.67,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Flex_Form_Matressess.png",
+      "image": "Flex_Form_Matressess.png"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1023",
+      "name": "Bed Spring Matressess",
+      "description": "",
+      "price": 28.95,
+      "category": 5,
+      "rating": 3.6,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Bed_Spring_Matressess.png",
+      "image": "Bed_Spring_Matressess.png"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1024",
+      "name": "Mega Foam Matressess",
+      "description": "",
+      "price": 87.46,
+      "category": 5,
+      "rating": 4.67,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Mega_Foam_Matressess.png",
+      "image": "Mega_Foam_Matressess.png"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1025",
+      "name": "Candle Holders Smaller",
+      "description": "",
+      "price": 28.4,
+      "category": 12,
+      "rating": 3.41,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/candle_holders_smaller.jpg",
+      "image": "candle_holders_smaller.jpg"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1026",
+      "name": "Cone Handle Holders",
+      "description": "",
+      "price": 31.87,
+      "category": 12,
+      "rating": 3.43,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/cone_handle_holders.png",
+      "image": "cone_handle_holders.png"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1027",
+      "name": "Votive Candles Small",
+      "description": "",
+      "price": 93.35,
+      "category": 12,
+      "rating": 3.24,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/votive_candles_small.png",
+      "image": "votive_candles_small.png"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1028",
+      "name": "Wax Candles Led",
+      "description": "",
+      "price": 35.52,
+      "category": 12,
+      "rating": 4.85,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/wax_candles_led.png",
+      "image": "wax_candles_led.png"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1029",
+      "name": "Plastic Candles Led",
+      "description": "",
+      "price": 79.86,
+      "category": 12,
+      "rating": 3.54,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/plastic_candles_led.png",
+      "image": "plastic_candles_led.png"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1030",
+      "name": "Tea Candles Battery",
+      "description": "",
+      "price": 27.95,
+      "category": 12,
+      "rating": 4.5,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/tea_candles_battery.png",
+      "image": "tea_candles_battery.png"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1031",
+      "name": "Silver Candle Holders",
+      "description": "",
+      "price": 32.68,
+      "category": 12,
+      "rating": 3.72,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/silver_candle_holders.jpg",
+      "image": "silver_candle_holders.jpg"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1032",
+      "name": "Small Candle Holders",
+      "description": "",
+      "price": 79.82,
+      "category": 12,
+      "rating": 3.57,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/small_candle_holders.png",
+      "image": "small_candle_holders.png"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1033",
+      "name": "Carmen Coffee Table",
+      "description": "",
+      "price": 58.38,
+      "category": 3,
+      "rating": 4.6,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Carmen_Coffee_Table.png",
+      "image": "Carmen_Coffee_Table.png"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1034",
+      "name": "Coffee Table Broady",
+      "description": "",
+      "price": 91.78,
+      "category": 3,
+      "rating": 4.57,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/coffee_table_broady.png",
+      "image": "coffee_table_broady.png"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1035",
+      "name": "Trey Coffee Table",
+      "description": "",
+      "price": 32.64,
+      "category": 3,
+      "rating": 3.29,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Trey_Coffee_Table.png",
+      "image": "Trey_Coffee_Table.png"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1036",
+      "name": "Linnett Coffee Table",
+      "description": "",
+      "price": 53.33,
+      "category": 3,
+      "rating": 3.44,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Linnett_Coffee_Table.png",
+      "image": "Linnett_Coffee_Table.png"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1037",
+      "name": "Ceiling Lamp Plastic",
+      "description": "",
+      "price": 38.96,
+      "category": 16,
+      "rating": 3.12,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceiling_lamp_plastic.png",
+      "image": "ceiling_lamp_plastic.png"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1038",
+      "name": "Ceiling Lamp Round",
+      "description": "",
+      "price": 45.75,
+      "category": 16,
+      "rating": 4.8,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceiling_lamp_round.png",
+      "image": "ceiling_lamp_round.png"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1039",
+      "name": "Ceiling Lamp Square",
+      "description": "",
+      "price": 43.53,
+      "category": 16,
+      "rating": 4.54,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceiling_lamp_square.png",
+      "image": "ceiling_lamp_square.png"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1040",
+      "name": "Ceiling Light Mounted",
+      "description": "",
+      "price": 71.57,
+      "category": 16,
+      "rating": 4.69,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ceiling_light_mounted.jpg",
+      "image": "ceiling_light_mounted.jpg"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1041",
+      "name": "Clea Fannel Blankets",
+      "description": "",
+      "price": 79.38,
+      "category": 13,
+      "rating": 3.04,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/clea_fannel_blankets.png",
+      "image": "clea_fannel_blankets.png"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1042",
+      "name": "Fanel Printed Blankets",
+      "description": "",
+      "price": 37.41,
+      "category": 13,
+      "rating": 3.6,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/fanel_printed_blankets.png",
+      "image": "fanel_printed_blankets.png"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1043",
+      "name": "Petal Faneel Blankets",
+      "description": "",
+      "price": 63.37,
+      "category": 13,
       "rating": 4.84,
-      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/1Wardrob.png",
-      "image": "1Wardrob.png"
-   }
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/petal_faneel_blankets.png",
+      "image": "petal_faneel_blankets.png"
+    }
+  },
+  {
+    "pk": 44,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1044",
+      "name": "Sera Fennel Blankets",
+      "description": "",
+      "price": 97.02,
+      "category": 13,
+      "rating": 4.94,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/sera_fennel_blankets.jpg",
+      "image": "sera_fennel_blankets.jpg"
+    }
+  },
+  {
+    "pk": 45,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1045",
+      "name": "Dinning  Tables Tan",
+      "description": "",
+      "price": 61.43,
+      "category": 7,
+      "rating": 3.59,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinning _tables_tan.jpg",
+      "image": "dinning _tables_tan.jpg"
+    }
+  },
+  {
+    "pk": 46,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1046",
+      "name": "Dinning Tables Bench",
+      "description": "",
+      "price": 27.4,
+      "category": 7,
+      "rating": 3.02,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinning_tables_bench.png",
+      "image": "dinning_tables_bench.png"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1047",
+      "name": "Dinning Tables Brown",
+      "description": "",
+      "price": 94.45,
+      "category": 7,
+      "rating": 4.39,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinning_tables_brown.png",
+      "image": "dinning_tables_brown.png"
+    }
+  },
+  {
+    "pk": 48,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1048",
+      "name": "Dinning Tables Round",
+      "description": "",
+      "price": 32.85,
+      "category": 7,
+      "rating": 3.58,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinning_tables_round.png",
+      "image": "dinning_tables_round.png"
+    }
+  },
+  {
+    "pk": 49,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1049",
+      "name": "Dinning Bitter Chair",
+      "description": "",
+      "price": 34.63,
+      "category": 8,
+      "rating": 4.34,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinning_bitter_chair.jpg",
+      "image": "dinning_bitter_chair.jpg"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1050",
+      "name": "Dinning Boden Chair",
+      "description": "",
+      "price": 30.94,
+      "category": 8,
+      "rating": 3.09,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinning_boden_chair.jpg",
+      "image": "dinning_boden_chair.jpg"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1051",
+      "name": "Dinning Cater Chair",
+      "description": "",
+      "price": 78.15,
+      "category": 8,
+      "rating": 3.33,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinning_cater_chair.jpg",
+      "image": "dinning_cater_chair.jpg"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1052",
+      "name": "Dinning Clover Chair",
+      "description": "",
+      "price": 23.37,
+      "category": 8,
+      "rating": 4.03,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinning_clover_chair.png",
+      "image": "dinning_clover_chair.png"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1053",
+      "name": "Dinning Set Gideon",
+      "description": "",
+      "price": 72.68,
+      "category": 9,
+      "rating": 4.44,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinning_set_gideon.jpg",
+      "image": "dinning_set_gideon.jpg"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1054",
+      "name": "Dinning Set Grace",
+      "description": "",
+      "price": 80.85,
+      "category": 9,
+      "rating": 3.39,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinning_set_grace.png",
+      "image": "dinning_set_grace.png"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1055",
+      "name": "Dinning Set Lionel",
+      "description": "",
+      "price": 23.56,
+      "category": 9,
+      "rating": 4.12,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinning_set_lionel.png",
+      "image": "dinning_set_lionel.png"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1056",
+      "name": "Dinning Set Moka",
+      "description": "",
+      "price": 36.13,
+      "category": 9,
+      "rating": 4.34,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/dinning_set_moka.jpg",
+      "image": "dinning_set_moka.jpg"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1057",
+      "name": "Floor Lamp Amber",
+      "description": "",
+      "price": 81.09,
+      "category": 17,
+      "rating": 4.22,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/floor_lamp_amber.png",
+      "image": "floor_lamp_amber.png"
+    }
+  },
+  {
+    "pk": 58,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1058",
+      "name": "Floor Lamp Bamboo",
+      "description": "",
+      "price": 87.88,
+      "category": 17,
+      "rating": 3.72,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/floor_lamp_bamboo.png",
+      "image": "floor_lamp_bamboo.png"
+    }
+  },
+  {
+    "pk": 59,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1059",
+      "name": "Floor Lamp Silver",
+      "description": "",
+      "price": 40.1,
+      "category": 17,
+      "rating": 3.29,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/floor_lamp_silver.png",
+      "image": "floor_lamp_silver.png"
+    }
+  },
+  {
+    "pk": 60,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1060",
+      "name": "Bamboo Floor Lamp",
+      "description": "",
+      "price": 44.67,
+      "category": 17,
+      "rating": 3.97,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Bamboo_Floor_Lamp.png",
+      "image": "Bamboo_Floor_Lamp.png"
+    }
+  },
+  {
+    "pk": 61,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1061",
+      "name": "Ornaments6 Items",
+      "description": "",
+      "price": 43.3,
+      "category": 15,
+      "rating": 3.03,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ornaments6_items.jpg",
+      "image": "ornaments6_items.jpg"
+    }
+  },
+  {
+    "pk": 62,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1062",
+      "name": "Ornaments7 Items",
+      "description": "",
+      "price": 49.97,
+      "category": 15,
+      "rating": 3.51,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ornaments7_items.jpg",
+      "image": "ornaments7_items.jpg"
+    }
+  },
+  {
+    "pk": 63,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1063",
+      "name": "Ornaments8 Items",
+      "description": "",
+      "price": 50.5,
+      "category": 15,
+      "rating": 3.61,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ornaments8_items.jpeg",
+      "image": "ornaments8_items.jpeg"
+    }
+  },
+  {
+    "pk": 64,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1064",
+      "name": "Ornaments Tray",
+      "description": "",
+      "price": 53.16,
+      "category": 15,
+      "rating": 4.13,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/ornaments_tray.jpeg",
+      "image": "ornaments_tray.jpeg"
+    }
+  },
+  {
+    "pk": 65,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1065",
+      "name": "Table Lamp Fabric",
+      "description": "",
+      "price": 66.57,
+      "category": 14,
+      "rating": 4.92,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/Table_Lamp_Fabric.png",
+      "image": "Table_Lamp_Fabric.png"
+    }
+  },
+  {
+    "pk": 66,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1066",
+      "name": "Table Lamp Glass",
+      "description": "",
+      "price": 33.51,
+      "category": 14,
+      "rating": 3.96,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/table_lamp_glass.png",
+      "image": "table_lamp_glass.png"
+    }
+  },
+  {
+    "pk": 67,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1067",
+      "name": "Table Lamp Silver",
+      "description": "",
+      "price": 33.01,
+      "category": 14,
+      "rating": 3.81,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/table_lamp_silver.png",
+      "image": "table_lamp_silver.png"
+    }
+  },
+  {
+    "pk": 68,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1068",
+      "name": "Table Lamp Ceramic",
+      "description": "",
+      "price": 48.44,
+      "category": 14,
+      "rating": 3.05,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/table_lamp_ceramic.png",
+      "image": "table_lamp_ceramic.png"
+    }
+  },
+  {
+    "pk": 69,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1069",
+      "name": "Zahava Tv Rack",
+      "description": "",
+      "price": 86.18,
+      "category": 2,
+      "rating": 3.37,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/zahava_tv_rack.png",
+      "image": "zahava_tv_rack.png"
+    }
+  },
+  {
+    "pk": 70,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1070",
+      "name": "Diya Tv Rack",
+      "description": "",
+      "price": 61.66,
+      "category": 2,
+      "rating": 3.59,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/diya_tv_rack.png",
+      "image": "diya_tv_rack.png"
+    }
+  },
+  {
+    "pk": 71,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1071",
+      "name": "Tad Tv Rack",
+      "description": "",
+      "price": 92.39,
+      "category": 2,
+      "rating": 4.98,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/tad_tv_rack.jpg",
+      "image": "tad_tv_rack.jpg"
+    }
+  },
+  {
+    "pk": 72,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1072",
+      "name": "Opal Tv Rack",
+      "description": "",
+      "price": 94.93,
+      "category": 2,
+      "rating": 3.81,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/opal_tv_rack.jpg",
+      "image": "opal_tv_rack.jpg"
+    }
+  },
+  {
+    "pk": 73,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1073",
+      "name": "David Wardrobes",
+      "description": "",
+      "price": 75.95,
+      "category": 6,
+      "rating": 4.32,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/david_Wardrobes.png",
+      "image": "david_Wardrobes.png"
+    }
+  },
+  {
+    "pk": 74,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1074",
+      "name": "Mardie Wardrobes ",
+      "description": "",
+      "price": 48.91,
+      "category": 6,
+      "rating": 3.74,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/mardie_Wardrobes .png",
+      "image": "mardie_Wardrobes .png"
+    }
+  },
+  {
+    "pk": 75,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1075",
+      "name": "Stella Wardrobes",
+      "description": "",
+      "price": 44.01,
+      "category": 6,
+      "rating": 3.74,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/stella_Wardrobes.png",
+      "image": "stella_Wardrobes.png"
+    }
+  },
+  {
+    "pk": 76,
+    "model": "products.product",
+    "fields": {
+      "sku": "SUPER1076",
+      "name": "Wardrobes Harper",
+      "description": "",
+      "price": 24.38,
+      "category": 6,
+      "rating": 3.95,
+      "image_url": "https://supremefurnitures.s3.amazonaws.com/static/media/wardrobes_harper.png",
+      "image": "wardrobes_harper.png"
+    }
+  }
 ]

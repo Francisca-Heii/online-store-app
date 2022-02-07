@@ -27,7 +27,7 @@
         </li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link mx-4"
-                href="{% url 'products' %}?category=beds,matresses,wardrobes" id="bedroom" aria-haspopup="true"
+                href="{% url 'products' %}?category=beds,matressess,wardrobes" id="bedroom" aria-haspopup="true"
                 aria-expanded="false">Bedroom</a>
             <div class="dropdown-menu border-0" aria-labelledby="bedroom">
                 <a href="{% url 'products' %}?category=beds" class="dropdown-item">Beds </a>
@@ -39,48 +39,49 @@
         </li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link mx-4"
-                href="{% url 'products' %}?category=Dinning_Tables,Dinning_Chair,Dinning_Set"
-                data-target="{% url 'products' %}?category=Dinning_Tables,Dinning_Chair,Dinning_Set" id="Dinning-room"
+                href="{% url 'products' %}?category=dinning_tables,dinning_chair,dinning_set"
+                data-target="{% url 'products' %}?category=dinning_tables,dinning_chair,dinning_set" id="Dinning-room"
                 aria-haspopup="true" aria-expanded="false">Dinning Room</a>
             <div class="dropdown-menu border-0" aria-labelledby="Dinning-room">
-                <a href="{% url 'products' %}?category=Dinning_Tables" class="dropdown-item">Dinning Table </a>
-                <a href="{% url 'products' %}?category=Dinning_Chair" class="dropdown-item">Dinning Chair</a>
-                <a href="{% url 'products' %}?category=Dinning_Set" class="dropdown-item">Dinning Set</a>
+                <a href="{% url 'products' %}?category=dinning_tables" class="dropdown-item">Dinning Table </a>
+                <a href="{% url 'products' %}?category=dinning_chair" class="dropdown-item">Dinning Chair</a>
+                <a href="{% url 'products' %}?category=dinning_set" class="dropdown-item">Dinning Set</a>
 
             </div>
         </li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link mx-4"
                 data-target="{% url 'products' %}?category=Desk,office_chair"
-                href="{% url 'products' %}?category=Desk,office_chair" id="Study" aria-haspopup="true"
+                href="{% url 'products' %}?category=desk,office_chair" id="Study" aria-haspopup="true"
                 aria-expanded="false">Study</a>
             <div class="dropdown-menu border-0" aria-labelledby="Study">
-                <a href="{% url 'products' %}?category=Desk" class="dropdown-item">Desk </a>
+                <a href="{% url 'products' %}?category=desk" class="dropdown-item">Desk </a>
                 <a href="{% url 'products' %}?category=office_chair" class="dropdown-item">Office Chair</a>
             </div>
         </li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link mx-4"
-                href="{% url 'products' %}?category=Candles and Holders,Throws and Blankets,Ornamental items"
-                id="Lighting" aria-haspopup="true" aria-expanded="false">Lighting</a>
-            <div class="dropdown-menu border-0" aria-labelledby="Lighting">
-                <a href="{% url 'products' %}?category=Candles and Holders" class="dropdown-item">Candles and
-                    Holders</a>
-                <a href="{% url 'products' %}?category=Throws and Blankets" class="dropdown-item">Throws and
-                    blankets</a>
-                <a href="{% url 'products' %}?category=Ornamental items" class="dropdown-item">Ornamental items</a>
+                href="{% url 'products' %}?category=ceiling_lamp,table_lamp,floor_lamp" id="Lighting"
+                aria-haspopup="true" aria-expanded="false">Lighting</a>
+            <div class="dropdown-menu border-0" aria-labelledby="Accessories">
+                <a href="{% url 'products' %}?category=ceiling_lamp" class="dropdown-item">Ceiling Lamp</a>
+                <a href="{% url 'products' %}?category=table_lamp" class="dropdown-item">Table Lamp</a>
+                <a href="{% url 'products' %}?category=floor_lamp" class="dropdown-item">Floor Lamp</a>
 
 
             </div>
+
         </li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link mx-4"
-                href="{% url 'products' %}?category=Ceiling Lamp,Table Lamp,Floor Lamp" id="Accessories"
-                aria-haspopup="true" aria-expanded="false">Accessories</a>
-            <div class="dropdown-menu border-0" aria-labelledby="Accessories">
-                <a href="{% url 'products' %}?category=Ceiling Lamp" class="dropdown-item">Ceiling Lamp</a>
-                <a href="{% url 'products' %}?category=Table Lamp" class="dropdown-item">Table Lamp</a>
-                <a href="{% url 'products' %}?category=Floor Lamp" class="dropdown-item">Floor Lamp</a>
+                href="{% url 'products' %}?category=candles_and_holders,throws_and_blankets,ornamental_items"
+                id="Accessories" aria-haspopup="true" aria-expanded="false">Accessories</a>
+            <div class="dropdown-menu border-0" aria-labelledby="Lighting">
+                <a href="{% url 'products' %}?category=candles_and_holders" class="dropdown-item">Candles and
+                    Holders</a>
+                <a href="{% url 'products' %}?category=throws_and_blankets" class="dropdown-item">Throws and
+                    blankets</a>
+                <a href="{% url 'products' %}?category=ornamental_items" class="dropdown-item">Ornamental items</a>
 
 
             </div>

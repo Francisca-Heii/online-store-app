@@ -53,9 +53,9 @@
 </head>
 
 <body>
-    <a class="rotate btn text-white" href="{% url 'products' %}review/feedback">Feedback</a>
+    <a class="rotate btn text-white" href="{% url 'review' %}feedback">Feedback</a>
 
-    <a class="contact-btn btn text-white" href="{% url 'products' %}review/contact">contact</a>
+    <a class="contact-btn btn text-white" href="{% url 'review' %}contact">contact</a>
 
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
@@ -194,7 +194,7 @@
                     <div class=" card-body border rounded ">
                         <h5 class=" card-title text-left my-2"> <strong> <u>About Us</u> </strong></h5>
                         <h6 class="card-subtitle text-left ">&nbsp;</h6>
-                        <p class="card-text text-justify" style="line-height: 2.9; text-indent:10%">At <span>
+                        <p class="card-text text-justify" style="line-height: 2.75; text-indent:10%">At <span>
                                 <strong></strong>
                                 Supreme Furnitures</strong> </span>, we take great pride in
                             design and hand-craftsmanship of our products. Our in-house designers create
@@ -221,7 +221,7 @@
             <div class="col-lg-6 p-3  text-center">
                 <div class="card m-auto border rounded">
                     <div class="card ">
-                        <img src="https://supremefurnitures.s3.amazonaws.com/static/media/bedroomy.jpg" alt=""
+                        <img src="https://supremefurnitures.s3.amazonaws.com/static/media/outdoorfurn.jpg" alt=""
                             class="card-img">
                         <div class="card-img-overlay">
                             <h3 class="card-title float-left text-warning">SUPREME FURNITURES</h3>
@@ -249,24 +249,107 @@
         </div>
 
     </div>
-    <div class="row m-0 border-top bg-light text-light">
-        <div class="col-md-6 col-lg-8 p-5 m-0">
-            <p class="copyright text-secondary">
-                Copyright &copy;
-                <script>
-                    document.write(new Date().getFullYear());
-                </script> All rights reserved.
-            </p>
-        </div>
-        <div class="d-flex  justify-content-center"><a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i
-                    class="bi bi-twitter"></i></a><a href="#"><i class="bi bi-youtube"></i></a><a href="#"><i
-                    class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-google"></i></a></div>
-        <div class="col-md-6 col-lg-4 p-5">
-            <p class="copyright text-secondary">Owned by<i class="bi bi-hearts text-success"
-                    style="color: #244922;"></i> <a href="https://supremefurnitures.herokuapp.com/" target="_blank"
-                    style="color: #244922;">Supremefurnitures.com</a>
-            </p>
-        </div>
+    <!-- FOOTER--------------------------------- -->
+    <div class="container-flex my-5">
+        <!-- Footer -->
+        <footer class="text-center text-white" style="background-color: #dbdbdb">
+            <!-- Grid container -->
+            <div class="container">
+                <!-- Section: Links -->
+                <section class="mt-5">
+                    <!-- Grid row-->
+                    <div class="row text-center d-flex justify-content-center pt-5">
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="#!" class="text-dark">About us</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="#!" class="text-dark">Products</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="#!" class="text-dark">Awards</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="#!" class="text-dark">Help</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="#!" class="text-dark">Contact</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row-->
+                </section>
+                <!-- Section: Links -->
+
+                <hr class="my-5" />
+
+                <!-- Section: Text -->
+                <section class="mb-5">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <p class="text-dark">
+                                Thank you! Visit us Again....
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Section: Text -->
+
+                <!-- Section: Social -->
+                <section class="text-center mb-5">
+                    <a href="" class="text-dark me-4 p-2">
+                        <i style="font-size: large;" class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="text-dark me-4 p-2">
+                        <i style="font-size: large;" class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="text-dark me-4 p-2">
+                        <i style="font-size: large;" class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="text-dark me-4 p-2">
+                        <i style="font-size: large;" class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="text-dark me-4 p-2">
+                        <i style="font-size: large;" class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="text-dark me-4 p-2">
+                        <i style="font-size: large;" class="fab fa-github"></i>
+                    </a>
+                </section>
+                <!-- Section: Social -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2020 Copyright:
+                <a class="text-black" href="https://supremefurnitures.com/">supremefurnitures.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
     </div>
 
     {% block postloadjs %}
