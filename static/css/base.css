@@ -375,7 +375,7 @@ input:hover {
     top: 450px !important;
     right: 0px !important;
     padding: 5px !important;
-    position: absolute !important;
+    position: fixed !important;
     margin: 0% !important;
     background-color: rgba(30, 4, 92, 0.925) !important;
     z-index: 9999;
