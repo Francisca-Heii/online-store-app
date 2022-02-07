@@ -2,23 +2,21 @@
 {% load static %}
 
 {% block extra_css %}
-<div class="container d-flex" style="margin: 150px 150px;padding:100px ">
-
-    <div class="card d-flex text-center padding:50px">
-        <div class="mgb-40 padb-30 auto-invert line-b-4 align-center">
-            <h4 class="font-cond-l fg-accent lts-md mgb-10 p-3" contenteditable="false">Not Yet Convinced?</h4>
-            <h1 class="font-cond-b fg-text-d lts-md fs-300 fs-300-xs no-mg" contenteditable="false">Read Customer
-                Reviews
-            </h1>
-        </div>
-        <div class="d-flex mx-5 text-center align-center text-sm">
+<div class="d-block text-center" style="margin: 150px 150px;padding:150px ">
+    <div class="padb-30 auto-invert line-b-4 align-center">
+        <h1 class="font-cond-b fg-text-d lts-md fs-300 fs-300-xs mb-2" contenteditable="false">Read Customer
+            Reviews
+        </h1>
+    </div>
+    <div class="d-flex text-center padding:50px">
+        <div class="d-flex row mx-5 text-center align-center text-sm">
             {% for obj in objs %}
-            <div class="card mx-5">
+            <div class="card m-5 p-2 col-6 d-flex">
                 <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="card-img mgb-20" title="" alt=""
                     data-edit="false" data-editor="field"
                     data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
-                <p class="fs-110 font-cond-l" contenteditable="false">{{obj.feedback}}</p>
-                <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">
+                <blockquote class="fs-110 font-cond-l" contenteditable="false">{{obj.feedback}}</blockquote>
+                <h5 class="font-cond mgb-5 fg-text-d fs-120" contenteditable="false">
                     {{obj.firstname}}&nbsp;{{obj.lastname}}
                 </h5>
                 <small class="font-cond case-u lts-sm fs-80 fg-text-l"

@@ -141,7 +141,7 @@
             <div class="col bg-black text-white">
                 <div class="sellingpoints__desktop">
                     <div class="container text-center">
-                        <div class="row">
+                        <div class="row m-2">
                             <div class="col-sm sellingpoints__desktop__item">Free Delivery <br>N. Ireland / Ireland
                             </div>
                             <div class="col-sm sellingpoints__desktop__item">Great Quality <br>Guaranteed</div>
@@ -223,16 +223,18 @@
                     <div class="card">
                         <img src="https://supremefurnitures.s3.amazonaws.com/static/media/bedroomy.jpg" alt=""
                             class="card-img">
-                        <div class="card-img-overlay">
-                            <h3 class="card-title float-left p-2 m-2 bg-light"><strong>SUPREME FURNITURES</strong>
+                        <div class="card-img-overlay" style="background-color: #dbdbdb60;">
+                            <h3 class="card-title text-success float-left p-2"><strong>SUPREME FURNITURES</strong>
                             </h3>
+                            <h6 class="card-subtitle float-left p-2"><q>One stop shop for all
+                                    your
+                                    furniture
+                                    Requirements</q>
+                            </h6>
 
                         </div>
                         <div class="card-img-overlay mt-5">
-                            <h6 class="card-subtitle float-left p-2 m-2 bg-light text-dark ">One stop shop for all your
-                                furniture
-                                Requirements
-                            </h6>
+
                         </div>
                     </div>
                     <div class="card-footer">
@@ -264,7 +266,7 @@
                         <!-- Grid column -->
                         <div class="col-md-2">
                             <h6 class="text-uppercase font-weight-bold">
-                                <a href="#!" class="text-dark">About us</a>
+                                <a href="{% url 'review' %}aboutus" class="text-dark">About us</a>
                             </h6>
                         </div>
                         <!-- Grid column -->
@@ -272,7 +274,7 @@
                         <!-- Grid column -->
                         <div class="col-md-2">
                             <h6 class="text-uppercase font-weight-bold">
-                                <a href="#!" class="text-dark">Products</a>
+                                <a href="{% url 'products' %}" class="text-dark">Products</a>
                             </h6>
                         </div>
                         <!-- Grid column -->
@@ -280,7 +282,7 @@
                         <!-- Grid column -->
                         <div class="col-md-2">
                             <h6 class="text-uppercase font-weight-bold">
-                                <a href="#!" class="text-dark">Awards</a>
+                                <a href="{% url 'review' %}review_page" class="text-dark">Reviews</a>
                             </h6>
                         </div>
                         <!-- Grid column -->
@@ -288,7 +290,7 @@
                         <!-- Grid column -->
                         <div class="col-md-2">
                             <h6 class="text-uppercase font-weight-bold">
-                                <a href="#!" class="text-dark">Help</a>
+                                <a href="{% url 'review' %}contact" class="text-dark">Help</a>
                             </h6>
                         </div>
                         <!-- Grid column -->
@@ -296,7 +298,7 @@
                         <!-- Grid column -->
                         <div class="col-md-2">
                             <h6 class="text-uppercase font-weight-bold">
-                                <a href="#!" class="text-dark">Contact</a>
+                                <a href="{% url 'review' %}contact" class="text-dark">Contact</a>
                             </h6>
                         </div>
                         <!-- Grid column -->
@@ -321,24 +323,19 @@
 
                 <!-- Section: Social -->
                 <section class="text-center mb-5">
-                    <a href="" class="text-dark me-4 p-2">
-                        <i style="font-size: large;" class="fab fa-facebook-f"></i>
+                    <a href="https://www.facebook.com/login.php" class="border rounded text-dark m-1 p-4">
+                        <i style="font-size: 30px;" class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="" class="text-dark me-4 p-2">
-                        <i style="font-size: large;" class="fab fa-twitter"></i>
+                    <a href="https://twitter.com/i/flow/login" class="border rounded text-dark m-1 p-4">
+                        <i style="font-size: 30px;" class="fab fa-twitter"></i>
                     </a>
-                    <a href="" class="text-dark me-4 p-2">
-                        <i style="font-size: large;" class="fab fa-google"></i>
+                    <a href="https://www.google.com/" class="border rounded text-dark m-1 p-4">
+                        <i style="font-size: 30px;" class="fab fa-google"></i>
                     </a>
-                    <a href="" class="text-dark me-4 p-2">
-                        <i style="font-size: large;" class="fab fa-instagram"></i>
+                    <a href="https://www.instagram.com/" class="border rounded text-dark m-1 p-4">
+                        <i style="font-size: 30px;" class="fab fa-instagram"></i>
                     </a>
-                    <a href="" class="text-dark me-4 p-2">
-                        <i style="font-size: large;" class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="" class="text-dark me-4 p-2">
-                        <i style="font-size: large;" class="fab fa-github"></i>
-                    </a>
+
                 </section>
                 <!-- Section: Social -->
             </div>

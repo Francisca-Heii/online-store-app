@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="https://supremefurnitures.s3.amazonaws.com/static/css/contact.css" />
+{% endblock %}
+
+
+{% block content %}
+
+
+
+
+<div class="container me-auto p-5  text-center contact-wrap" style="background-color:#f1f1f1a1 ; font-family: Roboto, sans-serif; background-color: #fff;
+  line-height: 2;">
+    <h1 class="m-5">ABOUT US</h1>
+    <div>
+        <h4>CUSTOMER EXPERIENCE</h4>
+        <blockquote class="text-justify">
+            Everything we create is designed with our customer in mind, and we’re committed to an incredible service
+            experience that leaves our customer happy each time they visit Store.
+        </blockquote>
+        <h4>
+            QUALITY
+        </h4>
+        <blockquote class="text-justify">
+            Supreme Furnitures, believes in combining outstanding quality with astonishing
+            value,
+            offering a
+            carefully curated, assortment of home products.
+        </blockquote>
+        <h4>
+            NATURAL
+        </h4>
+        <blockquote class="text-justify">
+            We believe a blank canvas is something full of possibilities and with unlimited potential. At
+            Supreme Furnitures we celebrate the beauty of natural materials that are crafted into simple, one-of-a-kind
+            shapes and
+            silhouettes.
+        </blockquote>
+
+        <h4>
+            SUSTAINABILITY
+        </h4>
+        <blockquote class="text-justify">
+            We strive to use materials that are sustainably sourced. We believe in supporting artisans and craftsmen and
+            their
+            crafts. As a brand we want to preserve and use the dying, traditional techniques of sofa and furniture
+            making. We are
+            associated with some of the NGO's around the country.
+        </blockquote>
+
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+{% endblock %}
+{% block postloadjs %}
+{{ block.super }}
+{% include 'products/includes/quantity_input_script.html' %}
+{% endblock %}

@@ -56,7 +56,8 @@ def deleteDB(request):
         return redirect(feedback)
     
 #------------------------------------------------------------------
-
+def aboutus(request):
+    return render(request, 'aboutus.html', locals())
 
 def contactus(request):
     if(request.POST):
