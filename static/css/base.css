@@ -372,10 +372,10 @@ input:hover {
     --ms-writing-mode: sideways-lr;
     width: 100px;
     height: inherit;
-    top: 550px !important;
+    top: 450px !important;
     right: 0px !important;
     padding: 5px !important;
-    position: fixed !important;
+    position: absolute !important;
     margin: 0% !important;
     background-color: rgba(30, 4, 92, 0.925) !important;
     z-index: 9999;

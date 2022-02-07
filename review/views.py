@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 
-from review.models import Person
+from review.models import Person, Enquiry
 
 
 # Create your views here.
