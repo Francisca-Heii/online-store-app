@@ -187,16 +187,16 @@
 
     {% endblock %}
     <!-- Footer side -->
-    <div class="container-flex mt-5 p-3 text-center" style="background-color: ;">
+    <div class="container-flex my-5 p-3 text-center position-relative" style="background-color: ;">
         <div class="row  m-auto">
             <div class="col-lg-6 p-3 text-center m-auto">
                 <div class="card m-auto  shadow-none">
                     <div class=" card-body border rounded ">
                         <h5 class=" card-title text-left my-2"> <strong> <u>About Us</u> </strong></h5>
                         <h6 class="card-subtitle text-left ">&nbsp;</h6>
-                        <p class="card-text text-justify" style="line-height: 2.75; text-indent:10%">At <span>
-                                <strong></strong>
-                                Supreme Furnitures</strong> </span>, we take great pride in
+                        <p class="card-text text-justify" style="line-height: 1.75; text-indent:10%">At <span>
+                                <strong>
+                                    Supreme Furnitures</strong> </span>, we take great pride in
                             design and hand-craftsmanship of our products. Our in-house designers create
                             time honed designs. The expert craftsmen, some of them even from the fourth generations of
                             furniture and sofa makers,
@@ -223,14 +223,19 @@
                     <div class="card">
                         <img src="https://supremefurnitures.s3.amazonaws.com/static/media/bedroomy.jpg" alt=""
                             class="card-img">
-                        <div class="card-img-overlay" style="background-color: #dbdbdb60;">
-                            <h3 class="card-title text-success float-left p-2"><strong>SUPREME FURNITURES</strong>
-                            </h3>
-                            <h6 class="card-subtitle float-left p-2"><q>One stop shop for all
-                                    your
-                                    furniture
-                                    Requirements</q>
-                            </h6>
+                        <div class="card-img-overlay">
+                            <div>
+
+                                <h3 class="card-title text-warning float-left p-2"><strong
+                                        class="text-warning p-1 rounded">SUPREME
+                                        FURNITURES</strong>
+                                </h3>
+                                <h6 class="card-subtitle text-warning float-left p-2"><q>One stop shop for all
+                                        your
+                                        furniture
+                                        Requirements</q>
+                                </h6>
+                            </div>
 
                         </div>
                         <div class="card-img-overlay mt-5">
@@ -241,7 +246,8 @@
                         <a href="{% url 'account_signup' %}" class=" btn btn-success m-auto float-left d-block
                             text-light"> <strong> <u>REGISTER NOW</u> >>> </strong>
                         </a>
-                        <a href="{% url 'account_login' %}" class=" btn btn-warning float-right text-dark m-auto">
+                        <a href="{% url 'account_login' %}"
+                            class=" btn btn-warning d-block float-right text-dark m-auto">
                             <strong> <u>DISCOUNT CODE UPTO
                                     60%
                                     OFF</u></strong>

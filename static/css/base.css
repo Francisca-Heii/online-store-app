@@ -253,6 +253,60 @@ input[name='q']::placeholder {
     border: 1px solid #244922 !important;
 }
 
+/* Mobile view */
+
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh -116px);
+    }
+
+    .display-4.logo-font.text-black {
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        padding: 0.15rem;
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+
+
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+
+    #deliveyr-banner h4 {
+        font-size: .9rem;
+    }
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-black.rounded-.btn-lg,
+    .btn.btn-black.rounded-0,
+    .btn.btn-success {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
+
+    .increment-qty,
+    .decrement-qty {
+        padding: .25rem .5rem !important;
+    }
+
+}
+
+
+
 @media(min-width:1200px) {
     .container {
         max-width: 80%;
@@ -271,8 +325,6 @@ input[name='q']::placeholder {
     .header-container {
         padding-top: 200px;
     }
-
-
 }
 
 .dropdown {
@@ -409,6 +461,8 @@ input:hover {
     font-size: 18px;
     /* Increase font size */
 }
+
+
 
 #myBtn:hover {
     background-color: #555;
