@@ -158,7 +158,7 @@ The images used for the project are taken from [Pexels](https://www.pexels.com/)
 
 ### FEATURES:
 --------------------------------------------------------------------------------------------------
-The basic structure of the webpage is as follows -
+Every page of the website features a consistently responsive and intuitive layout and navigation.
 #### Common Features Across All Pages:
 ---------------------------------------------------------------------------------------------------
 #### Header
@@ -183,6 +183,9 @@ Discount code 60% off button is in yellow(#ffbe00), violet color text, and dark 
 
 Contact button is in white text (#fff) and  a violet(#250d63) background color.
 
+* The feedback green button, contact blue button, and "go to top" button is displayed far to the right of the pages. This is visible on all the pages. Note that on some pages the "go to top" button might not be visible.
+
+
 #### Headings & Body Text:
 The main fonts used in the site are bitter and Lato fonts along with sans serif as a fallback font. The bitter font is used in the headings,  about us section. Lato is used everywhere else. Both the fonts create a nice sleek touch to the overall look of the site.
 
@@ -193,8 +196,44 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
  #### Footer:
  The footer is displayed at the bottom of the page and appears simplistic, corresponding to the color scheme. It includes a hover effect for every individual social link on, when hoovered over, an icon appears over the social link and the color changed to the social media logo color. For example for the Facebook icon, it will turn blue, with an icon above saying 'Facebook'
 
+ #### Toasts:
+ Toasts appear to let users know that they have carried out action and whether it was successful. For example, when a customer puts an item in their bag,  a message appears showing the user their total of the bag, and a checkout button. This can be dismissed by clicking on the "x" shown at the top of the bag.
+
  ### Features Specidfic To Pages:
  #### Home page
+ * This is the landing page the user sees when they go to  "httpssupremefurnitures.herokuapp.com" it gives the viewer an overview of the site. It serves as an introduction to Supreme Furnitures with relevant information and imagery.
+
+ * Next is white text with a green background which is the selling points text, such as  "Free Delivery To N.Ireland/Ireland", "Greate Quality Guaranteed", "Quick and Easy Checkout" free delivery to Ireland, is displayed below the navbar. This is to quickly send a clear message to our customers without them having to dig into the site looking for such information.
+
+ * Below the selling points text, is a banner image with four slide show images.
+
+ * The first image has a text which says  "We have a large selection of fabric and leather sofas".This is displayed on a blue sofa with nice complimentary cushions and a small coffee table. 
+
+ * The second image has text which says "Massive savings on living room furniture".  This is displayed on the two grey sofas in the living room, with complementary cushions, a tray with a plant, and candles on a brown coffee table.
+
+ * The third image has a text which says "We have a large selection of dining furniture". This is displayed on a white dining set with matching chairs and a table in the living room. Behind the dining set, is a caramel cupboard. 
+
+ * The fourth image has a text which says " Check out our bargains on bedroom furniture". this is displayed on a double bed with black and white covers, standard pillows, and green cushions. On the sides of the bed are two side drawers and a lamp on each and a matching dressing table.
+
+ * All the four banner imanges: Have a green text color, displayed on the left-hand side of the page and a little bit displayed on top of the image, in a manner that doesn't hide the image. Below that is a green shop now button. This takes the user to the webshop.
+
+ * The image sliders are followed by four cards each with an image related to the category name. On each card is a green button and a green text link, when one of this clicked it takes the user to the relevant category and displays all the products. This is another way in which the user can navigate to products depending on the category name they wish to navigate to.
+
+ * After the cards is general information about Supreme Furniture, which is in green text and adds a nice look to the site. Opposite this information, is the same image which is displayed on the slide show images. Beneath the about us information, is a green "review us button". On hover the button the text changes from white to black as well as a slightly different shade of green background. When this button is clicked it takes the user to the feedback page.
+
+ On the other hand, the opposite image. There are two buttons, "Register now" and " Discount code up to 60% off". On hover of the "Register now" button the text changes from white to black as well as a slightly different shade of green background. When this button is clicked it takes the user to the sign up page. The "Discount code up to 60% off" has a yellow background color, text in violet text color. On hover the background yellow color dims, when clicked it takes the user to the sign in page.
+ The the 60% off discount code, is only available for use to registered customers. The aim is to attract users to register for our site in order to generate more revenue and for them to enjoy the massive discount as compared to non-registered users.
+
+ #### Products page
+
+ * The product page contains all the items the shop has to offer.
+ * Beneath each product there is information about product name, price, rating, and category name. The  user can still navigate easily to a specific category.
+ * The items can be sorted by name A-Z, Z-A, price from high to low, and from low to high
+ * The total number of products on this page is 76, as the user scrolls down this page there is a "back to top " button where they can click to go back to the top of the page, or they can just scroll up if they want to slowly view the products again.
+
+ 
+ 
+ 
 
 
 
