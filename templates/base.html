@@ -1,7 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+
 {% load static %}
 
-<!doctype html>
-<html lang="en">
 
 <head>
     {% block meta %}
@@ -13,7 +14,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
         rel="stylesheet">
     {% endblock %}
+    <title>
 
+
+        {% block title %}
+        {% endblock %}
+    </title>
     {% block extra_meta%}
     {% endblock %}
 
@@ -375,17 +381,17 @@
     <script type="text/javascript">
         $('.toast').toast('show');
         $('#living_room').click(function () {
-            window.location.href = "{% url 'products' %}?category=sofa,tv_unit,coffee_table"
+            window.location.href = "{% url 'products' %}?category=sofa,tv_unit,coffee_table";
         });
         $('#dinning_room').click(function () {
-            window.location.href = "{% url 'products' %}?category=dinning_tables,dinning_chair,dinning_set"
+            window.location.href = "{% url 'products' %}?category=dinning_tables,dinning_chair,dinning_set";
         });
         $('#bed_room').click(function () {
-            window.location.href = "{% url 'products' %}?category=beds,matressess,wardrobes"
+            window.location.href = "{% url 'products' %}?category=beds,matressess,wardrobes";
         });
         $('#accessories').click(function () {
             window.location.href =
-                "{% url 'products' %}?category=candles_and_holders,throws_and_blankets,ornamental_items"
+                "{% url 'products' %}?category=candles_and_holders,throws_and_blankets,ornamental_items";
         });
     </script>
     <!-- Card navigations -->

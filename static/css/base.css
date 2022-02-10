@@ -277,7 +277,7 @@ input[name='q']::placeholder {
     }
 
     .nav-link {
-        padding: 0.15px.;
+        padding: 0.15px;
     }
 
     .nav-link i.fa-lg {
@@ -307,7 +307,7 @@ input[name='q']::placeholder {
 
     .increment-qty,
     .decrement-qty {
-        padding: .25rem .5rem !important;
+        padding: 0.25rem 0.5rem !important;
     }
 
 }
@@ -382,13 +382,15 @@ input:hover {
 }
 
 .rotate {
-    --webkit-transform: rotate(-90deg);
+    --webkit-transform: rotate(-90deg) !important;
     transform: rotate(-90deg);
     writing-mode: sideways-lr !important;
-    --webkit-writing-mode: sideways-lr;
-    --ms-writing-mode: sideways-lr;
+    --webkit-writing-mode: sideways-lr !important;
+    --ms-writing-mode: sideways-lr !important;
+    --moz-writing-mode: sideways-lr !important;
+    --webit-width: 100px;
     width: 100px;
-    height: inherit;
+    --webkit-height: inherit;
     top: 300px !important;
     right: 0px !important;
     padding: 5px !important;
@@ -399,10 +401,28 @@ input:hover {
 }
 
 .rotate:hover {
+    -webkit-animation-duration: 4s;
+    -webkit-animation-name: pulp;
     animation-name: pulp !important;
     animation-duration: 1s !important;
     animation-fill-mode: forwards !important;
+    -webkit-animation-fill-mode: forwards !important;
 }
+
+@-webkit-keyframes pulp {
+    from {
+        right: -15%;
+        top: 50%;
+    }
+
+    to {
+        right: 10%;
+        top: 50%;
+        border: 1px dotted white;
+        transform: scale(1.2);
+    }
+}
+
 
 @keyframes pulp {
     from {
@@ -419,7 +439,9 @@ input:hover {
 }
 
 .contact-btn {
+    --moz-webkit-transform: rotate(-90deg);
     --webkit-transform: rotate(-90deg);
+
     transform: rotate(-90deg);
     writing-mode: sideways-lr !important;
     --webkit-writing-mode: sideways-lr;

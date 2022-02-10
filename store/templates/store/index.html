@@ -1,12 +1,15 @@
 {% extends "base.html" %}
 {% load static %}
 {% block page_header %}
+{% block title %}
+Store
+{% endblock %}
 
 {% endblock %}
 
 {% block slider %}
 
-<!-- Carousel starts ---------------------------------------- -->
+<!-- Carousel starts ----------------------------------------->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -63,25 +66,9 @@
 <!-- Carousel ends ---------------------X----X-----X---------- -->
 
 
-<!-- <div class="container h-100">
-    <div class="row h-100">
-        <div class="col-7 col-md-6 my-auto">
-            <h1 class="display-4 logo-font text-black">We have a large collection of furnitures </h1>
-            <div>
-                <h4>
-                    <a href="{% url 'products' %}" class="shop-now-butto btn btn-lg rounded-0 text-uppercase py-3">Shop
-                        Now</a>
-                </h4>
-            </div>
-        </div>
-    </div>
-</div> -->
-
-
 <div class="d-lg-flex w-sm-100 my-2 justify-content-around">
 
-    <div class="card mx-2 p-0 w-sm-100 w-lg-25" style="background: linear-gradient(white, rgba(255, 255, 255, 0.185),
-        rgba(255, 255, 255, 0.082)" id=" living_room">
+    <div class="card mx-2 p-0 w-sm-100 w-lg-25" id=" living_room">
         <img src="https://supremefurnitures.s3.amazonaws.com/static/media/store_images/living.jpg" alt=""
             class="card-img-top">
         <div class="card-img-overlay" style="width: 100%;">
@@ -94,8 +81,7 @@
             class="btn text-light btn-lg btn-block">Shop Living</a>
     </div>
 
-    <div class="card mx-2 p-0 w-sm-100 w-lg-25" id="dinning_room"
-        style=" background: linear-gradient(white, rgba(255, 255, 255, 0.185), rgba(255, 255, 255, 0.082)">
+    <div class="card mx-2 p-0 w-sm-100 w-lg-25" id="dinning_room">
         <img src="https://supremefurnitures.s3.amazonaws.com/static/media/store_images/shopdining.jpg" alt=""
             class="card-img-top">
         <div class="card-img-overlay" style="width: 100%;">
@@ -107,9 +93,8 @@
         <a href="{% url 'products' %}?category=dinning_tables,dinning_chair,dinning_set"
             style="background-color:#244922" class="btn text-light btn-lg btn-block">Shop Dinning</a>
     </div>
-    <div class="card mx-2 p-0 w-sm-100 w-lg-25" id="bed_room"
-        style="background: linear-gradient(white, rgba(255, 255, 255, 0.185), rgba(255, 255, 255, 0.082) ">
-        <img src="https://supremefurnitures.s3.amazonaws.com/static/media/store_images/bedrm.jpg" alt=""
+    <div class="card mx-2 p-0 w-sm-100 w-lg-25" id="bed_room"> <img
+            src="https://supremefurnitures.s3.amazonaws.com/static/media/store_images/bedrm.jpg" alt=""
             class="card-img-top">
         <div class="card-img-overlay" style="width: 100%;">
             <a href="{% url 'products' %}?category=beds,matressess,wardrobes" class="text-center">
@@ -121,8 +106,7 @@
             class="btn text-light btn-lg btn-block">Shop
             Bedroom</a>
     </div>
-    <div class="card mx-2 p-0 w-sm-100 w-lg-25" id="accessories"
-        style=" background: linear-gradient(white, rgba(255, 255, 255, 0.185), rgba(255, 255, 255, 0.082)">
+    <div class="card mx-2 p-0 w-sm-100 w-lg-25" id="accessories">
         <img src="https://supremefurnitures.s3.amazonaws.com/static/media/store_images/accessories.jpg" alt=""
             class="card-img-top ">
         <div class="card-img-overlay" style="width: 100%;">

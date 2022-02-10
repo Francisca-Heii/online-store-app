@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 {% load static %}
 {% block page_header %}
+{% block title %}
+products
+{% endblock %}
 
 {% endblock %}
 {% block content %}
@@ -180,7 +183,11 @@
 
         if (url_1.split("=")[1]) {
             head_line = url_1.split("=")[1];
+            if (head_line.includes("&")) {
+                head_line = "By " + head_line.split("&")[0]
+            }
         }
+
 
         function e(n) {
             switch (n) {

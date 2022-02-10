@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 {% load static %}
 {% load crispy_forms_tags %}
+{% block title %}
+Feedback
+{% endblock %}
 
 {% block extra_css %}
 <link rel="stylesheet" href="https://supremefurnitures.s3.amazonaws.com/static/css/contact.css" />
@@ -37,22 +40,22 @@
                 <form class="mb-5 form-group" method="post" id="contactForm" name="contactForm">
                     {% csrf_token %}
                     <div class="mb-3">
-                        <label for="" class="col-form-label">First Name *</label>
+                        <label class="col-form-label">First Name *</label>
                         <input type="text" {%if obj %} value="{{obj.firstname}}" {%endif%} class="form-control"
                             name="firstname" id="cname" placeholder="First name" required>
                     </div>
                     <div class="mb-3">
-                        <label for="" class="col-form-label">Last Name *</label>
+                        <label class="col-form-label">Last Name *</label>
                         <input type="text" class="form-control" {%if obj %} value="{{obj.lastname}}" {%endif%}
                             name="lastname" id="lastname" placeholder="Last Name" required>
                     </div>
                     <div class="mb-3">
-                        <label for="" class="col-form-label">Occupation *</label>
+                        <label class="col-form-label">Occupation *</label>
                         <input type="text" {%if obj %} value="{{obj.occupation}}" {%endif%} class="form-control"
                             name="occupation" id="occupation" placeholder="Occupation">
                     </div>
                     <div class="mb-3">
-                        <label for="" class="col-form-label">Email *</label>
+                        <label class="col-form-label">Email *</label>
                         <input type="email" {%if obj %} value="{{request.user.email}}" {%endif%} class=" form-control"
                             name="email" id="email" placeholder="Your email" required readonly>
                     </div>
