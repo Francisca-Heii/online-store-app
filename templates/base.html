@@ -57,7 +57,7 @@
 
     <a class="contact-btn btn text-white" href="{% url 'review' %}contact">contact</a>
 
-    <header class="container-fluid fixed-top">
+    <header class="container-fluid p-0 m-0 fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'store' %}" class="nav-link main-logo-link">
@@ -137,24 +137,22 @@
 
             </nav>
         </div>
-        <div></div>
-
-        <div id="delivery-banner" class="row text-center">
-            <div class="col bg-black text-white">
-                <div class="sellingpoints__desktop">
-                    <div class="container text-center">
-                        <div class="row m-2">
-                            <div class="col-sm sellingpoints__desktop__item">Free Delivery <br>N. Ireland / Ireland
-                            </div>
-                            <div class="col-sm sellingpoints__desktop__item">Great Quality <br>Guaranteed</div>
-                            <div class="col-sm sellingpoints__desktop__item">Quick &amp; Easy <br>Checkout</div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="d-flex justify-content-around p-2 "
+            style="background-color: #244922; color: white; align-items: center;">
+            <p class="m-0 n-txt text-center">Free Delivery <br> N. Ireland / Ireland</p>
+            <p class="m-0 n-txt text-center">Great Quality<br>Guranteed </p>
+            <p class="m-0 n-txt text-center">Quick &amp; Easy <br> Checkout</p>
         </div>
     </header>
+    <div id="" style="background-color: #244922;" class="d-flex  m-0 p-0 text-center d-sm-none d-lg-block">
+        <div class="row m-2">
+            <div class="col-4 fs-auto text-light">Free Delivery <br>N. Ireland / Ireland
+            </div>
+            <div class="col-4 fs-auto text-light">Great Quality <br>Guaranteed</div>
+            <div class="col-4 fs-auto text-light">Quick &amp; Easy <br>Checkout</div>
+
+        </div>
+    </div>
     {% if messages %}
     <div class="message-container">
         {% for message in messages %}
@@ -176,20 +174,30 @@
 
     {% block boldy %}
     {% endblock %}
+
     {% block page_header %}
+
+    {% endblock %}
+    <div class="d-block">
+
+        {% block slider %}
+
+        {% endblock %}
+    </div>
     <div class="container header-container m-0">
         <div class="row">
             <div class="col"></div>
         </div>
     </div>
-    {% endblock %}
 
 
     {% block content %}
 
     {% endblock %}
+
     <!-- Footer side -->
-    <div class="container-flex my-5 p-3 text-center position-relative" style="background-color: ;">
+    <div class="container-flex my-5 p-lg-3 justify-content-center-sm text-center position-relative"
+        style="background-color: ;">
         <div class="row  m-auto">
             <div class="col-lg-6 p-3 text-center m-auto">
                 <div class="card m-auto  shadow-none">
@@ -271,7 +279,7 @@
             <!-- Grid container -->
             <div class="container">
                 <!-- Section: Links -->
-                <section class="mt-5">
+                <section class="mt-5 d-flex">
                     <!-- Grid row-->
                     <div class="row text-center d-flex justify-content-center pt-5">
                         <!-- Grid column -->

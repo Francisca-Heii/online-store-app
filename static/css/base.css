@@ -10,8 +10,13 @@ body {
     font-family: 'bitter', 'lato', 'san-serif';
 }
 
+.div .fs-auto {
+    font-size: 0.25rem !important;
+}
+
+
 .page-footer {
-    background-color: #244922 !;
+    background-color: #244922 !important;
     color: white;
 }
 
@@ -231,6 +236,7 @@ input[name='q']::placeholder {
 .carousel-caption h2 {
     font-size: 4vw !important;
     width: 50%;
+
     color: #0a8003 !important;
     font-weight: 700;
     font-family: montserrat;
@@ -240,7 +246,6 @@ input[name='q']::placeholder {
 }
 
 .header-container {
-    padding: 0px;
     margin-bottom: 0% !important;
 }
 
@@ -248,6 +253,7 @@ input[name='q']::placeholder {
     color: #244922 !important;
 
 }
+
 
 .border-black {
     border: 1px solid #244922 !important;
@@ -257,23 +263,26 @@ input[name='q']::placeholder {
 
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 116px;
+        padding-top: 150px !important
     }
+
+
 
     body {
         height: calc(100vh -116px);
     }
 
-    .display-4.logo-font.text-black {
-        font-size: 1.5rem;
+    .logo-font.text-black {
+        font-size: 1rem;
     }
 
     .nav-link {
-        padding: 0px;
+        padding: 0.15px.;
     }
 
     .nav-link i.fa-lg {
         font-size: 1rem;
+        padding: 2.5rem 0rem;
     }
 
 
@@ -282,9 +291,7 @@ input[name='q']::placeholder {
         font-size: 1rem;
     }
 
-    #deliveyr-banner h4 {
-        font-size: .9rem;
-    }
+
 
     .btn.btn-outline-black.rounded-0,
     .btn.btn-black.rounded-0 {
@@ -323,7 +330,7 @@ input[name='q']::placeholder {
     }
 
     .header-container {
-        padding-top: 200px;
+        padding-top: 150px !important;
     }
 }
 
@@ -372,12 +379,6 @@ input:hover {
 
 .card a:hover {
     color: #244922 !important;
-}
-
-
-
-.card {
-    background: lineargradient(white, rgba(255, 255, 255, 0.185), rgba(255, 255, 255, 0.082)) !important;
 }
 
 .rotate {
