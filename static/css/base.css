@@ -265,11 +265,11 @@ input[name='q']::placeholder {
     }
 
     .display-4.logo-font.text-black {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .nav-link {
-        padding: 0.15rem;
+        padding: 0px;
     }
 
     .nav-link i.fa-lg {
@@ -329,6 +329,7 @@ input[name='q']::placeholder {
 
 .dropdown {
     text-align: center !important;
+    padding: 0%;
 }
 
 .navbar-nav .dropdown:hover {
