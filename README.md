@@ -231,6 +231,15 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
  * The items can be sorted by name A-Z, Z-A, price from high to low, and from low to high
  * The total number of products on this page is 76, as the user scrolls down this page there is a "back to top " button where they can click to go back to the top of the page, or they can just scroll up if they want to slowly view the products again.
 
+ #### Products details page
+ * Shows both product and info on a responsive bootstrap layout to accommodate all screen sizes.
+* Shows information about a specific item the user selected for example, a study chair. Information includes product image, name, price, category and rating.
+* The product image is large, and when clicked on, the image opens up in a separate tab.
+* Users can choose the quantity they want to put in their bag for that product.
+* 
+* A 'keep shopping' button is available for users to navigate back to the shop page quickly.
+* A 'add to bag' button allows users to add products to their bag efficiently.
+
  
  
  
