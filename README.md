@@ -86,8 +86,8 @@ am looking for.
 ##### Colour Scheme
 The color scheme chosen looks cool, calm, and engaging. Since the site mainly consists of bright images,
  I thought sticking to various shades of green and additional yellow, and violet-cool would look nice together.
-<p align="center"><img width="150" height="220" src="documentation/readme-images/250d63.png"></p>
-<p align="center"><img width="150" height="220" src="documentation/readme-images/00954d.png"></p>
+<img width="150" height="220" src="documentation/readme-images/250d63.png">
+<img width="150" height="220" src="documentation/readme-images/00954d.png">
 <p align="center"><img width="150" height="220" src="documentation/readme-images/250d63.png"></p>
 <p align="center"><img width="150" height="220" src="documentation/readme-images/a104a25.png"></p>
 <p align="center"><img width="150" height="220" src="documentation/readme-images/ffbe00.png"></p>
