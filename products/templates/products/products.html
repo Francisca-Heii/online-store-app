@@ -180,13 +180,14 @@ products
         //alert("Hash changed");
         aaa = ""
         url_1 = window.location.href;
-
+        console.log(url_1)
         if (url_1.split("=")[1]) {
             head_line = url_1.split("=")[1];
             if (head_line.includes("&")) {
                 head_line = "By " + head_line.split("&")[0]
             }
         }
+        console.log("headline", url_1)
 
 
         function e(n) {
@@ -205,20 +206,24 @@ products
                     return "ACCESSORIES"
             }
         }
-        console.log("head_line1", head_line.indexOf(","));
-        console.log("head_line2", head_line.indexOf("%20"));
+        console.log("head_line1", head_line.indexOf(","), head_line);
+        console.log("head_line2", head_line.indexOf("%20"), head_line);
 
         if (head_line.indexOf(",") > 0) {
             aaa = e(head_line);
+            console.log("0" + aaa)
         } else if (head_line.indexOf("%20") > 0) {
             head_line = head_line.replace("%20", " ");
             aaa = head_line;
+            console.log("1" + aaa)
         } else if (head_line.indexOf("_") > 0) {
             head_line = head_line.replace("_", " ");
             head_line = head_line.replace("_", " ");
             aaa = head_line;
+            console.log("2" + aaa)
         } else {
             aaa = head_line;
+            console.log("3" + aaa)
         }
         //alert("aaaaaaaaaaaa" + aaa)
         document.getElementById('logo-font').innerHTML = aaa;
