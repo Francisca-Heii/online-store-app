@@ -1,7 +1,7 @@
 ## *INSPIRE SECOND-HAND FURNITURE*
 ---
-This is an e-commerce web application, created for the purposes of satisfying the requirements for the Code Institute Full Stack Development Course Milestone Project 4. The goal of the application is to sell quality second-hand furniture at unbeatable prices in Ireland and Northern Ireland. Our Office is currently based in Dublin and looking forward to expand to Northern Ireland. At Inspire Furniture, we have a huge variety of second-hand beds, wardrobes, bedroom furniture, sofas, dining tables, dining chairs, lightings, TV units, and many more. 
-
+This is an e-commerce web application, created for the purposes of satisfying the requirements for the Code Institute Full Stack Development Course Milestone Project 4. The goal of the application is to sell quality furniture at unbeatable prices in Ireland and Northern Ireland. At Supreme Furniture, we have a huge variety of beds, wardrobes, bedroom furniture, sofas, dining tables, dining chairs, lightings, TV units, and many more.
+ 
 This website is only for educational purposes and the stripe functionality is set up to only accept the test card details, please don't enter your personal card details.
 
 ### The business goals of this website are:
@@ -42,75 +42,45 @@ While we do stock top quality, new office furniture, we also stock, "as new" off
 ### ClIENT STORIES
 
 #### As a casual/new visitor to the website, I want to:
-1. See a second-hand furniture site so that I can explore what is on offer.
-
-2. Be able to navigate the site without having to register an account so that I can browse through the site.
-
-3. Be able to navigate the site intuitively, user-friendly, and overall ease-of-use so that I can enjoy being on the site.
-
-4. See some information about delivery, quality status, and checkout so that I can keep that in mind as I navigate the site.
-
+1. Visit **Supreme Furnitures website** so that I can view what they have in stock.
+2. Access the website from any device, so that I can view the website on desktop, mobile, or tablet.
+3. Navigate the site without having to register an account so that I can browse through the site.
+4. Navigate easily through the website so that I can find everything easily.
 5. See different categories on the navigation menu so that I can have an idea of what type of products are sold.
-
-6. Be able to search for furniture so that I can quickly find what I am looking for.
-
-7. Be able to filter furniture by category name or product name so that I can find out what is on stock.
-
-8. Be able to search for a specific product by name or description so that I can quickly find what I am interested in.
-
-9. Filter furniture by categories so that I can quickly find what I am looking for.
-
-10. Buy the furniture that I need for home, study, or office use so that I can be comfortable.
-
-11. See slide images of categories so that I can have an overall look and imagination of the furniture sold.
-
-12. Read reviews from previous customers so that I can know what to expect.
-
-13. Be able to view more information on a particular piece of furniture so that I can know more about the product.
-
-14. Easily add, update , or delete products in my bag so that they can fit my budget.
-
-15. View items in my bag before checkout, so that I can avoid buying products I don't really need.
-
-16. Be able to revisit my shopping bag so that I can continue shopping or proceed to checkout.
-
-17. Be able to make a simple secure payment on the site and hassle-free, so that I can feel confident that my card details are safe.
-
-18. Be able to receive a confirmation email with information about my order so that I can view my order details again.
-
-19. Be able to read information about the site so that I can know a little bit of their story.
-
-20. Be able to contact the site owner/administrator so that I can inquire about any questions or issues I may have.
-
-21. Register an account if I want to come back at a later date.
-
-22. Be able to leave a review so that I can give my feedback.
-
-23. Be able to see the contact information or social media links so that I can follow the site owner and get a feel for the credibility of the site.
+6. See some information about delivery, quality status, and checkout so that I can be aware as I navigate the site.
+7. Search for a product by name or description to quickly see if it is available.
+8. See the total of my bag at any time to avoid spending much and keep updated.
+9. Easily sort and filter the available products across all/specific categories, identifying the best rated, best priced, and alphabetically sorted.
+10. Easily access a specific category of available products, so that I can quickly find what I
+am looking for.
+11. See slide show images so that I can stay longer and explore the site.
+12. See **shop living, shop dining, shop bedroom, and shop accessories** displayed in cards, so that I can easily navigate to a certain category.
+13. View items in my bag, adjust or delete the number of items so that they can fit my budget.
+14. Know more about the company, find the **review us, register now and discount code buttons** so that I can register if I am interested.
+15. View more information on a particular piece of furniture so that I can know more about the product. 
+16. Revisit my shopping bag so that I can continue shopping or proceed to checkout.
+17. Make a simple secure payment on the site and hassle-free, so that I can feel confident that my card details are safe.
+18. Receive a confirmation email with information about my order so that I can view my order details again.
+19. Contact the site owner/administrator via a form, so that I can inquire about any questions or issues I may have.
+20. Register an account if I want to come back at a later date.
+21. Leave a review so that I can give my feedback and help other customers.
+22. Read reviews from previous customers so that I can know what to expect.
+23. See the contact information or social media links so that I can follow the site owner and get a feel for the credibility of the site.
 
 
 #### As a registered user, I want to:
-1. Be able to easily log in so that I can access my account.
 
-2. Be able to view my previous history of furniture bought and others when I am logged in.
-
-3. Be able to log out easily, so that I can keep my account private if I am not using my personal device, for example using a work device.
-
-4. Be able to update my details so that I can save new changes made, for example, change of address.
-
+1. Easily log in so that I can access my account.
+2. View my previous history of furniture bought and other information when I am logged in.
+3. Log out easily, so that I can keep my account private if I am not using my personal device, for example using a work device.
+4. Update my personal details so that I can save new changes, for example, change of address or phone number.
 5. Recover my password easily so that I can access my account in case I forget my password.
-
 6. Create, update or delete my personal information so that I can have up-to-date information.
 
 #### Site owner, I want to be able to: 
-1. Add new furniture so that I can add new products to the site.
-
-2. Edit any furniture so that I can update the details of the furniture on the site.
-
-3. Delete furniture so that I can remove old furniture if certain products are no longer available on the site.
-
-4. Add a discount to a particular furniture so that the users can be aware of such furniture.
-
+1. Add new items to the store easily so that customers can find something to buy.
+2. Edit and update existing products to change pricing, description images, and other criteria.
+3. Add and edit discount codes so that customers can register in order to enjoy massive discount offers.
 ### DESIGN
 
 ##### Colour Scheme
