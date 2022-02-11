@@ -167,6 +167,7 @@ products
             currentUrl.searchParams.set("direction", direction);
 
             window.location.replace(currentUrl);
+
         } else {
             currentUrl.searchParams.delete("sort");
             currentUrl.searchParams.delete("direction");
@@ -180,14 +181,14 @@ products
         //alert("Hash changed");
         aaa = ""
         url_1 = window.location.href;
-        console.log(url_1)
+        console.log("received ur;" + url_1)
         if (url_1.split("=")[1]) {
             head_line = url_1.split("=")[1];
             if (head_line.includes("&")) {
                 head_line = "By " + head_line.split("&")[0]
             }
         }
-        console.log("headline", url_1)
+        console.log("headline" + url_1)
 
 
         function e(n) {
@@ -215,7 +216,17 @@ products
         } else if (head_line.indexOf("%20") > 0) {
             head_line = head_line.replace("%20", " ");
             aaa = head_line;
-            console.log("1" + aaa)
+            console.log("1" + aaa);
+        } else if (url_1.indexOf("%2C") > 0) {
+            if (url_1.indexOf("price") > 0) {
+                aaa = "BY PRICE"
+            } else if (url_1.indexOf("rating") > 0) {
+                aaa = "BY RATING";
+            } else if (url_1.indexOf("name") > 0) {
+                aaa = "BY NAME"
+            } else if (url_1.indexOf("category") > 0) {
+                aaa = "BY CATEGORY"
+            }
         } else if (head_line.indexOf("_") > 0) {
             head_line = head_line.replace("_", " ");
             head_line = head_line.replace("_", " ");
