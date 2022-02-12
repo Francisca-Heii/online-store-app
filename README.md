@@ -263,71 +263,129 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
 
 ### Technologies ####
 #### Languages used
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-    - HTML5 provides the structure and the content for my project. 
-- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-    - CSS3 provides the style of the HTML5 elements.
-- [JavaScript](https://nl.wikipedia.org/wiki/JavaScript)
-    - JavaScript provides the interactive elements on the website. 
-- [jQuery](https://jquery.com/)
-    - jQuery is used for implementation of Bootstrap.
-- [Python](https://www.python.org/)
-    - Python provides the backend of the project.
-- [Jinja](https://en.wikipedia.org/wiki/Jinja_(template_engine))
-    - Jinja provides the templating language for Python.
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+*  HTML5 provides the structure and the content for my project. 
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* CSS3 provides the style of the HTML5 elements.
+* [JavaScript](https://nl.wikipedia.org/wiki/JavaScript)
+* JavaScript provides the interactive elements on the website. 
+* [jQuery](https://jquery.com/)
+* jQuery is used for implementation of Bootstrap.
+* [Python](https://www.python.org/)
+* Python provides the backend of the project.
+* [Jinja](https://en.wikipedia.org/wiki/Jinja_(template_engine))
+* Jinja provides the templating language for Python.
 
 #### Frameworks, libraries & other
-- [Django](https://www.djangoproject.com/) 
-    - The GitPod is used as Python framework for the project.
-- [Gitpod](https://www.gitpod.io/) 
-    - The GitPod is used to develop the project.
-- [Git](https://git-scm.com/)
-    - The Git was used for version control to commit to Git and push to GitHub.
-- [GitHub](https://github.com/)
-    - The GitHub is used to host the project.
-- [Pip3](https://pip.pypa.io/en/stable/)
-    - Pip3 is used for installing the necessary tools, libraries and frameworks.
-- [Heroku](https://heroku.com/)
-    - Heroku is used to host the project.
-- [AWS Amazon](https://aws.amazon.com/)
-    - AWS Amazon is used to store static and media files.
-- [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
-    - Boto3 is used for compatibility in AWS.
-- [Gunicorn](https://pypi.org/project/gunicorn/)
-    - Gunicorn is used to enable deployment to Heroku.
-- [Spycopg2](https://pypi.org/project/gunicorn/)
-    - Spycopg2 is used to enable the PostGreSQL database to connect with Django.
-- [Google Fonts](https://fonts.google.com/)
-    - Google Fonts is used to provide the font Bitter and Lato for all the text that is used in the project. 
-- [Figma](https://www.figma.com/)
-    - Figma is used to create the mockup designs for the project.
-- [Bootstrap](https://getbootstrap.com/)
-    - Bootstrap is used for the design framework.
-- [Heroku](https://dashboard.heroku.com/)
-    - Heroki is the cloud platform to deploying the app.
-- [Django Crispy Forms ](https://django-crispy-forms.readthedocs.io/en/latest/)
-    - Django Crispy Forms is used to style the Django forms
-- [Stripe](https://stripe.com/en-nl)
-    - Stripe is used for the secure payments 
+* [Django](https://www.djangoproject.com/) 
+* The GitPod is used as Python framework for the project.
+* [Gitpod](https://www.gitpod.io/) 
+* The GitPod is used to develop the project.
+* [Git](https://git-scm.com/)
+* The Git was used for version control to commit to Git and push to GitHub.
+* [GitHub](https://github.com/)
+* The GitHub is used to host the project.
+* [Pip3](https://pip.pypa.io/en/stable/)
+* Pip3 is used for installing the necessary tools, libraries and frameworks.
+* [Heroku](https://heroku.com/)
+* Heroku is used to host the project.
+* [AWS Amazon](https://aws.amazon.com/)
+* AWS Amazon is used to store static and media files.
+* [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+* Boto3 is used for compatibility in AWS.
+* [Gunicorn](https://pypi.org/project/gunicorn/)
+* Gunicorn is used to enable deployment to Heroku.
+* [Spycopg2](https://pypi.org/project/gunicorn/)
+* Spycopg2 is used to enable the PostGreSQL database to connect with Django.
+* [Google Fonts](https://fonts.google.com/)
+* Google Fonts is used to provide the font Bitter and Lato for all the text that is used in the project. 
+* [Figma](https://www.figma.com/)
+* Figma is used to create the mockup designs for the project.
+* [Bootstrap](https://getbootstrap.com/)
+* Bootstrap is used for the design framework.
+* [Heroku](https://dashboard.heroku.com/)
+* Heruku is the cloud platform to deploying the app.
+* [Django Crispy Forms ](https://django-crispy-forms.readthedocs.io/en/latest/)
+* Django Crispy Forms is used to style the Django forms
+* [Stripe](https://stripe.com/en-nl)
+* Stripe is used for the secure payments 
 
 #### Databases 
-- [SQlite3](https://www.sqlite.org/index.html)
-    - SQlite3 is used as the development database.
-- [PostgreSQL](https://www.postgresql.org/)
-    - PostgreSQL is used as the production database.
+* [SQlite3](https://www.sqlite.org/index.html)
+* SQlite3 is used as the development database.
+* [PostgreSQL](https://www.postgresql.org/)
+* PostgreSQL is used as the production database.
 
 #### Testing tools used 
-- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/open) is used to detect problems and test responsiveness.
-- [Autoprefixer](https://autoprefixer.github.io/)
-    - Autoprefixer is used to parse the CSS and to add vendor prefixes to CSS rules. 
-- [W3C Markup Validation Service](https://validator.w3.org/)
-    - The W3C Markup Validation Service is used to check whether there were any errors in the HTML5 code. 
-- [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
-    - The W3C CSS validator is used to check whether there were any errors in the CSS3 code.
-- [JShint](https://jshint.com/)
-    - JShint is a JavaScript validator that is used to check whether there were any errors in the JavaScript code. 
-- [PEP8](http://pep8online.com/)
-    - The PEP8 validator is used to check whether there were any errors in the Python code.
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/open) is used to detect problems and test responsiveness. 
+* [W3C Markup Validation Service](https://validator.w3.org/)
+* The W3C Markup Validation Service is used to check whether there were any errors in the HTML5 code. 
+* [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
+* The W3C CSS validator is used to check whether there were any errors in the CSS3 code.
+* [JShint](https://jshint.com/)
+* JShint is a JavaScript validator that is used to check whether there were any errors in the JavaScript code. 
+* [PEP8](http://pep8online.com/)
+* The PEP8 validator is used to check whether there were any errors in the Python code.
+
+### Testing ###
+
+
+## Deployment
+### Creation
+* All code was written in Gitpod and used [this template](https://github.com/Code-Institute-Org/gitpod-full-template) from Code Institute.
+* Files were added to the staging area using "git add ."
+* Files were committed to the local repository using "git commit -m 'commit message here'".
+* Committed changes were pushed to the GitHub repository.
+
+### Heroku
+
+To deploy the project to a live website the below steps were followed:
+
+* Go to Heroku.com and log in (if not registered you must create an account first).
+* Make sure your project has a file specifying which applications are needed to run your site, use the below code to automatically generate this
+> pip3 freeze --local > requirements.txt
+* Also make sure you have a Procfile which tells Heroku which file runs the app. The Procfile may add a blank line which can cause issues so check and remove this if needed.
+* In Heroku click on create a new app. The Heroku app name must be unique and generally uses - instead of spaces and all lowercase letters. Then select the region closest to you and create app.
+* To connect our app to Heroku we can setup an automatic deployment from our GitHub repo. Within your Heroku app go to the deployment tab and click on GitHub for the deployment method. Make sure your GitHub profile is displayed below and enter the repository name and search. Make sure your repo is displayed and click connect to this app.
+* Before enabling automatic deployment, we still have a couple more steps.
+* Click on the settings tab in your app and enter config vars as needed for your project. For this project we need SECRET_KEY, DATABASE_URL, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, EMAIL_HOST_PASS, EMAIL_HOST_USER, STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY, STRIPE_WH_SECRET and USE_AWS (True) variables for the site to be fully functional.
+* Git add, commit and push the changes in your Gitpod (adding the requirements and Procfile files) as explained in the above section.
+* Go back to your Heroku app and the deployment tab - now click to enable automatic deployment and then click deploy branch.
+* Heroku will now receive the code from GitHub and build your app, once it is complete you should see that your app has been successfully deployed.
+* Now the deployed site is available and should automatically update whenever changes are pushed to GitHub from Gitpod.
+
+### Local Clone
+To make a local copy of a repository on your own GitHub account you can clone it.
+This allows others to view the original code and/or make changes to it (on their own local copy).
+Changing the code on your local repository will not affect the original code or deployed website.
+
+To clone a repository in GitHub you can follow the steps below:
+* Log into GitHub and locate the repository you wish to clone.
+* Click on the code button (to the left of the green Gitpod button) and copy the https URL given.
+* Open Gitpod (or another editor if you prefer).
+* Use the "git clone 'insert copied URL here'" command.
+* A clone of the original repository will now be available for you locally 
+on your own repository to view/edit as you wish.
+
+### Forking
+
+Forking is another way to  make a local copy of a repository on your own GitHub account to do this follow the below steps:
+
+* Log into GitHub and locate the repository you wish to fork.
+* At the top-right of the repository (and top-right of the green Gitpod button), locate the fork button.
+* A copy of the original repository will now be available for you locally 
+on your own repository to view/edit as you wish.
+
+## Credits
+
+### Code
+
+* The Materializecss library was used to help make this website responsive for different devices and to create the collapsible navbar. 
+
+### Content
+
+* For each of the products on the site I had a look at popular sites [Hotel Chocolat](https://www.hotelchocolat.com/uk), [Thorntons](https://www.thorntons.co.uk/), [Whittard](https://www.whittard.co.uk/) and [T2 Tea](https://www.t2tea.com/en/uk/) to gain inspiration for the products on this site. Additionally, these sites helped me get an idea for a good layout of the site.
+
 
 
 
