@@ -261,7 +261,74 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
 * Adding a favorite section. Users can favorite their product and see them on their favorite page if they are logged.
 * Adding product description for customers to have  more information about a certain furniture
 
-##### Testing Fucntionality
+### Technologies ####
+#### Languages used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    - HTML5 provides the structure and the content for my project. 
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    - CSS3 provides the style of the HTML5 elements.
+- [JavaScript](https://nl.wikipedia.org/wiki/JavaScript)
+    - JavaScript provides the interactive elements on the website. 
+- [jQuery](https://jquery.com/)
+    - jQuery is used for implementation of Bootstrap.
+- [Python](https://www.python.org/)
+    - Python provides the backend of the project.
+- [Jinja](https://en.wikipedia.org/wiki/Jinja_(template_engine))
+    - Jinja provides the templating language for Python.
+
+#### Frameworks, libraries & other
+- [Django](https://www.djangoproject.com/) 
+    - The GitPod is used as Python framework for the project.
+- [Gitpod](https://www.gitpod.io/) 
+    - The GitPod is used to develop the project.
+- [Git](https://git-scm.com/)
+    - The Git was used for version control to commit to Git and push to GitHub.
+- [GitHub](https://github.com/)
+    - The GitHub is used to host the project.
+- [Pip3](https://pip.pypa.io/en/stable/)
+    - Pip3 is used for installing the necessary tools, libraries and frameworks.
+- [Heroku](https://heroku.com/)
+    - Heroku is used to host the project.
+- [AWS Amazon](https://aws.amazon.com/)
+    - AWS Amazon is used to store static and media files.
+- [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+    - Boto3 is used for compatibility in AWS.
+- [Gunicorn](https://pypi.org/project/gunicorn/)
+    - Gunicorn is used to enable deployment to Heroku.
+- [Spycopg2](https://pypi.org/project/gunicorn/)
+    - Spycopg2 is used to enable the PostGreSQL database to connect with Django.
+- [Google Fonts](https://fonts.google.com/)
+    - Google Fonts is used to provide the font Bitter and Lato for all the text that is used in the project. 
+- [Figma](https://www.figma.com/)
+    - Figma is used to create the mockup designs for the project.
+- [Bootstrap](https://getbootstrap.com/)
+    - Bootstrap is used for the design framework.
+- [Heroku](https://dashboard.heroku.com/)
+    - Heroki is the cloud platform to deploying the app.
+- [Django Crispy Forms ](https://django-crispy-forms.readthedocs.io/en/latest/)
+    - Django Crispy Forms is used to style the Django forms
+- [Stripe](https://stripe.com/en-nl)
+    - Stripe is used for the secure payments 
+
+#### Databases 
+- [SQlite3](https://www.sqlite.org/index.html)
+    - SQlite3 is used as the development database.
+- [PostgreSQL](https://www.postgresql.org/)
+    - PostgreSQL is used as the production database.
+
+#### Testing tools used 
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/open) is used to detect problems and test responsiveness.
+- [Autoprefixer](https://autoprefixer.github.io/)
+    - Autoprefixer is used to parse the CSS and to add vendor prefixes to CSS rules. 
+- [W3C Markup Validation Service](https://validator.w3.org/)
+    - The W3C Markup Validation Service is used to check whether there were any errors in the HTML5 code. 
+- [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
+    - The W3C CSS validator is used to check whether there were any errors in the CSS3 code.
+- [JShint](https://jshint.com/)
+    - JShint is a JavaScript validator that is used to check whether there were any errors in the JavaScript code. 
+- [PEP8](http://pep8online.com/)
+    - The PEP8 validator is used to check whether there were any errors in the Python code.
+
 
 
 
