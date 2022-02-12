@@ -619,7 +619,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1045",
-      "name": "Dinning  Tables Tan",
+      "name": "Dining  Tables Tan",
       "description": "",
       "price": 61.43,
       "category": 7,
@@ -633,7 +633,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1046",
-      "name": "Dinning Tables Bench",
+      "name": "Dining Tables Bench",
       "description": "",
       "price": 27.4,
       "category": 7,
@@ -647,7 +647,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1047",
-      "name": "Dinning Tables Brown",
+      "name": "Dining Tables Brown",
       "description": "",
       "price": 94.45,
       "category": 7,
@@ -661,7 +661,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1048",
-      "name": "Dinning Tables Round",
+      "name": "Dining Tables Round",
       "description": "",
       "price": 32.85,
       "category": 7,
@@ -675,7 +675,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1049",
-      "name": "Dinning Bitter Chair",
+      "name": "Dining Bitter Chair",
       "description": "",
       "price": 34.63,
       "category": 8,
@@ -689,7 +689,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1050",
-      "name": "Dinning Boden Chair",
+      "name": "Dining Boden Chair",
       "description": "",
       "price": 30.94,
       "category": 8,
@@ -703,7 +703,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1051",
-      "name": "Dinning Cater Chair",
+      "name": "Dining Cater Chair",
       "description": "",
       "price": 78.15,
       "category": 8,
@@ -717,7 +717,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1052",
-      "name": "Dinning Clover Chair",
+      "name": "Dining Clover Chair",
       "description": "",
       "price": 23.37,
       "category": 8,
@@ -731,7 +731,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1053",
-      "name": "Dinning Set Gideon",
+      "name": "Dining Set Gideon",
       "description": "",
       "price": 72.68,
       "category": 9,
@@ -745,7 +745,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1054",
-      "name": "Dinning Set Grace",
+      "name": "Dining Set Grace",
       "description": "",
       "price": 80.85,
       "category": 9,
@@ -759,7 +759,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1055",
-      "name": "Dinning Set Lionel",
+      "name": "Dining Set Lionel",
       "description": "",
       "price": 23.56,
       "category": 9,
@@ -773,7 +773,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1056",
-      "name": "Dinning Set Moka",
+      "name": "Dining Set Moka",
       "description": "",
       "price": 36.13,
       "category": 9,
@@ -955,7 +955,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1069",
-      "name": "Zahava Tv Rack",
+      "name": "Zahava Tv Unit",
       "description": "",
       "price": 86.18,
       "category": 2,
@@ -969,7 +969,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1070",
-      "name": "Diya Tv Rack",
+      "name": "Diya Tv Unit",
       "description": "",
       "price": 61.66,
       "category": 2,
@@ -983,7 +983,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1071",
-      "name": "Tad Tv Rack",
+      "name": "Tad Tv Unit",
       "description": "",
       "price": 92.39,
       "category": 2,
@@ -997,7 +997,7 @@
     "model": "products.product",
     "fields": {
       "sku": "SUPER1072",
-      "name": "Opal Tv Rack",
+      "name": "Opal Tv Unit",
       "description": "",
       "price": 94.93,
       "category": 2,

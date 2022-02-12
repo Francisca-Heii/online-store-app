@@ -37,13 +37,15 @@ def all_products(request):
         
         if 'q' in request.GET:
             category=['Sofa', 'TV Unit', 'Coffee Table', 'Beds', 'Matressess', 'Wardrobes', 'Dinning Tables', 'Dinning Chair', 'Dinning Set', 'Desk', 'Office Chair', 'Candles and Holders', 'Throws and Blankets', 'Table Lamp', 'Ornamental items', 'Ceiling Lamp', 'Floor Lamp']
+            category={"Sofa":"Sofa", "TV unit":"tv_unit", }
             query = request.GET['q']
+            print("query ",query)
             if not query:
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
-            if(query in category):
-                queries = Q(name__icontains=query) | Q(description__icontains=query)
-                products = products.filter(queries)
+            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            products = products.filter(queries)
+            print("jajdksk",queries)
     current_sorting = f'{sort}_{direction}'
             
 
@@ -52,9 +54,6 @@ def all_products(request):
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
- 
-
-        
     }
 
     return render (request,'products/products.html',context)

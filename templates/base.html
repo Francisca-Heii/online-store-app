@@ -286,15 +286,15 @@
     <button id="back-to-top" class="btn float-right" onclick="goup()">Back To Top</button>
 
     <!-- FOOTER--------------------------------- -->
-    <div class="container-flex my-5">
+    <div class="container-flex m-auto">
         <!-- Footer -->
         <footer class="text-center text-white" style="background-color: #dbdbdb">
             <!-- Grid container -->
-            <div class="container">
+            <div class="container m-auto">
                 <!-- Section: Links -->
-                <section class="mt-5 d-flex">
+                <section class="">
                     <!-- Grid row-->
-                    <div class="row text-center d-flex justify-content-center pt-5">
+                    <div class="row text-center  justify-content-around pt-5">
                         <!-- Grid column -->
                         <div class="col-md-2">
                             <h6 class="text-uppercase font-weight-bold">
@@ -376,7 +376,7 @@
             <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
                 © 2020 Copyright:
-                <a class="text-black" href="https://supremefurnitures.com/">supremefurnitures.com</a>
+                <a class="text-black" href="https://supremefurnitures.herokuapp.com/">supremefurnitures.com</a>
             </div>
             <!-- Copyright -->
         </footer>
@@ -391,7 +391,7 @@
             window.location.href = "{% url 'products' %}?category=sofa,tv_unit,coffee_table";
         });
         $('#dinning_room').click(function () {
-            window.location.href = "{% url 'products' %}?category=dinning_tables,dinning_chair,dinning_set";
+            window.location.href = "{% url 'products' %}?category=dining_tables,dining_chair,dining_set";
         });
         $('#bed_room').click(function () {
             window.location.href = "{% url 'products' %}?category=beds,matressess,wardrobes";

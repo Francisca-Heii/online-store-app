@@ -50,24 +50,24 @@
     "pk": 7,
     "model": "products.category",
     "fields": {
-      "name": "dinning_tables",
-      "friendly_name": "Dinning Tables"
+      "name": "dining_tables",
+      "friendly_name": "Dining Tables"
     }
   },
   {
     "pk": 8,
     "model": "products.category",
     "fields": {
-      "name": "dinning_chair",
-      "friendly_name": "Dinning Chair"
+      "name": "dining_chair",
+      "friendly_name": "Dining Chair"
     }
   },
   {
     "pk": 9,
     "model": "products.category",
     "fields": {
-      "name": "dinning_set",
-      "friendly_name": "Dinning Set"
+      "name": "dining_set",
+      "friendly_name": "Dining Set"
     }
   },
   {

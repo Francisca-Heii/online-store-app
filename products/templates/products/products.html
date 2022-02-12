@@ -184,6 +184,7 @@ products
         console.log("received ur;" + url_1)
         if (url_1.split("=")[1]) {
             head_line = url_1.split("=")[1];
+            head_line = head_line.replace('+', " ")
             if (head_line.includes("&")) {
                 head_line = "By " + head_line.split("&")[0]
             }
@@ -196,7 +197,7 @@ products
                 case 'beds,matressess,wardrobes':
                     return "BEDROOM"
                 case 'dinning_tables,dinning_chair,dinning_set':
-                    return "DINNING ROOM"
+                    return "DINING ROOM"
                 case 'desk,office_chair':
                     return "STUDY"
                 case 'ceiling_lamp,table_lamp,floor_lamp':

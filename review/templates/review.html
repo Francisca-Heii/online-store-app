@@ -5,16 +5,16 @@
 {% endblock %}
 
 {% block extra_css %}
-<div class="d-block text-center" style="margin: 150px 150px;padding:150px ">
+<div class="d-block text-center">
     <div class="padb-30 auto-invert line-b-4 align-center">
-        <h1 class="font-cond-b fg-text-d lts-md fs-300 fs-300-xs mb-2" contenteditable="false">Read Customer
+        <h1 class="font-cond-b fg-text-d lts-md fs-100-sm fs-300-xs mb-2" contenteditable="false">Read Customer
             Reviews
         </h1>
     </div>
-    <div class="d-flex text-center padding:50px">
-        <div class="d-flex row mx-5 text-center align-center text-sm">
+    <div class="d-flex text-center m-auto padding:50px">
+        <div class="d-flex row m-auto text-center align-center text-sm">
             {% for obj in objs %}
-            <div class="card m-5 p-2 col-6 d-flex">
+            <div class="card m-auto p-2 col-6 d-flex">
                 <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="card-img mgb-20" title="" alt=""
                     data-edit="false" data-editor="field"
                     data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
