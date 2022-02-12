@@ -202,13 +202,72 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
  * The total number of products on this page is 76, as the user scrolls down this page there is a "back to top " button where they can click to go back to the top of the page, or they can just scroll up if they want to slowly view the products again.
 
  #### Products details page
- * Shows both product and info on a responsive bootstrap layout to accommodate all screen sizes.
-* Shows information about a specific item the user selected for example, a study chair. Information includes product image, name, price, category and rating.
-* The product image is large, and when clicked on, the image opens up in a separate tab.
-* Users can choose the quantity they want to put in their bag for that product.
-* 
-* A 'keep shopping' button is available for users to navigate back to the shop page quickly.
-* A 'add to bag' button allows users to add products to their bag efficiently.
+ * The product detail page shows information about that specific item, the information includes; image, name, price, category and rating.
+ * customers only can buy the product if the product is displayed on the site.
+ * A user can choose the quantity of the product. The product quantity can be between 1 and 99 items.
+ * There is a button where the user can add the item to the shopping bag or continue shopping.
+ * When the user puts the item in the bag there will be a toast success message, showing all the items in a bag. The name, quantity and the total amount. The user can then **click x** at the top to close it, go to secure checkout button or continue shopping.
+ 
+ #### The shopping bag
+ * The **shopping bag page is available for logged in users and guests**. Purchases can be made by both of them.
+ * Gives an overview of all items that are in the shopping bag, the overview information includes; image, name, quantity, price, and subtotal.
+ * users can update the quantity of the items they have.
+ * users can delete items from their order.
+ * There is an overview of the total price, the delivery costs and the grant total of the order.
+ * There is a button with ‘keep shopping’ that links to the product page.
+ * There is a button with ‘go to checkout’ to continue the purchase.
+ 
+ #### Checkout page
+ * The order summary gives information about the item, this information includes; name, price, total, free delivery and grant total.
+ * There is an option to login with an account, where the personal information already exists to continue the payment process quickly.
+ * The checkout form to continue the payment. The form asks for the following information: full name, email, phone number, country, postal code, town or city and street address 1 - all these input fields must be valid. The country field is an input where users can scroll to a list to choose the country.
+ * The user has to fill in their information about the card number. The Stripe functionality is in testing mode, the credit card number 4242 4242 4242 4242 will lead to a successful payment. expiration date, CVC and ZIP can be made up yourself.
+ * A webhook is used for security when the order is processed.
+ * There is a button to go back to the shopping bag page. The user can go back to the shopping bag page to adjust items in the bag.
+ * There is a button to complete the order.
+ * When the user clicks on the complete the order button, there is a little loading overlay. The user is directed to the checkout success page after the overlay.
+ * **When the order is completed**, There is a redirect to the checkout success page,
+ a confirmation email is sent to the user’s mail and a toast message ‘completed’ shows to ensure the user that the order is successfully completed.
+ 
+ #### Checkout success page 
+ * Contains a **thank you message.**
+ * Includes information about the order summary. The order summary consists of information about the date, order number, products, delivery information and billing information.
+ * There is a button to go back to the product page.
+
+ #### Profile page
+ * The account page is only accessible for users who have an account.
+ * The page contains a **personal info section** (username, email). The user can change the password and edit their email.
+ * There is a **shipping info section** (country, postal code, town/city, street address 1 and street address 2. Users can edit this information also.
+ * There is an order history section (order number, date of order, items and total).
+
+ ##### Review page
+
+ ##### Contact page
+
+ #### Django-Allauth features
+ * **Sign up**
+ * Users can create a new account by filling in a from where the user have to fillin a email, username, password and password confirmation. If the info already exists there will be a message that he/she already has an account. The user can submit the form when the data is new. A verification email is sent to the user.
+
+**Login**
+* Users can login with their username ans password. There is also a link to change the password, if the user is forgotten it.
+
+**Forgot password**
+* A user can reset their password.
+
+**Logout**
+* The user can logout by clicking the logout link. After clicking the link there wil a confirmation if the user is sure to logout.
+
+#### Features to implement
+* Adding a favorite section. Users can favorite their product and see them on their favorite page if they are logged.
+* Adding product description for customers to have  more information about a certain furniture
+
+##### Testing Fucntionality
+
+
+
+
+
+ 
 
  
  
