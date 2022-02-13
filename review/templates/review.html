@@ -7,9 +7,39 @@
 {% block extra_css %}
 {% endblock %}
 
-<div class="container">
+{% block content %}
+<div class="container header-container"></div>
+
+<div class="row m-2">
+    <h2 class="col-12 text-center">CUSTOMER REVIEWS</h2>
+</div>
+<div class="row m-auto text-center p-2 w-100">
+
+
+    {% for i in objs %}
+    <div class=" col m-1 border-none">
+
+        <div class="card m-auto text-center" style="width: 16rem;">
+            <img class=" card-img-top p-4" src="https://supremefurnitures.s3.amazonaws.com/static/media/avatar.png"
+                width="100" alt="">
+
+            <div>
+                <h3>"{{i.feedback}}"</h3>
+            </div>
+            <div class="card-title">
+                {{i.firstname}} {{i.lastname}}
+            </div>
+            <div class="card-subtitle">
+                {{i.occupation}}
+            </div>
+        </div>
+    </div>
+
+    {% endfor %}
 
 </div>
+{% endblock %}
+
 
 {% block postloadjs %}
 {{ block.super }}
