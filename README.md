@@ -1,3 +1,26 @@
+
+## Index 
+<span id="back-to-top"></span>
+- <a href="#ux">1. User experience (UX)</a>
+    - <a href="#ux-goals">1.1. Project Goals</a>
+    - <a href="#client-stories">1.2 Client Stories</a>
+    - <a href="#design">1.3 Design</a>
+- <a href="#information-architecture">2. Information Architecture</a>
+    - <a href="#database">2.1 Database</a> 
+    - <a href="#er-diagram">2.2 ER Diagram </a>  
+    - <a href="#data-modelling">2.3 Data Modelling</a>
+- <a href="#features">3. Features</a>
+    - <a href="#features-existing">3.1 Existing features</a>
+    - <a href="#features-future">3.2 Features left to implement in the future</a>
+- <a href="#technologies">4. Technologies used</a>
+    - <a href="#languages-used">4.1 Languages Used</a>
+    - <a href="#testing-tools">4.2 Testing Tools</a>
+- <a href="#testing">5. Testing</a>
+- <a href="#deployment">6. Deployment</a>
+- <a href="#credits">7. Credits</a>
+- <a href="#acknowledge">8. Acknowledge</a>
+- <a href="#disclaimer">9. Disclaimer</a>
+
 ## *SUPREME FURNITURE*
 ---
 This is an e-commerce web application, created for the purposes of satisfying the requirements for the **Code Institute Full Stack Development Course Milestone Project 4.** The goal of the application is to sell quality furniture at unbeatable prices in Ireland and Northern Ireland. At Supreme Furniture, we have a **huge variety of beds, wardrobes, bedroom furniture, sofas, dining tables, dining chairs, lightings, TV units, and many more.**
@@ -7,6 +30,10 @@ This is an e-commerce web application, created for the purposes of satisfying th
 * Provide high quality of furniture at an unbeatable and affordable price.
 * Maximizing direct sales to new and returning customers/visitors by simplify and optimize site content to be as easy as possible to make a purchase
 
+<div align="right">
+    <a href="#back-to-top">↥ Back to top!</a>
+</div>
+<span id="ux"></span> 
 ### User EXperience
 ---
 
@@ -19,6 +46,10 @@ This is an e-commerce web application, created for the purposes of satisfying th
 
 **While we do stock top quality,** new office furniture, we also stock, "as new" office furniture which we have bought from office closures and trade ins. Whether you want cool lightings, reception desk or office furniture in premium colors or if you just want a plain shivel chair, we can look after your every need when it comes to furniture.
 
+<div align="right">
+    <a href="#back-to-top">↥ Back to top!</a>
+</div>
+<span id="ux-goals"></span> 
 ### PROJECT GOALS:
 * To build a **full-stack site based around business logic** used to control a centrally-owned dataset.
 * To set up an **authentication mechanism and provide paid access** to the site's data and/or other activities based on the dataset, such as the purchase of a product/service" using **HTML, CSS, JavaScript, Python+Django, a relational database (recommending MySQL or Postgres),**
@@ -34,6 +65,7 @@ This is an e-commerce web application, created for the purposes of satisfying th
 * Provide quality and affordable furnitures for everyone.
 * Offer fast, free delivery and excellent customer service to our customers. 
 
+<span id="client-stories"></span> 
 ### ClIENT STORIES
 #### As a casual/new visitor to the website, I want to:
 1. Visit **Supreme Furnitures website** so that I can view what they have in stock.
@@ -75,6 +107,7 @@ am looking for.
 2. **Edit and update** existing products to change pricing, description images, and other criteria.
 3. Add and edit discount codes so that customers can register in order to enjoy massive discount offers.
 ---
+<span id="design"></span> 
 ### DESIGN
 ##### Colour Scheme
 The color scheme chosen **looks cool, calm, and engaging.** Since the site mainly consists of bright images,
@@ -121,16 +154,18 @@ While the project relied on these wireframes, there are some differences between
 * [home](assets/wireframes/register.pdf)
 * [home](assets/wireframes/sign-inD.pdf)
 ---
-
+<span id="information-architecture"></span> 
 ### Information Architecture
 
+<span id="database"></span> 
 #### Database
 * During the development phase I have worked with the **sqlite3** database, which was set by default by Django. 
 * For deployment, I used the **PostgreSQL** database whcih is provided by Heroku. 
 
+<span id="er-diagram"></span> 
 ### ER Diagram
 
-
+<span id="data-modelling"></span> 
 ### Data Modelling
 #### Profile app 
 #### UserProfile model
@@ -206,6 +241,8 @@ While the project relied on these wireframes, there are some differences between
  Email| email| EmailField | 
  Message | message| TextField | 
 
+<span id="features"></span> 
+<span id="features-existing"></span> 
 ### Features:
 ---
 Every page of the website features a consistently responsive and intuitive layout and navigation.
@@ -339,12 +376,14 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
 **Logout**
 * The user can logout by clicking the logout link. After clicking the link there wil a confirmation if the user is sure to logout.
 ---
+<span id="features-future"></span>
 #### Features to implement
 * Adding a favorite section. Users can favorite their product and see them on their favorite page if they are logged.
 * Adding product description for customers to have  more information about a certain furniture
 ---
-
+<span id="technologies"></span> 
 ### Technologies ####
+<span id="languages-used"></span>
 #### Languages used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 *  HTML5 provides the structure and the content for my project. 
@@ -399,6 +438,7 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
 * [PostgreSQL](https://www.postgresql.org/)
 * PostgreSQL is used as the production database.
 
+<span id="testing-tools"></span> 
 #### Testing tools used 
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/open) is used to detect problems and test responsiveness. 
 * [W3C Markup Validation Service](https://validator.w3.org/)
@@ -411,9 +451,11 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
 * The PEP8 validator is used to check whether there were any errors in the Python code.
 ---
 
+<span id="testing"></span> 
 ### Testing ###
+The testing process can be found [here](TESTING.md).
 
-
+<span id="deployment"></span> 
 ## Deployment
 ### Creation
 * All code was written in Gitpod and used [this template](https://github.com/Code-Institute-Org/gitpod-full-template) from Code Institute.
@@ -469,6 +511,15 @@ on your own repository to view/edit as you wish.
 ### Content
 
 * For each of the products on the site I had a look at popular sites [Hotel Chocolat](https://www.hotelchocolat.com/uk), [Thorntons](https://www.thorntons.co.uk/), [Whittard](https://www.whittard.co.uk/) and [T2 Tea](https://www.t2tea.com/en/uk/) to gain inspiration for the products on this site. Additionally, these sites helped me get an idea for a good layout of the site.
+
+<span id="credits"></span> 
+## Credits
+
+<span id="acknowledge"></span> 
+## Acknowledge
+
+<span id="disclaimer"></span> 
+## Disclaimer
 
 
 
