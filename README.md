@@ -1,11 +1,8 @@
-## *INSPIRE SECOND-HAND FURNITURE*
+## *SUPREME FURNITURE*
 ---
-This is an e-commerce web application, created for the purposes of satisfying the requirements for the Code Institute Full Stack Development Course Milestone Project 4. The goal of the application is to sell quality furniture at unbeatable prices in Ireland and Northern Ireland. At Supreme Furniture, we have a huge variety of beds, wardrobes, bedroom furniture, sofas, dining tables, dining chairs, lightings, TV units, and many more.
- 
-This website is only for educational purposes and the stripe functionality is set up to only accept the test card details, please don't enter your personal card details.
+This is an e-commerce web application, created for the purposes of satisfying the requirements for the **Code Institute Full Stack Development Course Milestone Project 4.** The goal of the application is to sell quality furniture at unbeatable prices in Ireland and Northern Ireland. At Supreme Furniture, we have a **huge variety of beds, wardrobes, bedroom furniture, sofas, dining tables, dining chairs, lightings, TV units, and many more.**
 
 ### The business goals of this website are:
-
 * Excellent UX to keep potential clients on site long enough.
 * Provide high quality of furniture at an unbeatable and affordable price.
 * Maximizing direct sales to new and returning customers/visitors by simplify and optimize site content to be as easy as possible to make a purchase
@@ -15,23 +12,21 @@ This website is only for educational purposes and the stripe functionality is se
 
 #### Ideal clients
 
-The ideal clients for this business:
+**The ideal clients for this business:**
 * We sell to companies and private individuals.
 * Users who are looking to purchase furniture.
 * Users who can use a device connected to the internet.
 
-While we do stock top quality, new office furniture, we also stock, "as new" office furniture which we have bought from office closures and trade ins. Whether you want cool lightings, reception desk or office furniture in premium colors or if you just want a plain shivel chair, we can look after your every need when it comes to furniture.
+**While we do stock top quality,** new office furniture, we also stock, "as new" office furniture which we have bought from office closures and trade ins. Whether you want cool lightings, reception desk or office furniture in premium colors or if you just want a plain shivel chair, we can look after your every need when it comes to furniture.
 
 ### PROJECT GOALS:
-
-* To build a full-stack site based around business logic used to control a centrally-owned dataset.
-* To set up an authentication mechanism and provide paid access to the site's data and/or other activities based on the dataset, such as the purchase of a product/service" using HTML, CSS, JavaScript, Python+Django, a relational database (recommending MySQL or Postgres), 
-* Stripe payments and possible additional libraries and API's.
+* To build a **full-stack site based around business logic** used to control a centrally-owned dataset.
+* To set up an **authentication mechanism and provide paid access** to the site's data and/or other activities based on the dataset, such as the purchase of a product/service" using **HTML, CSS, JavaScript, Python+Django, a relational database (recommending MySQL or Postgres),**
+* **Stripe payments** and possible additional libraries and API's.
 
 ### Users Goals:
 * Find suitable furniture for their homes or businesses.
 * Find quality and affordable furnitures.
-
 
 ### Business Goals:
 * Creating a secure and professional e-commerce website.
@@ -40,52 +35,50 @@ While we do stock top quality, new office furniture, we also stock, "as new" off
 * Offer fast, free delivery and excellent customer service to our customers. 
 
 ### ClIENT STORIES
-
 #### As a casual/new visitor to the website, I want to:
 1. Visit **Supreme Furnitures website** so that I can view what they have in stock.
 2. Access the website from any device, so that I can view the website on desktop, mobile, or tablet.
-3. Navigate the site without having to register an account so that I can browse through the site.
+3. Navigate the site **without having to register an account** so that I can browse through the site.
 4. Navigate easily through the website so that I can find everything easily.
-5. See different categories on the navigation menu so that I can have an idea of what type of products are sold.
-6. See some information about delivery, quality status, and checkout so that I can be aware as I navigate the site.
-7. Search for a product by name or description to quickly see if it is available.
-8. See the total of my bag at any time to avoid spending much and keep updated.
-9. Easily sort and filter the available products across all/specific categories, identifying the best rated, best priced, and alphabetically sorted.
+5. See **different categories** on the navigation menu so that I can have an idea of what type of products are sold.
+6. See some information **about delivery, quality status, and checkout** so that I can be aware as I navigate the site.
+7. Search for a product by **name or description** to quickly see if it is available.
+8. See the **total of my bag** at any time to avoid spending much and keep updated.
+9. **Easily sort and filter** the available products across all/specific categories, identifying the best rated, best priced, and alphabetically sorted.
 10. Easily access a specific category of available products, so that I can quickly find what I
 am looking for.
-11. See slide show images so that I can stay longer and explore the site.
+11. See **slide show images** so that I can stay longer and explore the site.
 12. See **shop living, shop dining, shop bedroom, and shop accessories** displayed in cards, so that I can easily navigate to a certain category.
-13. View items in my bag, adjust or delete the number of items so that they can fit my budget.
+13. **View items in my bag, adjust or delete** the number of items so that they can fit my budget.
 14. Know more about the company, find the **review us, register now and discount code buttons** so that I can register if I am interested.
 15. View more information on a particular piece of furniture so that I can know more about the product. 
-16. Revisit my shopping bag so that I can continue shopping or proceed to checkout.
-17. Make a simple secure payment on the site and hassle-free, so that I can feel confident that my card details are safe.
-18. Receive a confirmation email with information about my order so that I can view my order details again.
+16. Revisit my shopping bag so that I can **continue shopping or proceed to checkout.**
+17. Make a **simple secure payment** on the site and hassle-free, so that I can feel confident that my card details are safe.
+18. Receive a **confirmation email** with information about my order so that I can view my order details again.
 19. Contact the site owner/administrator via a form, so that I can inquire about any questions or issues I may have.
-20. Register an account if I want to come back at a later date.
+20. **Register an account** if I want to come back at a later date.
 21. Leave a review so that I can give my feedback and help other customers.
 22. Read reviews from previous customers so that I can know what to expect.
 23. See the contact information or social media links so that I can follow the site owner and get a feel for the credibility of the site.
 
-
 #### As a registered user, I want to:
 
-1. Easily log in so that I can access my account.
+1. **Easily login** so that I can access my account.
 2. View my previous history of furniture bought and other information when I am logged in.
-3. Log out easily, so that I can keep my account private if I am not using my personal device, for example using a work device.
-4. Update my personal details so that I can save new changes, for example, change of address or phone number.
-5. Recover my password easily so that I can access my account in case I forget my password.
-6. Create, update or delete my personal information so that I can have up-to-date information.
+3. Log out easily, so that I can **keep my account private** if I am not using my personal device, for example using a work device.
+4. Update my personal details so that I can **save new changes,** for example, change of address or phone number.
+5. **Recover my password** easily so that I can access my account in case I forget my password.
+6. **Create, update or delete** my personal information so that I can have up-to-date information.
 
 #### Site owner, I want to be able to: 
 1. Add new items to the store easily so that customers can find something to buy.
-2. Edit and update existing products to change pricing, description images, and other criteria.
+2. **Edit and update** existing products to change pricing, description images, and other criteria.
 3. Add and edit discount codes so that customers can register in order to enjoy massive discount offers.
+---
 ### DESIGN
-
 ##### Colour Scheme
-The color scheme chosen looks cool, calm, and engaging. Since the site mainly consists of bright images,
- I thought sticking to various shades of green and additional yellow, and violet-cool would look nice together.
+The color scheme chosen **looks cool, calm, and engaging.** Since the site mainly consists of bright images,
+ I thought keeping the **buttons, navigation bar and text** to various shades of green, yellow and violet-cool would look nice together since the background color of the site is white.
 <p><img width="150" height="220" src="documentation/readme-images/250d63.png">
 <img width="150" height="220" src="documentation/readme-images/00954d.png">
 <img width="150" height="220" src="documentation/readme-images/250d63.png">
@@ -93,20 +86,18 @@ The color scheme chosen looks cool, calm, and engaging. Since the site mainly co
 <img width="150" height="220" src="documentation/readme-images/ffbe00.png">
 <img width="150" height="220" src="documentation/readme-images/ffffff.png"></p>
 
-
 #### Typography
-The site uses a variation of two different fonts that is Bitter, Lato, and Sans serif as a fallback font. It is important to always have a fallback back font when building applications. The reason is that, in a situation where the Bitter and Lato fonts fail to load for unknown reasons that is where the Sans serif backs up and render.
+The site uses a variation of **two different fonts that is Bitter, Lato, and Sans serif as a fallback font.** It is important to always have a fallback back font when building applications. **The reason is that,** in a situation where the Bitter and Lato fonts fail to load for unknown reasons that is where the Sans serif backs up and render.
 
 ##### icons
-The icons used are taken from Font Awesome. All icons that are used have functional purposes such as the hamburger menu for the mobile device and social media icons. 
+The icons used are taken from **Font Awesome.** All icons that are used have functional purposes such as the hamburger menu for the mobile device and social media icons. 
 
 #### Images
 The images used for the project are taken from [Pexels](https://www.pexels.com/) and [Home store](https://mandauefoam.ph/). The images are used for products, banners and, cart images.
 
-### WIREFRAMES
+### Wireframes
 **Post wireframes design changes:**
 While the project relied on these wireframes, there are some differences between the wireframes and the final product; 
-
 * No spinner icon and background image triggered while Stripe payment is processing.
 * An "About Us" page with a contact form was added. 
 
@@ -129,6 +120,7 @@ While the project relied on these wireframes, there are some differences between
 * [home](assets/wireframes/view-moreD.pdf)
 * [home](assets/wireframes/register.pdf)
 * [home](assets/wireframes/sign-inD.pdf)
+---
 
 ### Information Architecture
 
@@ -214,19 +206,17 @@ While the project relied on these wireframes, there are some differences between
  Email| email| EmailField | 
  Message | message| TextField | 
 
-
-
-### FEATURES:
---------------------------------------------------------------------------------------------------
+### Features:
+---
 Every page of the website features a consistently responsive and intuitive layout and navigation.
 #### Common Features Across All Pages:
----------------------------------------------------------------------------------------------------
+----
 #### Header
-* The header is positioned to be fixed at the top, left side of the screen and to always be visible to  the user, no matter what screen size or device is being used. This allows easy and seamless navigation across all pages, meaning that users can find it quickly.
+* The header is positioned to be fixed at the top, left side of the screen and to always be visible to  the user, no matter what screen size or device is being used. **This allows easy and seamless navigation** across all pages, meaning that users can find it quickly.
 
-* The name "Supreme Furnitures" which acts as a logo, is positioned at the top of the page within the header and when clicked on redirects you to the home page. The logo is visible in the header when viewed on all screen sizes.
+* The name **"Supreme Furnitures"** which acts as a logo on *desktop device*, is positioned at the top of the page within the header and when **clicked on redirects you to the home page.** The logo is visible in the header when viewed on all screen sizes.
 
-* Features a responsive main navigation bar with a sub-menu both inside the header.This is fixed to the top of each page, This makes navigation easier and quicker across the site. The page is consists of the following: All products,Living Room, Bedroom, Dining Room, Study, Lighting, and Accessories.  On hoover of the main navbar, a sub-menu is displayed showing more links to the site. On click of each submenu, it takes the user to the related section/page.
+* Features a *responsive main navigation bar with a sub-menu* both inside the header.This is fixed to the top of each page, This makes **navigation easier and quicker across the site.** The page is consists of the following: **All products,Living Room, Bedroom, Dining Room, Study, Lighting, and Accessories.**  *On hoover* of the main navbar, a sub-menu is displayed showing more links to the site. On click of each submenu, it takes the user to the related section/page.
 
 * The navbar contains a search functionality where the usercan search for products. This functionality allows the users to enter keywords associated with the name or productdescription and the results aredisplayed on the product page. 
 
@@ -244,7 +234,6 @@ Discount code 60% off button is in yellow(#ffbe00), violet color text, and dark 
 Contact button is in white text (#fff) and  a violet(#250d63) background color.
 
 * The feedback green button, contact blue button, and "go to top" button is displayed far to the right of the pages. This is visible on all the pages. Note that on some pages the "go to top" button might not be visible.
-
 
 #### Headings & Body Text:
 The main fonts used in the site are bitter and Lato fonts along with sans serif as a fallback font. The bitter font is used in the headings,  about us section. Lato is used everywhere else. Both the fonts create a nice sleek touch to the overall look of the site.
@@ -333,6 +322,9 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
  ##### Review page
 
  ##### Contact page
+* Users can reach out to the company with the **contact form**. The user has to fill in the name, email and message. The form will be sent to the admin. 
+* The choose drop down menu contains options such as enquiry, suggestions, feedback, subscription and compalint.
+* User can only choose and send the message to the admin.
 
  #### Django-Allauth features
  * **Sign up**
@@ -346,10 +338,11 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
 
 **Logout**
 * The user can logout by clicking the logout link. After clicking the link there wil a confirmation if the user is sure to logout.
-
+---
 #### Features to implement
 * Adding a favorite section. Users can favorite their product and see them on their favorite page if they are logged.
 * Adding product description for customers to have  more information about a certain furniture
+---
 
 ### Technologies ####
 #### Languages used
@@ -416,6 +409,7 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
 * JShint is a JavaScript validator that is used to check whether there were any errors in the JavaScript code. 
 * [PEP8](http://pep8online.com/)
 * The PEP8 validator is used to check whether there were any errors in the Python code.
+---
 
 ### Testing ###
 
