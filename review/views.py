@@ -1,10 +1,10 @@
 from django.shortcuts import render, redirect
-
 from review.models import Person, Enquiry
+from django.contrib.auth.decorators import login_required
 
 
 # Create your views here.
-
+@login_required
 def feedback(request):
     if(request.POST):
         print(request.POST)
@@ -19,13 +19,14 @@ def feedback(request):
     
     return render(request, "feedback.html", locals())
 
+@login_required
 def review_page(request):
     objs = Person.objects.all()
     total_entry = len(objs)
     print('total_admission', total_entry)
     return render(request, 'review.html', locals())
 
-
+@login_required
 def edit_feedback(request):
     try:
         obj = Person.objects.get(email=request.user.email)
@@ -44,7 +45,7 @@ def edit_feedback(request):
     except:   
         return render(request, "feedback.html", locals())
 
-
+@login_required
 def deleteDB(request):
     em=request.user.email
     print('username',em)

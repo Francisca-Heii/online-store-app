@@ -247,7 +247,8 @@ input[name='q']::placeholder {
 }
 
 .header-container {
-    margin-bottom: 0% !important;
+    margin-bottom: 0;
+
 }
 
 .text-black {
@@ -260,14 +261,16 @@ input[name='q']::placeholder {
     border: 1px solid #244922 !important;
 }
 
+.content {
+    padding-top: 50px !important;
+}
+
 /* Mobile view */
 
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 150px !important
+        padding-top: 100px !important
     }
-
-
 
     body {
         height: calc(100vh -116px);
@@ -331,7 +334,7 @@ input[name='q']::placeholder {
     }
 
     .header-container {
-        padding-top: 150px !important;
+        padding-top: 200px !important;
     }
 }
 
