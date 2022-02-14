@@ -74,11 +74,10 @@ This is an e-commerce web application, created for the purposes of satisfying th
 4. Navigate easily through the website so that I can find everything easily.
 5. See **different categories** on the navigation menu so that I can have an idea of what type of products are sold.
 6. See some information **about delivery, quality status, and checkout** so that I can be aware as I navigate the site.
-7. Search for a product by **name or description** to quickly see if it is available.
+7. Search for a product by **name or category** to quickly see if it is available.
 8. See the **total of my bag** at any time to avoid spending much and keep updated.
 9. **Easily sort and filter** the available products across all/specific categories, identifying the best rated, best priced, and alphabetically sorted.
-10. Easily access a specific category of available products, so that I can quickly find what I
-am looking for.
+10. Easily access a specific category of available products, so that I can quickly find what I am looking for.
 11. See **slide show images** so that I can stay longer and explore the site.
 12. See **shop living, shop dining, shop bedroom, and shop accessories** displayed in cards, so that I can easily navigate to a certain category.
 13. **View items in my bag, adjust or delete** the number of items so that they can fit my budget.
@@ -88,24 +87,22 @@ am looking for.
 17. Make a **simple secure payment** on the site and hassle-free, so that I can feel confident that my card details are safe.
 18. Receive a **confirmation email** with information about my order so that I can view my order details again.
 19. Contact the site owner/administrator via a form, so that I can inquire about any questions or issues I may have.
-20. **Register an account** if I want to come back at a later date.
+20. **Create an account**, so I can see my profile details and order history.
 21. Leave a review so that I can give my feedback and help other customers.
 22. Read reviews from previous customers so that I can know what to expect.
-23. See the contact information or social media links so that I can follow the site owner and get a feel for the credibility of the site.
+23. Social media links so that I can follow the site owner and get a feel for the credibility of the site.
 
 #### As a registered user, I want to:
 
-1. **Easily login** so that I can access my account.
-2. View my previous history of furniture bought and other information when I am logged in.
+1. **Login and logout at my account** anytime, so I can make an order quickly and so I can see my order history.
+2. Reset/change my password (if I forgot it), so I can get access to my profile.
 3. Log out easily, so that I can **keep my account private** if I am not using my personal device, for example using a work device.
-4. Update my personal details so that I can **save new changes,** for example, change of address or phone number.
-5. **Recover my password** easily so that I can access my account in case I forget my password.
-6. **Create, update or delete** my personal information so that I can have up-to-date information.
+4. **Create, update or delete** my personal information so that I can have up-to-date information. For example, change of address or phone number.
 
 #### Site owner, I want to be able to: 
-1. Add new items to the store easily so that customers can find something to buy.
-2. **Edit and update** existing products to change pricing, description images, and other criteria.
-3. Add and edit discount codes so that customers can register in order to enjoy massive discount offers.
+1. Add new items to the store easily.
+2. Edit and update existing products to change pricing, description images, and other criteria.
+
 ---
 <span id="design"></span> 
 ### DESIGN
@@ -164,6 +161,8 @@ While the project relied on these wireframes, there are some differences between
 
 <span id="er-diagram"></span> 
 ### ER Diagram
+
+<img src="documentation/readme-images/ERD.png">
 
 <span id="data-modelling"></span> 
 ### Data Modelling
