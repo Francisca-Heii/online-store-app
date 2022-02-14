@@ -1,4 +1,10 @@
 
+## *SUPREME FURNITURE*
+---
+This is an e-commerce web application, created for the purposes of satisfying the requirements for the **Code Institute Full Stack Development Course Milestone Project 4.** The goal of the application is to sell quality furniture at unbeatable prices in Ireland and Northern Ireland. At Supreme Furniture, we have a **huge variety of beds, wardrobes, bedroom furniture, sofas, dining tables, dining chairs, lightings, TV units, and many more.**
+
+**[View the live project here.](https://supremefurnitures.herokuapp.com/)**
+
 ## Index 
 <span id="back-to-top"></span>
 - <a href="#ux">1. User experience (UX)</a>
@@ -21,10 +27,6 @@
 - <a href="#acknowledge">8. Acknowledge</a>
 - <a href="#disclaimer">9. Disclaimer</a>
 
-## *SUPREME FURNITURE*
----
-This is an e-commerce web application, created for the purposes of satisfying the requirements for the **Code Institute Full Stack Development Course Milestone Project 4.** The goal of the application is to sell quality furniture at unbeatable prices in Ireland and Northern Ireland. At Supreme Furniture, we have a **huge variety of beds, wardrobes, bedroom furniture, sofas, dining tables, dining chairs, lightings, TV units, and many more.**
-
 ### The business goals of this website are:
 * Excellent UX to keep potential clients on site long enough.
 * Provide high quality of furniture at an unbeatable and affordable price.
@@ -34,6 +36,7 @@ This is an e-commerce web application, created for the purposes of satisfying th
     <a href="#back-to-top">↥ Back to top!</a>
 </div>
 <span id="ux"></span> 
+
 ### User EXperience
 ---
 
@@ -50,6 +53,7 @@ This is an e-commerce web application, created for the purposes of satisfying th
     <a href="#back-to-top">↥ Back to top!</a>
 </div>
 <span id="ux-goals"></span> 
+
 ### PROJECT GOALS:
 * To build a **full-stack site based around business logic** used to control a centrally-owned dataset.
 * To set up an **authentication mechanism and provide paid access** to the site's data and/or other activities based on the dataset, such as the purchase of a product/service" using **HTML, CSS, JavaScript, Python+Django, a relational database (recommending MySQL or Postgres),**
@@ -66,6 +70,7 @@ This is an e-commerce web application, created for the purposes of satisfying th
 * Offer fast, free delivery and excellent customer service to our customers. 
 
 <span id="client-stories"></span> 
+
 ### ClIENT STORIES
 #### As a casual/new visitor to the website, I want to:
 1. Visit **Supreme Furnitures website** so that I can view what they have in stock.
@@ -104,7 +109,8 @@ This is an e-commerce web application, created for the purposes of satisfying th
 2. Edit and update existing products to change pricing, description images, and other criteria.
 
 ---
-<span id="design"></span> 
+<span id="design"></span>
+
 ### DESIGN
 ##### Colour Scheme
 The color scheme chosen **looks cool, calm, and engaging.** Since the site mainly consists of bright images,
@@ -123,14 +129,11 @@ The site uses a variation of **two different fonts that is Bitter, Lato, and San
 The icons used are taken from **Font Awesome.** All icons that are used have functional purposes such as the hamburger menu for the mobile device and social media icons. 
 
 #### Images
-The images used for the project are taken from [Pexels](https://www.pexels.com/) and [Home store](https://mandauefoam.ph/). The images are used for products, banners and, cart images.
+The images used for the project are taken from [Pexels](https://www.pexels.com/) and[Home store](https://mandauefoam.ph/). The images are used for products, banners and, cart images.
 
 ### Wireframes
-**Post wireframes design changes:**
-While the project relied on these wireframes, there are some differences between the wireframes and the final product; 
-* No spinner icon and background image triggered while Stripe payment is processing.
-* An "About Us" page with a contact form was added. 
-
+I used pen and paper to sketch wireframes and then used Figma for the final wireframes.
+Please note there are a few changes to the final site since the wireframes were made. For example, for each sub category I intended to use cards, and when clicked to show products related to each category. 
 #### Mobile
 * [home](assets/wireframes/home.pdf)
 * [category-name](assets/wireframes/catname.pdf)
@@ -152,19 +155,21 @@ While the project relied on these wireframes, there are some differences between
 * [home](assets/wireframes/sign-inD.pdf)
 ---
 <span id="information-architecture"></span> 
+
 ### Information Architecture
 
 <span id="database"></span> 
+
 #### Database
 * During the development phase I have worked with the **sqlite3** database, which was set by default by Django. 
 * For deployment, I used the **PostgreSQL** database whcih is provided by Heroku. 
+<span id="er-diagram"></span>
 
-<span id="er-diagram"></span> 
 ### ER Diagram
-
 <img src="documentation/readme-images/ERD.png">
 
 <span id="data-modelling"></span> 
+
 ### Data Modelling
 #### Profile app 
 #### UserProfile model
@@ -242,6 +247,7 @@ While the project relied on these wireframes, there are some differences between
 
 <span id="features"></span> 
 <span id="features-existing"></span> 
+
 ### Features:
 ---
 Every page of the website features a consistently responsive and intuitive layout and navigation.
@@ -375,14 +381,18 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
 **Logout**
 * The user can logout by clicking the logout link. After clicking the link there wil a confirmation if the user is sure to logout.
 ---
-<span id="features-future"></span>
-#### Features to implement
+
+#### Features left to  implement
+* Adding 
 * Adding a favorite section. Users can favorite their product and see them on their favorite page if they are logged.
-* Adding product description for customers to have  more information about a certain furniture
+* Adding product description for customers to have  more information about a certain product
 ---
 <span id="technologies"></span> 
+
 ### Technologies ####
+
 <span id="languages-used"></span>
+
 #### Languages used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 *  HTML5 provides the structure and the content for my project. 
@@ -438,6 +448,7 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
 * PostgreSQL is used as the production database.
 
 <span id="testing-tools"></span> 
+
 #### Testing tools used 
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/open) is used to detect problems and test responsiveness. 
 * [W3C Markup Validation Service](https://validator.w3.org/)
@@ -451,10 +462,12 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
 ---
 
 <span id="testing"></span> 
+
 ### Testing ###
 The testing process can be found [here](TESTING.md).
 
 <span id="deployment"></span> 
+
 ## Deployment
 ### Creation
 * All code was written in Gitpod and used [this template](https://github.com/Code-Institute-Org/gitpod-full-template) from Code Institute.
@@ -502,23 +515,21 @@ Forking is another way to  make a local copy of a repository on your own GitHub 
 on your own repository to view/edit as you wish.
 
 ## Credits
+##### Media and content #####
+* Most of the products and content were taken differnet site [Home store]([Flanagans](https://flanagans.ie/) [Harvey Norman](https://www.harveynorman.ie/), [Home store](https://mandauefoam.ph/) and  [Pexels](https://www.pexels.com/). Additionally, these sites helped me get an idea for a good layout of the site. 
 
 ### Code
-
-* The Materializecss library was used to help make this website responsive for different devices and to create the collapsible navbar. 
-
-### Content
-
-* For each of the products on the site I had a look at popular sites [Hotel Chocolat](https://www.hotelchocolat.com/uk), [Thorntons](https://www.thorntons.co.uk/), [Whittard](https://www.whittard.co.uk/) and [T2 Tea](https://www.t2tea.com/en/uk/) to gain inspiration for the products on this site. Additionally, these sites helped me get an idea for a good layout of the site.
-
-<span id="credits"></span> 
-## Credits
+* The code for the project is partly from the video lessions of the Boutique Ado project of [Code Institute](https://codeinstitute.net/).
+*  [Stack Overflow](https://stackoverflow.com/) was helpful for little bugs or troubles in the code. 
+* Code Institute tutor support. They helped me to fix some of the bugs which  were taking a lot of time to fix. 
 
 <span id="acknowledge"></span> 
-## Acknowledge
 
-<span id="disclaimer"></span> 
-## Disclaimer
+## Acknowledge
+Thanks to the following people and organizations who helped or inspired me for the project:
+The support and guidance of my mentor Precious Ijege.
+The advice about bugs and fixing from Tutor support especially Sean, he always helped me understand where the root of the problem is coming from and how can fix the problem.
+
 
 
 

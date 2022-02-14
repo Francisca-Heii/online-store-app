@@ -16,12 +16,14 @@
 
 *Testing* 
 - when the user clicks the link https://supremefurnitures.herokuapp.com/ is taken to the actual site and they can view what is on stock.
+
 *Result* : Passed
 
 2. Access the website from any device, so that I can view the website on desktop, mobile, or tablet.
 
  *Testing*:
 - The visitor can visite the website on any device. The website is designed for computer, mobile and tablet. 
+
 *Result* : Passed
 
 3. Navigate the site **without having to register an account** so that I can browse through the site.
