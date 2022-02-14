@@ -135,7 +135,10 @@ The images used for the project are taken from [Pexels](https://www.pexels.com/)
 
 ### Wireframes
 I used pen and paper to sketch wireframes and then used Figma for the final wireframes.
-Please note there are a few changes to the final site since the wireframes were made. For example, for each sub category I intended to use cards, and when clicked to show products related to each category. 
+Please note there are a few changes to the final site since the wireframes were made.
+
+ For example, for each sub category I intended to use cards, and when clicked to show products related to each category. 
+ The view more functionality that invloves adding more information about each product.
 #### Mobile
 * [home](assets/wireframes/home.pdf)
 * [category-name](assets/wireframes/catname.pdf)
@@ -149,12 +152,12 @@ Please note there are a few changes to the final site since the wireframes were 
 
 #### Desktop
 * [home](assets/wireframes/homepgD.pdf)
-* [home](assets/wireframes/catnameD.pdf)
-* [home](assets/wireframes/shoppingcart&subcat.pdf)
-* [home](assets/wireframes/addcartD.pdf)
-* [home](assets/wireframes/view-moreD.pdf)
-* [home](assets/wireframes/register.pdf)
-* [home](assets/wireframes/sign-inD.pdf)
+* [catname](assets/wireframes/catnameD.pdf)
+* [subcat](assets/wireframes/shoppingcart&subcat.pdf)
+* [addcart](assets/wireframes/addcartD.pdf)
+* [view more](assets/wireframes/view-moreD.pdf)
+* [register](assets/wireframes/register.pdf)
+* [signin](assets/wireframes/sign-inD.pdf)
 ---
 <span id="information-architecture"></span> 
 
