@@ -541,8 +541,10 @@ on your own repository to view/edit as you wish.
 ## Acknowledge
 Thanks to the following people and organizations who helped or inspired me for the project:
 The support and guidance of my mentor Precious Ijege.
+
 The advice about bugs and fixing from Tutor support especially Sean, he always helped me understand where the root of the problem is coming from and how can fix the problem.
-The Slack community for providing support throughout the course so far.
+
+The Slack community for providing support, friends and family.
 
 
 
