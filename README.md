@@ -392,9 +392,10 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
 * Adding a favorite section. Users can favorite their product and see them on their favorite page if they are logged.
 * Adding product description for customers to have  more information about a certain product
 
-#### Bugs left to  be fixed ####
-There are a good number of bugs left to be fixed in order to bring the overall look and feel of the site the way I want. I went through a lot of internet problems which had took a week for the service provider to  attend to, I did not have enough time to fix all the existing bugs to the best of my ability.
----
+**Bugs left to  be fixed**
+
+There are a good number of bugs left to be fixed in order to bring the overall look and feel of the site the way I want. I went through a lot of internet problems which had taken a week for the service provider to attend to, I did not have enough time to fix all the existing bugs to the best of my ability.
+
 <span id="technologies"></span> 
 
 ### Technologies ####
