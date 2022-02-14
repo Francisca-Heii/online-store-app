@@ -280,7 +280,12 @@ Lighthouse is an open-source, automated tool for improving the quality of web pa
 * Resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles.
 
 <span id="validators"></span>
+
 ### Validators ###
+* I used different browsers to check how the site respond when opened on each.
+
+* The site loads and responds as expected on Google Chrome, Opera, Microsoft Edge, and on Firefox browsers some problems should be expected. For example, as you naviage the site, on each and every page is a green feedback button and the blue contact button sitting on the left side of each page. The text on the buttons is faced down which is awkward to read the text. 
+
 
 * <a href="https://validator.w3.org/">HTML Validators</a>
 

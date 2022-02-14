@@ -264,7 +264,7 @@ Every page of the website features a consistently responsive and intuitive layou
 #### Header
 * The header is positioned to be fixed at the top, left side of the screen and to always be visible to  the user, no matter what screen size or device is being used. **This allows easy and seamless navigation** across all pages, meaning that users can find it quickly.
 
-* The name **"Supreme Furnitures"** which acts as a logo on *desktop device*, is positioned at the top of the page within the header and when **clicked on redirects you to the home page.** The logo is visible in the header when viewed on all screen sizes.
+* The name **"Supreme Furnitures"** which acts as a logo on *desktop device*, is positioned at the top of the page within the header and when **clicked on redirects you to the home page.** The logo is visible in the header when viewed on all screen sizes. On small device a green and orange sofa log is used intead of usung the same text logo as used on desktop view. 
 
 * Features a *responsive main navigation bar with a sub-menu* both inside the header.This is fixed to the top of each page, This makes **navigation easier and quicker across the site.** The page is consists of the following: **All products,Living Room, Bedroom, Dining Room, Study, Lighting, and Accessories.**  *On hoover* of the main navbar, a sub-menu is displayed showing more links to the site. On click of each submenu, it takes the user to the related section/page.
 
@@ -394,9 +394,9 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
 * Adding return policy information.
 * Adding a favorite section. Users can favorite their product and see them on their favorite page if they are logged.
 * Adding product description for customers to have  more information about a certain product
-
+ 
 **Bugs left to  be fixed**
-
+**ALERT**: The site responsiveness on mobile view is bad due to navigation bar problems.
 There are a good number of bugs left to be fixed in order to bring the overall look and feel of the site the way I want. I went through a lot of internet problems which had taken a week for the service provider to attend to, I did not have enough time to fix all the existing bugs to the best of my ability.
 
 <span id="technologies"></span> 
