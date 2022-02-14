@@ -1,6 +1,10 @@
 
 ## *SUPREME FURNITURE*
+
+![alt text](documentation/readme-images/responsive-site.JPG)
+
 ---
+
 This is an e-commerce web application, created for the purposes of satisfying the requirements for the **Code Institute Full Stack Development Course Milestone Project 4.** The goal of the application is to sell quality furniture at unbeatable prices in Ireland and Northern Ireland. At Supreme Furniture, we have a **huge variety of beds, wardrobes, bedroom furniture, sofas, dining tables, dining chairs, lightings, TV units, and many more.**
 
 **[View the live project here.](https://supremefurnitures.herokuapp.com/)**
@@ -39,8 +43,6 @@ This is an e-commerce web application, created for the purposes of satisfying th
 
 ### User EXperience
 ---
-
-#### Ideal clients
 
 **The ideal clients for this business:**
 * We sell to companies and private individuals.
@@ -171,6 +173,7 @@ Please note there are a few changes to the final site since the wireframes were 
 <span id="data-modelling"></span> 
 
 ### Data Modelling
+
 #### Profile app 
 #### UserProfile model
 | **Name** | **Database Key** | **Field Type** | **Validation** |
@@ -249,10 +252,12 @@ Please note there are a few changes to the final site since the wireframes were 
 <span id="features-existing"></span> 
 
 ### Features:
+
 ---
 Every page of the website features a consistently responsive and intuitive layout and navigation.
 #### Common Features Across All Pages:
 ----
+
 #### Header
 * The header is positioned to be fixed at the top, left side of the screen and to always be visible to  the user, no matter what screen size or device is being used. **This allows easy and seamless navigation** across all pages, meaning that users can find it quickly.
 
@@ -383,9 +388,12 @@ The bitter font is a slab serif typeface, it is balanced and manually spaced, an
 ---
 
 #### Features left to  implement
-* Adding 
+* Adding return policy information.
 * Adding a favorite section. Users can favorite their product and see them on their favorite page if they are logged.
 * Adding product description for customers to have  more information about a certain product
+
+#### Bugs left to  be fixed ####
+There are a good number of bugs left to be fixed in order to bring the overall look and feel of the site the way I want. I went through a lot of internet problems which had took a week for the service provider to  attend to, I did not have enough time to fix all the existing bugs to the best of my ability.
 ---
 <span id="technologies"></span> 
 
@@ -469,6 +477,7 @@ The testing process can be found [here](TESTING.md).
 <span id="deployment"></span> 
 
 ## Deployment
+
 ### Creation
 * All code was written in Gitpod and used [this template](https://github.com/Code-Institute-Org/gitpod-full-template) from Code Institute.
 * Files were added to the staging area using "git add ."
@@ -476,7 +485,6 @@ The testing process can be found [here](TESTING.md).
 * Committed changes were pushed to the GitHub repository.
 
 ### Heroku
-
 To deploy the project to a live website the below steps were followed:
 
 * Go to Heroku.com and log in (if not registered you must create an account first).
@@ -506,7 +514,6 @@ To clone a repository in GitHub you can follow the steps below:
 on your own repository to view/edit as you wish.
 
 ### Forking
-
 Forking is another way to  make a local copy of a repository on your own GitHub account to do this follow the below steps:
 
 * Log into GitHub and locate the repository you wish to fork.
@@ -515,8 +522,13 @@ Forking is another way to  make a local copy of a repository on your own GitHub 
 on your own repository to view/edit as you wish.
 
 ## Credits
+
 ##### Media and content #####
 * Most of the products and content were taken differnet site [Home store]([Flanagans](https://flanagans.ie/) [Harvey Norman](https://www.harveynorman.ie/), [Home store](https://mandauefoam.ph/) and  [Pexels](https://www.pexels.com/). Additionally, these sites helped me get an idea for a good layout of the site. 
+
+[Vector Stock](https://www.vectorstock.com/): Avater used on the review messages sourced from vector stock site.
+
+ [Bootstrap](https://getbootstrap.com/): Was used to achieve carousel.
 
 ### Code
 * The code for the project is partly from the video lessions of the Boutique Ado project of [Code Institute](https://codeinstitute.net/).
@@ -529,6 +541,7 @@ on your own repository to view/edit as you wish.
 Thanks to the following people and organizations who helped or inspired me for the project:
 The support and guidance of my mentor Precious Ijege.
 The advice about bugs and fixing from Tutor support especially Sean, he always helped me understand where the root of the problem is coming from and how can fix the problem.
+The Slack community for providing support throughout the course so far.
 
 
 
