@@ -1,13 +1,14 @@
+# requirements.txt
 asgiref==3.4.1
 boto3==1.20.47
 botocore==1.23.47
 dj-database-url==0.5.0
-Django==3.2
+Django>=4.2.0  # Updated to LTS version
 django-allauth>=0.63.0
 django-countries==7.2.1
 django-crispy-forms==1.14.0
 django-storages==1.12.3
-gunicorn==20.1.0
+gunicorn==21.2.0  # Also update gunicorn
 jmespath==0.10.0
 oauthlib==3.1.1
 Pillow==11.0.0
