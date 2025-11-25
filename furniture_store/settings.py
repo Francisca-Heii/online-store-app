@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-s8=ei-s6r6au@xg#@ax7j#4okre2bx%q7yid$lc#^^*o8vv$29
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False if "DATABASE_URL" in os.environ else True
 
-ALLOWED_HOSTS = ['supremefurnitures.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['supremefurnitures.herokuapp.com', 'localhost','127.0.0.1', 'localhost', '0.0.0.0']
 
 
 # Application definition
@@ -62,6 +62,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
+    'allauth.account.middleware.AccountMiddleware',
+
 ]
 
 ROOT_URLCONF = 'furniture_store.urls'
