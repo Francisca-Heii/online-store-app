@@ -27,8 +27,7 @@ SECRET_KEY = 'django-insecure-s8=ei-s6r6au@xg#@ax7j#4okre2bx%q7yid$lc#^^*o8vv$29
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False if "DATABASE_URL" in os.environ else True
 
-ALLOWED_HOSTS = ['supremefurnitures.herokuapp.com', 'localhost','127.0.0.1', 'localhost', '0.0.0.0']
-
+ALLOWED_HOSTS = ['web-production-2f2df.up.railway.app', 'localhost', '127.0.0.1', '0.0.0.0']
 
 # Application definition
 
