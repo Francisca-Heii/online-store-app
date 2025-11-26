@@ -21,3 +21,4 @@ s3transfer==0.5.1
 sqlparse==0.4.2 
 stripe==8.0.0
 whitenoise
+cloudinary
