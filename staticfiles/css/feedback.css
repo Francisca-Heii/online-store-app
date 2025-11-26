@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background: #EEEEEE;
+    font-family: 'Roboto', sans-serif
+}
+
+.card {
+    width: 300px;
+    border: none;
+    border-radius: 15px;
+    padding-bottom: 130px
+}
+
+.adiv {
+    background: #F13355;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 12px;
+    height: 46px
+}
+
+.fa-quote-left {
+    color: #F13355
+}
+
+.name {
+    color: #B0B0B0;
+    font-size: 12px
+}
+
+.form-group .feedback-form {
+    color: #244922 !important;
+    font-weight: 300 !important;
+}
+
+.form-group input,
+textarea {
+    border: 1px solid #244922 !important;
+}
