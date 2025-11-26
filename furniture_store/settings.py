@@ -18,6 +18,13 @@ DEBUG = False if "DATABASE_URL" in os.environ else True
 
 ALLOWED_HOSTS = ['supremefurnitures.up.railway.app', 'localhost', '127.0.0.1', '0.0.0.0']
 
+# Add CSRF trusted origins
+CSRF_TRUSTED_ORIGINS = [
+    'https://supremefurnitures.up.railway.app',
+    'https://*.up.railway.app',
+]
+
+
 # Application definition
 
 INSTALLED_APPS = [
