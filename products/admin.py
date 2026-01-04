@@ -1,7 +1,9 @@
 from django.contrib import admin
-from .models import product,Category
-# Register your models here.
-class ProductAdmin(admin.ModelAdmin):
+from import_export.admin import ImportExportModelAdmin
+from .models import product, Category
+
+
+class ProductAdmin(ImportExportModelAdmin):
     list_display = (
         'sku',
         'name',
@@ -10,17 +12,18 @@ class ProductAdmin(admin.ModelAdmin):
         'rating',
         'image',
     )
-    ordering= ('sku',)
+    ordering = ('sku',)
+    search_fields = ('name', 'sku')
+    list_filter = ('category',)
 
 
-
-class CategoryAdmin(admin.ModelAdmin):
+class CategoryAdmin(ImportExportModelAdmin):
     list_display = (
         'friendly_name',
         'name',
     )
-
-admin.site.register(product,ProductAdmin)
-admin.site.register(Category,CategoryAdmin)
+    search_fields = ('name',)
 
 
+admin.site.register(product, ProductAdmin)
+admin.site.register(Category, CategoryAdmin)

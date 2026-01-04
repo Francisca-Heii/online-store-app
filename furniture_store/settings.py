@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'profiles',
     'review',
     'storages',
+    'import_export',
+
    
 ]
 
